@@ -1,0 +1,64 @@
+[
+  {
+    "timestamp": "2025-06-16T08:12:08.838881",
+    "user_id": "user123",
+    "user_profile": {
+      "goals": [
+        "learn python"
+      ],
+      "level": "beginner",
+      "time_constraint": 100
+    },
+    "learning_path": [
+      {
+        "id": 1,
+        "title": "Python Basics",
+        "difficulty": 1,
+        "duration": 20,
+        "topics": [
+          "python",
+          "programming"
+        ]
+      }
+    ],
+    "feedback": {
+      "relevance": 4,
+      "difficulty_match": 3,
+      "completeness": 4,
+      "time_commitment": 3,
+      "overall_satisfaction": 4,
+      "comments": "Lộ trình học tập rất phù hợp với mục tiêu của tôi"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T08:12:08.839823",
+    "expert_id": "expert456",
+    "user_profile": {
+      "goals": [
+        "learn python"
+      ],
+      "level": "beginner",
+      "time_constraint": 100
+    },
+    "learning_path": [
+      {
+        "id": 1,
+        "title": "Python Basics",
+        "difficulty": 1,
+        "duration": 20,
+        "topics": [
+          "python",
+          "programming"
+        ]
+      }
+    ],
+    "evaluation": {
+      "content_quality": 4,
+      "learning_progression": 5,
+      "prerequisite_coverage": 4,
+      "topic_coverage": 4,
+      "difficulty_progression": 3,
+      "comments": "Lộ trình có cấu trúc tốt và phù hợp với người mới bắt đầu"
+    }
+  }
+]

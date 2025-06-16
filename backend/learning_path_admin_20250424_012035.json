@@ -1,0 +1,406 @@
+{
+  "learning_path": {
+    "field": "Python programming",
+    "level": "Beginner",
+    "duration": 2,
+    "daily_hours": 2,
+    "interests": [
+      "Web Development"
+    ],
+    "courses": [
+      {
+        "title": "Python Programming Fundamentals (Điều chỉnh theo hướng Web)",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Cú pháp Python cơ bản",
+          "Kiểu dữ liệu và cấu trúc dữ liệu",
+          "Điều khiển luồng và vòng lặp",
+          "Hàm và Mô-đun",
+          "Lập trình hướng đối tượng (OOP) cơ bản",
+          "Xử lý tệp",
+          "Giới thiệu về Web Development với Flask/Django (phần 1)",
+          "Debugging và Testing"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Giai đoạn 1: Nền tảng Python",
+        "duration": 21,
+        "tasks": [
+          "Học cú pháp cơ bản, kiểu dữ liệu, cấu trúc dữ liệu",
+          "Làm quen với điều khiển luồng và vòng lặp",
+          "Xây dựng các hàm và mô-đun đơn giản",
+          "Luyện tập các bài tập lập trình nhỏ"
+        ]
+      },
+      {
+        "name": "Giai đoạn 2: Lập trình hướng đối tượng và Xử lý Tệp",
+        "duration": 21,
+        "tasks": [
+          "Tìm hiểu về lập trình hướng đối tượng (OOP) với Python",
+          "Thực hành tạo và sử dụng các lớp và đối tượng",
+          "Học cách đọc và ghi tệp",
+          "Xây dựng các ứng dụng nhỏ sử dụng OOP và xử lý tệp"
+        ]
+      },
+      {
+        "name": "Giai đoạn 3: Giới thiệu Web Development với Flask",
+        "duration": 14,
+        "tasks": [
+          "Giới thiệu về Web Development và các khái niệm cơ bản",
+          "Làm quen với framework Flask",
+          "Xây dựng các ứng dụng web đơn giản với Flask",
+          "Triển khai ứng dụng web lên môi trường thử nghiệm"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2025-04-24",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bài 1: Giới thiệu về Python, cài đặt môi trường (1.0 giờ)",
+          "Bài 2: Biến và kiểu dữ liệu cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 3: Toán tử và biểu thức (1.0 giờ)",
+          "Bài 4: Nhập xuất dữ liệu (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-26",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 5: Câu lệnh điều kiện (if, else, elif) (1.0 giờ)",
+          "Bài 6: Bài tập thực hành câu lệnh điều kiện (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-27",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bài 7: Vòng lặp for (1.0 giờ)",
+          "Bài 8: Vòng lặp while (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bài 9: Bài tập thực hành vòng lặp (1.0 giờ)",
+          "Bài 10: Kiểu dữ liệu List (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Bài 11: Kiểu dữ liệu Tuple (1.0 giờ)",
+          "Bài 12: Kiểu dữ liệu Set (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập các kiến thức đã học trong tuần (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bài 13: Kiểu dữ liệu Dictionary (1.0 giờ)",
+          "Bài 14: Các thao tác với Dictionary (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 15: Chuỗi (String) (1.0 giờ)",
+          "Bài 16: Các phương thức của String (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 17: Hàm (Function) (1.0 giờ)",
+          "Bài 18: Định nghĩa và gọi hàm (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-04",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bài 19: Tham số của hàm (1.0 giờ)",
+          "Bài 20: Giá trị trả về của hàm (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bài 21: Mô-đun (Module) (1.0 giờ)",
+          "Bài 22: Sử dụng các mô-đun có sẵn (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Bài 23: Tạo mô-đun của riêng bạn (1.0 giờ)",
+          "Bài 24: Bài tập tổng hợp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập và làm bài kiểm tra nhỏ về các kiến thức đã học (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bài 25: Giới thiệu về OOP (1.0 giờ)",
+          "Bài 26: Lớp và đối tượng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 27: Thuộc tính và phương thức (1.0 giờ)",
+          "Bài 28: Khởi tạo đối tượng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 29: Kế thừa (1.0 giờ)",
+          "Bài 30: Đa hình (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-11",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bài 31: Đóng gói (1.0 giờ)",
+          "Bài 32: Bài tập OOP (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bài 33: Xử lý tệp (1.0 giờ)",
+          "Bài 34: Đọc tệp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Bài 35: Ghi tệp (1.0 giờ)",
+          "Bài 36: Bài tập xử lý tệp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập các kiến thức về OOP và xử lý tệp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bài 37: Giới thiệu về Web Development (1.0 giờ)",
+          "Bài 38: HTML và CSS cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 39: Giới thiệu về Flask (1.0 giờ)",
+          "Bài 40: Cài đặt Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 41: Route và View (1.0 giờ)",
+          "Bài 42: Template (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-18",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bài 43: Forms (1.0 giờ)",
+          "Bài 44: Xử lý Forms (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bài 45: Bài tập Flask (1.0 giờ)",
+          "Xem lại các bài học và chuẩn bị cho dự án cuối khóa (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Bắt đầu xây dựng dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tiếp tục xây dựng dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Hoàn thiện dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Kiểm tra và sửa lỗi dự án (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Triển khai dự án lên môi trường thử nghiệm (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-25",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về Debugging (1.0 giờ)",
+          "Tìm hiểu về Testing (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-26",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về Authentication (1.0 giờ)",
+          "Tìm hiểu về Authorization (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-27",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về Databases (1.0 giờ)",
+          "Kết nối Databases với ứng dụng Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-28",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập và củng cố kiến thức về Flask và Databases (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-29",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về Web Security (1.0 giờ)",
+          "Cách phòng chống các cuộc tấn công Web (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-30",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Thực hành triển khai ứng dụng web lên Heroku (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-31",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về API (1.0 giờ)",
+          "Cách sử dụng API trong ứng dụng Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-01",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Thực hành sử dụng API để lấy dữ liệu và hiển thị trên ứng dụng web (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-02",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tiếp tục xây dựng và hoàn thiện dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-03",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Chuẩn bị cho bài thuyết trình dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-04",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập toàn bộ kiến thức và chuẩn bị cho kết thúc khóa học (2.0 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình này được thiết kế để cung cấp cho người mới bắt đầu kiến thức nền tảng về Python và giới thiệu về phát triển web sử dụng Flask. Lộ trình bao gồm các bài học lý thuyết và thực hành, cũng như dự án cuối khóa để áp dụng kiến thức đã học.",
+    "projects": [
+      "Xây dựng một trang web cá nhân đơn giản với Flask",
+      "Xây dựng một ứng dụng quản lý danh sách công việc với Flask",
+      "Xây dựng một ứng dụng blog đơn giản với Flask",
+      "Xây dựng một API đơn giản để cung cấp dữ liệu cho các ứng dụng khác"
+    ],
+    "resources": [
+      "Tài liệu chính thức của Python: https://docs.python.org/3/",
+      "Tài liệu chính thức của Flask: https://flask.palletsprojects.com/en/2.3.x/",
+      "Codecademy: https://www.codecademy.com/learn/learn-python-3",
+      "FreeCodeCamp: https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    ],
+    "tips": [
+      "Thực hành thường xuyên là chìa khóa để thành công",
+      "Tìm hiểu các khái niệm cơ bản trước khi chuyển sang các khái niệm nâng cao",
+      "Đọc và hiểu mã của người khác",
+      "Tham gia cộng đồng Python để học hỏi và chia sẻ kinh nghiệm",
+      "Chia nhỏ các vấn đề lớn thành các vấn đề nhỏ hơn",
+      "Sử dụng công cụ tìm kiếm để tìm câu trả lời cho các câu hỏi của bạn"
+    ],
+    "is_fallback": false
+  }
+}

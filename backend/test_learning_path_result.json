@@ -1,0 +1,555 @@
+{
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Dart Fundamentals",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Cú pháp cơ bản",
+          "Kiểu dữ liệu",
+          "Biến",
+          "Hàm",
+          "Lớp và đối tượng"
+        ]
+      },
+      {
+        "title": "Asynchronous Programming in Dart",
+        "level": "Beginner",
+        "duration": 4,
+        "topics": [
+          "Futures",
+          "Async/Await",
+          "Streams",
+          "Xử lý lỗi"
+        ]
+      },
+      {
+        "title": "Flutter Basics",
+        "level": "Beginner",
+        "duration": 12,
+        "topics": [
+          "Widgets",
+          "Layouts",
+          "State Management",
+          "Navigation",
+          "API calls"
+        ]
+      },
+      {
+        "title": "Web Development with Dart & Flutter",
+        "level": "Beginner",
+        "duration": 4,
+        "topics": [
+          "Flutter web basics",
+          "Responsive design",
+          "Deployment"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Giai đoạn 1: Nền tảng Dart (Tuần 1-4)",
+        "duration": 30,
+        "tasks": [
+          "Học cú pháp Dart cơ bản",
+          "Làm quen với các kiểu dữ liệu và biến",
+          "Thực hành sử dụng hàm và lớp",
+          "Tìm hiểu về lập trình hướng đối tượng"
+        ]
+      },
+      {
+        "name": "Giai đoạn 2: Flutter cho Mobile App (Tuần 5-8)",
+        "duration": 28,
+        "tasks": [
+          "Học về Flutter Widgets và Layouts",
+          "Xây dựng giao diện người dùng đơn giản",
+          "Tìm hiểu về State Management",
+          "Kết nối ứng dụng với API"
+        ]
+      },
+      {
+        "name": "Giai đoạn 3: Flutter cho Web & Tổng kết (Tuần 9-12)",
+        "duration": 26,
+        "tasks": [
+          "Tìm hiểu về Flutter Web",
+          "Xây dựng ứng dụng web đơn giản",
+          "Thực hành responsive design",
+          "Triển khai ứng dụng web lên môi trường production"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2024-10-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Giới thiệu về Dart, cài đặt môi trường (1.0 giờ)",
+          "Biến và kiểu dữ liệu cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-10-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Toán tử và biểu thức trong Dart (1.0 giờ)",
+          "Cấu trúc điều khiển: if/else (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-10-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Vòng lặp: for, while, do-while (1.0 giờ)",
+          "Lists và Maps (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-10-31",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Hàm: định nghĩa và sử dụng (1.0 giờ)",
+          "Tham số hàm và giá trị trả về (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-01",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Lớp và đối tượng: khái niệm cơ bản (1.0 giờ)",
+          "Thuộc tính và phương thức (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-02",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Kế thừa và tính đa hình (1.0 giờ)",
+          "Abstract classes và interfaces (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-03",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập kiến thức tuần 1, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-04",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Xử lý ngoại lệ: try-catch (1.0 giờ)",
+          "Generics (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-05",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Asynchronous Programming: Futures (1.0 giờ)",
+          "Async/Await (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-06",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Streams: khái niệm và sử dụng (1.0 giờ)",
+          "Xử lý lỗi trong Asynchronous Programming (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-07",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu về Flutter: cài đặt và cấu hình (1.0 giờ)",
+          "Widgets cơ bản: Text, Image, Icon (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-08",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Layout Widgets: Row, Column, Container (1.0 giờ)",
+          "SizedBox và Padding (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-09",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Stateful vs. Stateless Widgets (1.0 giờ)",
+          "setState() và quản lý trạng thái đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-10",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập kiến thức tuần 2, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-11",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Buttons: ElevatedButton, TextButton, IconButton (1.0 giờ)",
+          "TextField và Form (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-12",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Lists: ListView, GridView (1.0 giờ)",
+          "Xây dựng danh sách động (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-13",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Navigation: Navigator và Routes (1.0 giờ)",
+          "Chuyển trang và truyền dữ liệu (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-14",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tabs và Bottom Navigation Bar (1.0 giờ)",
+          "Xây dựng giao diện có nhiều tab (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-15",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Dialogs và Alerts (1.0 giờ)",
+          "Hiển thị thông báo cho người dùng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-16",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Networking: HTTP requests (1.0 giờ)",
+          "Parse JSON data (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-17",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập kiến thức tuần 3, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-18",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "State Management: Provider (1.0 giờ)",
+          "Quản lý trạng thái ứng dụng với Provider (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-19",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "State Management: Riverpod (1.0 giờ)",
+          "Tìm hiểu về Riverpod và các khái niệm (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-20",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Themes: định nghĩa và áp dụng (1.0 giờ)",
+          "Tùy chỉnh giao diện ứng dụng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-21",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Animations: Implicit và Explicit Animations (1.0 giờ)",
+          "Thêm hiệu ứng động vào ứng dụng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-22",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Images and Assets (1.0 giờ)",
+          "Âm thanh và video (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-23",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Testing: Unit Tests và Widget Tests (1.0 giờ)",
+          "Viết test cho ứng dụng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-24",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập kiến thức tuần 4, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-25",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Flutter Web: Cài đặt và cấu hình (1.0 giờ)",
+          "Widgets cho web: Text, Image (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-26",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Layout cho web: Row, Column, Container (1.0 giờ)",
+          "Responsive design: MediaQuery (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-27",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Navigation cho web (1.0 giờ)",
+          "State Management web (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-28",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "API Calls cho web (1.0 giờ)",
+          "Authentication and Authorization web (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-29",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Deployment lên Firebase Hosting (1.0 giờ)",
+          "Deployment lên GitHub Pages (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-30",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Hoàn thiện dự án cá nhân (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-01",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập kiến thức tuần 5, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-02",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Ôn tập kiến thức tuần 6, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-03",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức tuần 7, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-04",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 8, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-05",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Ôn tập kiến thức tuần 9, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-06",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Ôn tập kiến thức tuần 10, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-07",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Ôn tập kiến thức tuần 11, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-08",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập kiến thức tuần 12, thực hành các bài tập tổng hợp (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-09",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về các thư viện Flutter phổ biến (1.0 giờ)",
+          "Luyện tập giải quyết các bài toán lập trình cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-10",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về kiến trúc ứng dụng Flutter (1.0 giờ)",
+          "Luyện tập giải quyết các bài toán lập trình cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-11",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu về các công cụ debug và profiling trong Flutter (1.0 giờ)",
+          "Luyện tập giải quyết các bài toán lập trình cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-12",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về các nguyên tắc thiết kế giao diện người dùng (UI) (1.0 giờ)",
+          "Luyện tập giải quyết các bài toán lập trình cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-13",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về các nguyên tắc trải nghiệm người dùng (UX) (1.0 giờ)",
+          "Luyện tập giải quyết các bài toán lập trình cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-14",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Hoàn thiện dự án cá nhân (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-15",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập toàn bộ kiến thức đã học, chuẩn bị cho dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-16",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bắt đầu xây dựng dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-17",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tiếp tục xây dựng dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-18",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tiếp tục xây dựng dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-19",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tiếp tục xây dựng dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-20",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Hoàn thiện dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-21",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Kiểm tra và sửa lỗi dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-22",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Chuẩn bị trình bày dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-23",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Trình bày dự án cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-24",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tổng kết khóa học và đánh giá kết quả (2.0 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình học Dart và Flutter trong 3 tháng, tập trung vào phát triển ứng dụng di động và web. Bắt đầu từ kiến thức nền tảng, đi sâu vào Flutter và kết thúc bằng dự án thực tế.",
+    "projects": [
+      "Ứng dụng đếm số đơn giản",
+      "Ứng dụng hiển thị danh sách sản phẩm từ API",
+      "Ứng dụng todo list cơ bản",
+      "Ứng dụng tin tức đơn giản",
+      "Landing page cá nhân bằng Flutter Web"
+    ],
+    "resources": [
+      "Dart website: dart.dev",
+      "Flutter website: flutter.dev",
+      "Flutter documentation",
+      "Dart documentation",
+      "Các khóa học online trên Udemy, Coursera, edX"
+    ],
+    "tips": [
+      "Thực hành thường xuyên",
+      "Đọc tài liệu và tham khảo code mẫu",
+      "Tham gia cộng đồng Dart/Flutter",
+      "Hỏi khi gặp khó khăn",
+      "Xây dựng dự án cá nhân để củng cố kiến thức"
+    ],
+    "field": "Dart programming",
+    "level": "Beginner",
+    "duration": 3,
+    "daily_hours": 2,
+    "interests": [
+      "Web Development",
+      "Mobile app"
+    ]
+  }
+}

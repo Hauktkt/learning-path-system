@@ -1,0 +1,1476 @@
+{
+    "courses": [
+        {
+            "title": "Python Programming Fundamentals",
+            "description": "Khóa học cơ bản về lập trình Python, bao gồm cú pháp, cấu trúc dữ liệu và lập trình hướng đối tượng.",
+            "topics": ["python", "programming", "object-oriented", "data structures", "algorithms"],
+            "level": "Beginner",
+            "duration": "8 weeks",
+            "prerequisites": ["Basic computer knowledge"]
+        },
+        {
+            "title": "Web Development with React",
+            "description": "Học cách xây dựng ứng dụng web hiện đại với React, bao gồm hooks, state management và routing.",
+            "topics": ["react", "javascript", "frontend", "web development", "ui/ux"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["HTML", "CSS", "JavaScript basics"]
+        },
+        {
+            "title": "Data Science and Machine Learning",
+            "description": "Khóa học toàn diện về khoa học dữ liệu và machine learning, từ xử lý dữ liệu đến xây dựng model.",
+            "topics": ["python", "data science", "machine learning", "statistics", "pandas", "numpy"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "Basic statistics"]
+        },
+        {
+            "title": "DevOps Engineering",
+            "description": "Học các công cụ và thực hành DevOps, bao gồm Docker, Kubernetes, CI/CD và cloud platforms.",
+            "topics": ["devops", "docker", "kubernetes", "ci/cd", "cloud computing", "automation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Linux basics", "Git"]
+        },
+        {
+            "title": "Mobile App Development with Flutter",
+            "description": "Phát triển ứng dụng di động cross-platform với Flutter, từ UI design đến deployment.",
+            "topics": ["flutter", "mobile development", "dart", "ui/ux", "app store", "play store"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Cybersecurity Fundamentals",
+            "description": "Khóa học cơ bản về bảo mật thông tin, bao gồm network security, cryptography và ethical hacking.",
+            "topics": ["security", "cybersecurity", "networking", "cryptography", "penetration testing"],
+            "level": "Beginner",
+            "duration": "8 weeks",
+            "prerequisites": ["Basic networking"]
+        },
+        {
+            "title": "Cloud Computing with AWS",
+            "description": "Học cách sử dụng các dịch vụ AWS, từ EC2 đến S3, và triển khai ứng dụng trên cloud.",
+            "topics": ["aws", "cloud computing", "devops", "infrastructure", "scaling"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Basic networking", "Linux basics"]
+        },
+        {
+            "title": "Backend Development with Node.js",
+            "description": "Xây dựng backend services với Node.js và Express, bao gồm REST APIs và database integration.",
+            "topics": ["node.js", "express", "backend", "api", "database", "rest"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["JavaScript basics"]
+        },
+        {
+            "title": "Data Engineering",
+            "description": "Học cách xây dựng data pipelines và xử lý big data với các công cụ hiện đại.",
+            "topics": ["data engineering", "apache spark", "apache kafka", "etl", "big data"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "SQL"]
+        },
+        {
+            "title": "Frontend Development with Vue.js",
+            "description": "Phát triển giao diện người dùng với Vue.js, từ components đến state management.",
+            "topics": ["vue.js", "javascript", "frontend", "ui/ux", "web development"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["HTML", "CSS", "JavaScript basics"]
+        },
+        {
+            "title": "Java Programming",
+            "description": "Khóa học toàn diện về lập trình Java, từ cơ bản đến nâng cao và Spring Framework.",
+            "topics": ["java", "spring", "object-oriented", "backend", "enterprise"],
+            "level": "Beginner",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "C++ Programming",
+            "description": "Học lập trình C++ từ cơ bản đến nâng cao, bao gồm memory management và STL.",
+            "topics": ["c++", "programming", "memory management", "stl", "performance"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Go Programming",
+            "description": "Phát triển ứng dụng với Go, tập trung vào concurrency và microservices.",
+            "topics": ["golang", "concurrency", "microservices", "backend", "performance"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Rust Programming",
+            "description": "Học lập trình Rust, ngôn ngữ hệ thống hiện đại với focus vào safety và performance.",
+            "topics": ["rust", "systems programming", "performance", "safety", "webassembly"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics", "Systems concepts"]
+        },
+        {
+            "title": "Full Stack Development",
+            "description": "Khóa học toàn diện về phát triển full stack, từ frontend đến backend và database.",
+            "topics": ["full stack", "web development", "frontend", "backend", "database"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["HTML", "CSS", "JavaScript basics"]
+        },
+        {
+            "title": "Artificial Intelligence Fundamentals",
+            "description": "Khóa học cơ bản về trí tuệ nhân tạo, bao gồm các khái niệm cốt lõi và ứng dụng thực tế.",
+            "topics": ["ai", "machine learning", "neural networks", "deep learning", "computer vision"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "Mathematics basics"]
+        },
+        {
+            "title": "Blockchain Development",
+            "description": "Học cách phát triển ứng dụng blockchain và smart contracts với Ethereum và Solidity.",
+            "topics": ["blockchain", "ethereum", "solidity", "smart contracts", "web3"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["JavaScript basics", "Cryptography basics"]
+        },
+        {
+            "title": "iOS Development with Swift",
+            "description": "Phát triển ứng dụng iOS với Swift và SwiftUI, từ cơ bản đến nâng cao.",
+            "topics": ["swift", "ios", "swiftui", "mobile development", "app store"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Android Development with Kotlin",
+            "description": "Xây dựng ứng dụng Android hiện đại với Kotlin và Jetpack Compose.",
+            "topics": ["kotlin", "android", "jetpack compose", "mobile development", "play store"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Microservices Architecture",
+            "description": "Thiết kế và triển khai kiến trúc microservices với các công nghệ hiện đại.",
+            "topics": ["microservices", "docker", "kubernetes", "service mesh", "api gateway"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Backend development basics", "Docker basics"]
+        },
+        {
+            "title": "Game Development with Unity",
+            "description": "Phát triển game 2D và 3D với Unity và C#, từ concept đến publishing.",
+            "topics": ["unity", "c#", "game development", "3d modeling", "game design"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "UI/UX Design Fundamentals",
+            "description": "Học các nguyên tắc thiết kế UI/UX và các công cụ thiết kế hiện đại.",
+            "topics": ["ui/ux", "design", "figma", "user research", "prototyping"],
+            "level": "Beginner",
+            "duration": "8 weeks",
+            "prerequisites": ["Basic computer knowledge"]
+        },
+        {
+            "title": "Big Data Analytics",
+            "description": "Phân tích dữ liệu lớn với Hadoop, Spark và các công cụ big data khác.",
+            "topics": ["big data", "hadoop", "spark", "data analytics", "data visualization"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "SQL"]
+        },
+        {
+            "title": "Network Programming",
+            "description": "Lập trình mạng và phát triển ứng dụng phân tán với các giao thức mạng.",
+            "topics": ["networking", "tcp/ip", "socket programming", "distributed systems", "protocols"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics", "Networking basics"]
+        },
+        {
+            "title": "Database Design and Optimization",
+            "description": "Thiết kế và tối ưu hóa cơ sở dữ liệu với các hệ quản trị DBMS phổ biến.",
+            "topics": ["database", "sql", "nosql", "mongodb", "postgresql", "optimization"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["SQL basics"]
+        },
+        {
+            "title": "TypeScript Development",
+            "description": "Phát triển ứng dụng với TypeScript, từ cơ bản đến nâng cao và best practices.",
+            "topics": ["typescript", "javascript", "angular", "node.js", "type safety"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["JavaScript basics"]
+        },
+        {
+            "title": "System Administration",
+            "description": "Quản trị hệ thống Linux và Windows Server, bao gồm bảo mật và monitoring.",
+            "topics": ["linux", "windows server", "system administration", "networking", "security"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Operating system basics"]
+        },
+        {
+            "title": "Natural Language Processing",
+            "description": "Xử lý ngôn ngữ tự nhiên và xây dựng ứng dụng NLP với Python.",
+            "topics": ["nlp", "python", "machine learning", "text processing", "transformers"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Python basics", "Machine learning basics"]
+        },
+        {
+            "title": "Computer Vision",
+            "description": "Xử lý ảnh và video với OpenCV và deep learning frameworks.",
+            "topics": ["computer vision", "opencv", "tensorflow", "pytorch", "image processing"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "Machine learning basics"]
+        },
+        {
+            "title": "Cloud Native Development",
+            "description": "Phát triển ứng dụng cloud-native với Kubernetes và microservices.",
+            "topics": ["kubernetes", "docker", "microservices", "cloud computing", "devops"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Docker basics", "Backend development"]
+        },
+        {
+            "title": "Mobile Game Development",
+            "description": "Phát triển game mobile với Unity và các công cụ game development.",
+            "topics": ["unity", "game development", "mobile", "c#", "game design"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Web Security",
+            "description": "Bảo mật ứng dụng web và phát hiện/prevention các lỗ hổng bảo mật.",
+            "topics": ["security", "web security", "penetration testing", "owasp", "authentication"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics"]
+        },
+        {
+            "title": "Data Visualization",
+            "description": "Tạo biểu đồ và dashboard với các công cụ visualization hiện đại.",
+            "topics": ["data visualization", "d3.js", "tableau", "power bi", "python"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Data analysis basics"]
+        },
+        {
+            "title": "AR/VR Development",
+            "description": "Phát triển ứng dụng thực tế tăng cường và thực tế ảo.",
+            "topics": ["ar", "vr", "unity", "unreal engine", "3d modeling"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics", "3D modeling basics"]
+        },
+        {
+            "title": "Quantum Computing",
+            "description": "Giới thiệu về điện toán lượng tử và lập trình quantum.",
+            "topics": ["quantum computing", "qiskit", "quantum algorithms", "physics", "linear algebra"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Mathematics", "Physics basics"]
+        },
+        {
+            "title": "Edge Computing",
+            "description": "Phát triển ứng dụng edge computing và IoT với các công nghệ mới nhất.",
+            "topics": ["edge computing", "iot", "5g", "cloud computing", "networking"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Networking basics", "Cloud computing basics"]
+        },
+        {
+            "title": "Low-Code Development",
+            "description": "Xây dựng ứng dụng với các nền tảng low-code và no-code.",
+            "topics": ["low-code", "no-code", "power apps", "bubble", "automation"],
+            "level": "Beginner",
+            "duration": "8 weeks",
+            "prerequisites": ["Basic computer knowledge"]
+        },
+        {
+            "title": "Green Computing",
+            "description": "Phát triển ứng dụng bền vững và thân thiện với môi trường.",
+            "topics": ["sustainability", "energy efficiency", "cloud optimization", "green it"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Software development basics"]
+        },
+        {
+            "title": "Digital Marketing Analytics",
+            "description": "Phân tích dữ liệu marketing và tối ưu hóa chiến dịch kỹ thuật số.",
+            "topics": ["marketing analytics", "data analysis", "seo", "social media", "reporting"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Data analysis basics"]
+        },
+        {
+            "title": "Digital Content Strategy",
+            "description": "Chiến lược và quản lý nội dung kỹ thuật số.",
+            "topics": ["content strategy", "content planning", "seo", "content management", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Content creation basics", "Marketing basics"]
+        },
+        {
+            "title": "Digital Social Media Management",
+            "description": "Quản lý và tối ưu hóa hoạt động mạng xã hội.",
+            "topics": ["social media", "community management", "content creation", "engagement", "analytics"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Social media basics", "Marketing basics"]
+        },
+        {
+            "title": "Digital Email Marketing",
+            "description": "Chiến lược và công cụ marketing qua email.",
+            "topics": ["email marketing", "automation", "list management", "analytics", "compliance"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Marketing basics", "Email basics"]
+        },
+        {
+            "title": "Digital Search Engine Optimization",
+            "description": "Tối ưu hóa công cụ tìm kiếm và chiến lược SEO.",
+            "topics": ["seo", "keyword research", "technical seo", "content optimization", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Web basics"]
+        },
+        {
+            "title": "Digital Pay-Per-Click Advertising",
+            "description": "Quản lý và tối ưu hóa chiến dịch quảng cáo PPC.",
+            "topics": ["ppc", "google ads", "facebook ads", "campaign management", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Advertising basics"]
+        },
+        {
+            "title": "Digital Affiliate Marketing",
+            "description": "Chiến lược và quản lý marketing liên kết.",
+            "topics": ["affiliate marketing", "program management", "content creation", "analytics", "optimization"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Marketing basics", "E-commerce basics"]
+        },
+        {
+            "title": "Digital Influencer Marketing",
+            "description": "Chiến lược và quản lý marketing với người có ảnh hưởng.",
+            "topics": ["influencer marketing", "campaign management", "content creation", "analytics", "compliance"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Marketing basics", "Social media basics"]
+        },
+        {
+            "title": "Digital Marketing Automation",
+            "description": "Tự động hóa quy trình marketing kỹ thuật số.",
+            "topics": ["marketing automation", "workflow design", "integration", "analytics", "optimization"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Automation basics"]
+        },
+        {
+            "title": "Digital Marketing Compliance",
+            "description": "Quản lý tuân thủ và quy định trong marketing kỹ thuật số.",
+            "topics": ["compliance", "gdpr", "privacy", "data protection", "legal requirements"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Marketing basics", "Legal basics"]
+        },
+        {
+            "title": "Robotics Programming",
+            "description": "Lập trình robot và automation với ROS và các công cụ robotics.",
+            "topics": ["robotics", "ros", "python", "mechatronics", "automation"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics", "Physics basics"]
+        },
+        {
+            "title": "5G Network Development",
+            "description": "Phát triển ứng dụng cho mạng 5G và edge computing.",
+            "topics": ["5g", "networking", "edge computing", "iot", "telecommunications"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Networking basics", "Programming basics"]
+        },
+        {
+            "title": "Digital Forensics",
+            "description": "Kỹ thuật điều tra số và phân tích dữ liệu trong an ninh mạng.",
+            "topics": ["forensics", "cybersecurity", "data recovery", "investigation", "security"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Networking basics", "Security basics"]
+        },
+        {
+            "title": "Cloud Security",
+            "description": "Bảo mật ứng dụng và dữ liệu trên cloud platforms.",
+            "topics": ["cloud security", "aws security", "azure security", "compliance", "encryption"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Security basics"]
+        },
+        {
+            "title": "DevSecOps",
+            "description": "Tích hợp bảo mật vào quy trình phát triển và vận hành.",
+            "topics": ["devsecops", "security", "devops", "automation", "compliance"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["DevOps basics", "Security basics"]
+        },
+        {
+            "title": "AI Ethics and Governance",
+            "description": "Đạo đức AI và quản trị trí tuệ nhân tạo trong doanh nghiệp.",
+            "topics": ["ai ethics", "governance", "responsible ai", "bias", "transparency"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["AI basics", "Ethics basics"]
+        },
+        {
+            "title": "WebAssembly Development",
+            "description": "Phát triển ứng dụng web hiệu suất cao với WebAssembly.",
+            "topics": ["webassembly", "rust", "c++", "performance", "web development"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["C++ or Rust basics", "Web development basics"]
+        },
+        {
+            "title": "Serverless Architecture",
+            "description": "Xây dựng ứng dụng serverless với AWS Lambda và Azure Functions.",
+            "topics": ["serverless", "aws lambda", "azure functions", "cloud computing", "microservices"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Programming basics"]
+        },
+        {
+            "title": "GraphQL Development",
+            "description": "Thiết kế và phát triển API với GraphQL.",
+            "topics": ["graphql", "api", "node.js", "apollo", "backend"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["JavaScript basics", "API basics"]
+        },
+        {
+            "title": "Elixir Programming",
+            "description": "Phát triển ứng dụng phân tán với Elixir và Phoenix framework.",
+            "topics": ["elixir", "phoenix", "functional programming", "concurrency", "backend"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Kotlin Multiplatform",
+            "description": "Phát triển ứng dụng cross-platform với Kotlin Multiplatform.",
+            "topics": ["kotlin", "mobile development", "cross-platform", "android", "ios"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Kotlin basics"]
+        },
+        {
+            "title": "Digital Twins",
+            "description": "Xây dựng và quản lý digital twins cho IoT và smart cities.",
+            "topics": ["digital twins", "iot", "3d modeling", "data integration", "simulation"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["IoT basics", "3D modeling basics"]
+        },
+        {
+            "title": "Augmented Analytics",
+            "description": "Phát triển giải pháp phân tích dữ liệu tự động với AI.",
+            "topics": ["analytics", "ai", "machine learning", "data visualization", "business intelligence"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Data analysis basics", "AI basics"]
+        },
+        {
+            "title": "Zero Trust Security",
+            "description": "Triển khai mô hình bảo mật Zero Trust trong doanh nghiệp.",
+            "topics": ["zero trust", "security", "authentication", "authorization", "network security"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Security basics", "Networking basics"]
+        },
+        {
+            "title": "Quantum Cryptography",
+            "description": "Nghiên cứu và phát triển giải pháp mã hóa lượng tử.",
+            "topics": ["quantum cryptography", "quantum computing", "security", "physics", "mathematics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Cryptography basics", "Quantum computing basics"]
+        },
+        {
+            "title": "Green Software Engineering",
+            "description": "Phát triển phần mềm bền vững và thân thiện với môi trường.",
+            "topics": ["sustainability", "energy efficiency", "software architecture", "cloud optimization"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Software development basics"]
+        },
+        {
+            "title": "Extended Reality (XR) Development",
+            "description": "Phát triển ứng dụng XR bao gồm AR, VR và Mixed Reality.",
+            "topics": ["xr", "ar", "vr", "unity", "unreal engine", "3d modeling"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics", "3D modeling basics"]
+        },
+        {
+            "title": "AI Model Deployment",
+            "description": "Triển khai và quản lý mô hình AI trong môi trường production.",
+            "topics": ["ai deployment", "mlops", "docker", "kubernetes", "model serving"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Machine learning basics", "DevOps basics"]
+        },
+        {
+            "title": "5G Application Development",
+            "description": "Phát triển ứng dụng tận dụng công nghệ 5G.",
+            "topics": ["5g", "mobile development", "edge computing", "iot", "networking"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Mobile development basics", "Networking basics"]
+        },
+        {
+            "title": "Digital Ethics and Privacy",
+            "description": "Nghiên cứu về đạo đức số và bảo vệ quyền riêng tư trong thời đại số.",
+            "topics": ["digital ethics", "privacy", "gdpr", "data protection", "ethical ai"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Basic computer knowledge"]
+        },
+        {
+            "title": "Bioinformatics Programming",
+            "description": "Lập trình phân tích dữ liệu sinh học và genomics.",
+            "topics": ["bioinformatics", "python", "genomics", "data analysis", "biology"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "Biology basics"]
+        },
+        {
+            "title": "FinTech Development",
+            "description": "Phát triển ứng dụng tài chính công nghệ và blockchain.",
+            "topics": ["fintech", "blockchain", "cryptocurrency", "payment systems", "financial technology"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics", "Finance basics"]
+        },
+        {
+            "title": "Edge AI Development",
+            "description": "Phát triển ứng dụng AI chạy trên thiết bị edge.",
+            "topics": ["edge ai", "iot", "machine learning", "embedded systems", "optimization"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["AI basics", "Embedded systems basics"]
+        },
+        {
+            "title": "Sustainable Software Architecture",
+            "description": "Thiết kế kiến trúc phần mềm bền vững và hiệu quả.",
+            "topics": ["software architecture", "sustainability", "cloud computing", "microservices", "scaling"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Software development basics", "Architecture basics"]
+        },
+        {
+            "title": "Digital Transformation",
+            "description": "Lãnh đạo và thực hiện chuyển đổi số trong doanh nghiệp.",
+            "topics": ["digital transformation", "change management", "technology strategy", "innovation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Business basics", "Technology basics"]
+        },
+        {
+            "title": "AI for Healthcare",
+            "description": "Ứng dụng AI trong chăm sóc sức khỏe và y tế.",
+            "topics": ["ai healthcare", "medical imaging", "healthcare analytics", "clinical informatics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["AI basics", "Healthcare basics"]
+        },
+        {
+            "title": "Quantum Software Development",
+            "description": "Phát triển phần mềm cho máy tính lượng tử và ứng dụng lượng tử.",
+            "topics": ["quantum computing", "quantum algorithms", "qiskit", "quantum software", "physics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Quantum computing basics", "Programming basics"]
+        },
+        {
+            "title": "AI Model Governance",
+            "description": "Quản trị và giám sát mô hình AI trong doanh nghiệp.",
+            "topics": ["ai governance", "model monitoring", "bias detection", "compliance", "ethics"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["AI basics", "Governance basics"]
+        },
+        {
+            "title": "Digital Twin Development",
+            "description": "Xây dựng và quản lý digital twins cho các hệ thống vật lý.",
+            "topics": ["digital twins", "iot", "3d modeling", "simulation", "data integration"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["IoT basics", "3D modeling basics"]
+        },
+        {
+            "title": "Sustainable Cloud Computing",
+            "description": "Tối ưu hóa cloud computing cho tính bền vững và hiệu quả năng lượng.",
+            "topics": ["cloud computing", "sustainability", "energy efficiency", "optimization", "green it"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics"]
+        },
+        {
+            "title": "AI for Environmental Science",
+            "description": "Ứng dụng AI trong nghiên cứu môi trường và biến đổi khí hậu.",
+            "topics": ["ai", "environmental science", "climate change", "data analysis", "sustainability"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["AI basics", "Environmental science basics"]
+        },
+        {
+            "title": "Digital Health Innovation",
+            "description": "Phát triển giải pháp công nghệ cho chăm sóc sức khỏe số.",
+            "topics": ["digital health", "healthcare technology", "telemedicine", "health analytics", "innovation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Healthcare basics", "Technology basics"]
+        },
+        {
+            "title": "Smart City Development",
+            "description": "Phát triển giải pháp cho thành phố thông minh và bền vững.",
+            "topics": ["smart cities", "iot", "urban planning", "sustainability", "data analytics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["IoT basics", "Urban planning basics"]
+        },
+        {
+            "title": "AI for Agriculture",
+            "description": "Ứng dụng AI trong nông nghiệp thông minh và bền vững.",
+            "topics": ["ai", "agriculture", "precision farming", "sustainability", "iot"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["AI basics", "Agriculture basics"]
+        },
+        {
+            "title": "Digital Manufacturing",
+            "description": "Phát triển giải pháp cho sản xuất thông minh và tự động hóa.",
+            "topics": ["digital manufacturing", "industry 4.0", "automation", "iot", "robotics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Manufacturing basics", "Technology basics"]
+        },
+        {
+            "title": "AI for Transportation",
+            "description": "Ứng dụng AI trong vận tải thông minh và logistics.",
+            "topics": ["ai", "transportation", "logistics", "autonomous vehicles", "optimization"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["AI basics", "Transportation basics"]
+        },
+        {
+            "title": "SwiftUI Advanced Development",
+            "description": "Phát triển ứng dụng iOS hiện đại với SwiftUI và các tính năng nâng cao.",
+            "topics": ["swiftui", "ios", "swift", "mobile development", "ui/ux"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Swift basics", "iOS development basics"]
+        },
+        {
+            "title": "Kubernetes Security",
+            "description": "Bảo mật và hardening cho môi trường Kubernetes.",
+            "topics": ["kubernetes", "security", "container security", "network policies", "rbac"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Kubernetes basics", "Security basics"]
+        },
+        {
+            "title": "React Native Development",
+            "description": "Phát triển ứng dụng mobile cross-platform với React Native.",
+            "topics": ["react native", "javascript", "mobile development", "react", "native modules"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["React basics", "JavaScript basics"]
+        },
+        {
+            "title": "Machine Learning Operations (MLOps)",
+            "description": "Quản lý và vận hành mô hình machine learning trong production.",
+            "topics": ["mlops", "machine learning", "devops", "model deployment", "monitoring"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Machine learning basics", "DevOps basics"]
+        },
+        {
+            "title": "Dart Programming",
+            "description": "Lập trình với Dart và phát triển ứng dụng Flutter.",
+            "topics": ["dart", "flutter", "mobile development", "object-oriented", "async programming"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Programming basics"]
+        },
+        {
+            "title": "Azure Cloud Development",
+            "description": "Phát triển và triển khai ứng dụng trên Microsoft Azure.",
+            "topics": ["azure", "cloud computing", "devops", "microservices", "serverless"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Programming basics"]
+        },
+        {
+            "title": "Google Cloud Platform Development",
+            "description": "Xây dựng ứng dụng trên Google Cloud Platform.",
+            "topics": ["gcp", "cloud computing", "kubernetes", "big data", "ai/ml"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Programming basics"]
+        },
+        {
+            "title": "Alibaba Cloud Development",
+            "description": "Phát triển ứng dụng trên Alibaba Cloud.",
+            "topics": ["alibaba cloud", "cloud computing", "devops", "big data", "ai"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Programming basics"]
+        },
+        {
+            "title": "Oracle Cloud Development",
+            "description": "Xây dựng ứng dụng trên Oracle Cloud Infrastructure.",
+            "topics": ["oracle cloud", "cloud computing", "database", "devops", "security"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Programming basics"]
+        },
+        {
+            "title": "IBM Cloud Development",
+            "description": "Phát triển ứng dụng trên IBM Cloud.",
+            "topics": ["ibm cloud", "cloud computing", "watson", "ai", "blockchain"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud computing basics", "Programming basics"]
+        },
+        {
+            "title": "Digital Marketing Technology",
+            "description": "Công nghệ và công cụ trong marketing kỹ thuật số.",
+            "topics": ["digital marketing", "seo", "social media", "analytics", "automation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Technology basics"]
+        },
+        {
+            "title": "E-commerce Development",
+            "description": "Phát triển nền tảng thương mại điện tử.",
+            "topics": ["e-commerce", "web development", "payment systems", "inventory management", "seo"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Web development basics", "Business basics"]
+        },
+        {
+            "title": "Digital Content Creation",
+            "description": "Tạo nội dung số và quản lý nội dung.",
+            "topics": ["content creation", "video production", "graphic design", "content strategy", "seo"],
+            "level": "Beginner",
+            "duration": "8 weeks",
+            "prerequisites": ["Basic computer knowledge"]
+        },
+        {
+            "title": "Social Media Marketing",
+            "description": "Chiến lược và công cụ marketing trên mạng xã hội.",
+            "topics": ["social media", "marketing", "content strategy", "analytics", "advertising"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Marketing basics"]
+        },
+        {
+            "title": "Digital Advertising Technology",
+            "description": "Công nghệ và nền tảng quảng cáo kỹ thuật số.",
+            "topics": ["digital advertising", "programmatic advertising", "ad tech", "analytics", "crm"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Analytics",
+            "description": "Phân tích dữ liệu kỹ thuật số và tối ưu hóa chiến dịch.",
+            "topics": ["analytics", "data analysis", "google analytics", "data visualization", "reporting"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Data analysis basics"]
+        },
+        {
+            "title": "Digital Customer Experience",
+            "description": "Thiết kế và tối ưu hóa trải nghiệm khách hàng kỹ thuật số.",
+            "topics": ["cx", "ux design", "customer journey", "analytics", "automation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["UX basics", "Customer service basics"]
+        },
+        {
+            "title": "Digital Brand Management",
+            "description": "Quản lý và phát triển thương hiệu kỹ thuật số.",
+            "topics": ["brand management", "digital marketing", "social media", "content strategy", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Marketing basics", "Brand management basics"]
+        },
+        {
+            "title": "Digital Public Relations",
+            "description": "Quan hệ công chúng kỹ thuật số và quản lý danh tiếng.",
+            "topics": ["pr", "social media", "crisis management", "content strategy", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["PR basics", "Social media basics"]
+        },
+        {
+            "title": "Digital Event Management",
+            "description": "Quản lý và tổ chức sự kiện kỹ thuật số.",
+            "topics": ["event management", "virtual events", "live streaming", "engagement", "analytics"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Event management basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Learning Technology",
+            "description": "Công nghệ và nền tảng học tập trực tuyến.",
+            "topics": ["e-learning", "lms", "educational technology", "content creation", "engagement"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Education basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Assessment Systems",
+            "description": "Hệ thống đánh giá và kiểm tra trực tuyến.",
+            "topics": ["assessment", "testing", "analytics", "security", "automation"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Education basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Library Systems",
+            "description": "Quản lý và phát triển thư viện kỹ thuật số.",
+            "topics": ["digital library", "content management", "metadata", "search systems", "preservation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Library science basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Museum Technology",
+            "description": "Công nghệ và giải pháp cho bảo tàng kỹ thuật số.",
+            "topics": ["digital museum", "virtual exhibitions", "3d modeling", "interactive content", "preservation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Museum studies basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Archive Management",
+            "description": "Quản lý và bảo tồn tài liệu kỹ thuật số.",
+            "topics": ["digital archives", "preservation", "metadata", "access control", "digitization"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Archival science basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Publishing Technology",
+            "description": "Công nghệ xuất bản và phân phối nội dung kỹ thuật số.",
+            "topics": ["digital publishing", "content management", "distribution", "formatting", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Publishing basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Journalism Technology",
+            "description": "Công nghệ và công cụ cho báo chí kỹ thuật số.",
+            "topics": ["digital journalism", "content management", "multimedia", "analytics", "engagement"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Journalism basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Broadcasting Technology",
+            "description": "Công nghệ phát sóng và streaming nội dung.",
+            "topics": ["broadcasting", "streaming", "video production", "content delivery", "analytics"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Broadcasting basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Audio Technology",
+            "description": "Công nghệ xử lý và sản xuất âm thanh kỹ thuật số.",
+            "topics": ["audio technology", "sound design", "podcasting", "audio processing", "distribution"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Audio production basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Video Technology",
+            "description": "Công nghệ sản xuất và xử lý video kỹ thuật số.",
+            "topics": ["video technology", "video production", "editing", "streaming", "distribution"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Video production basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Photography Technology",
+            "description": "Công nghệ và kỹ thuật nhiếp ảnh kỹ thuật số.",
+            "topics": ["digital photography", "image processing", "camera technology", "editing", "storage"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Photography basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Animation Technology",
+            "description": "Công nghệ và kỹ thuật hoạt hình kỹ thuật số.",
+            "topics": ["animation", "3d modeling", "motion graphics", "rendering", "compositing"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Animation basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Game Design",
+            "description": "Thiết kế và phát triển game kỹ thuật số.",
+            "topics": ["game design", "level design", "game mechanics", "user experience", "testing"],
+            "level": "Intermediate",
+            "duration": "12 weeks",
+            "prerequisites": ["Game design basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Sound Design",
+            "description": "Thiết kế và sản xuất âm thanh kỹ thuật số.",
+            "topics": ["sound design", "audio processing", "synthesis", "mixing", "mastering"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Sound design basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Visual Effects",
+            "description": "Hiệu ứng hình ảnh và kỹ xảo kỹ thuật số.",
+            "topics": ["vfx", "compositing", "3d modeling", "animation", "rendering"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["VFX basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Motion Graphics",
+            "description": "Thiết kế và sản xuất đồ họa chuyển động.",
+            "topics": ["motion graphics", "animation", "typography", "compositing", "design"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Design basics", "Animation basics"]
+        },
+        {
+            "title": "Digital Color Grading",
+            "description": "Kỹ thuật chỉnh màu và grading cho video kỹ thuật số.",
+            "topics": ["color grading", "color correction", "color theory", "workflow", "software"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Video editing basics", "Color theory basics"]
+        },
+        {
+            "title": "Digital Typography",
+            "description": "Thiết kế và sử dụng typography trong môi trường kỹ thuật số.",
+            "topics": ["typography", "type design", "web typography", "layout", "design"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Design basics", "Typography basics"]
+        },
+        {
+            "title": "Digital Layout Design",
+            "description": "Thiết kế bố cục và layout cho nội dung kỹ thuật số.",
+            "topics": ["layout design", "grid systems", "responsive design", "ui design", "design"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Design basics", "Layout basics"]
+        },
+        {
+            "title": "Digital Brand Identity Design",
+            "description": "Thiết kế nhận diện thương hiệu kỹ thuật số.",
+            "topics": ["brand identity", "logo design", "brand guidelines", "visual identity", "design"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Design basics", "Branding basics"]
+        },
+        {
+            "title": "Digital Project Management",
+            "description": "Quản lý dự án kỹ thuật số và phát triển phần mềm.",
+            "topics": ["project management", "agile", "scrum", "risk management", "team leadership"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Project management basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Risk Management",
+            "description": "Quản lý rủi ro trong môi trường kỹ thuật số.",
+            "topics": ["risk management", "cybersecurity", "compliance", "assessment", "mitigation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Risk management basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Change Management",
+            "description": "Quản lý thay đổi và chuyển đổi kỹ thuật số.",
+            "topics": ["change management", "digital transformation", "organizational change", "stakeholder management", "communication"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Change management basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Quality Management",
+            "description": "Quản lý chất lượng trong phát triển phần mềm.",
+            "topics": ["quality management", "testing", "qa", "quality assurance", "process improvement"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Quality management basics", "Software development basics"]
+        },
+        {
+            "title": "Digital Resource Management",
+            "description": "Quản lý nguồn lực trong dự án kỹ thuật số.",
+            "topics": ["resource management", "project planning", "team management", "budgeting", "scheduling"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Resource management basics", "Project management basics"]
+        },
+        {
+            "title": "Digital Portfolio Management",
+            "description": "Quản lý danh mục dự án kỹ thuật số.",
+            "topics": ["portfolio management", "project selection", "resource allocation", "risk management", "performance tracking"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Project management basics", "Portfolio management basics"]
+        },
+        {
+            "title": "Digital Stakeholder Management",
+            "description": "Quản lý các bên liên quan trong dự án kỹ thuật số.",
+            "topics": ["stakeholder management", "communication", "engagement", "expectation management", "relationship building"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Stakeholder management basics", "Communication basics"]
+        },
+        {
+            "title": "Digital Team Leadership",
+            "description": "Lãnh đạo và quản lý nhóm trong môi trường kỹ thuật số.",
+            "topics": ["team leadership", "remote management", "virtual teams", "motivation", "performance management"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Leadership basics", "Team management basics"]
+        },
+        {
+            "title": "Digital Communication Management",
+            "description": "Quản lý truyền thông trong môi trường kỹ thuật số.",
+            "topics": ["communication management", "virtual communication", "collaboration tools", "documentation", "knowledge sharing"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Communication basics", "Technology basics"]
+        },
+        {
+            "title": "Digital Knowledge Management",
+            "description": "Quản lý tri thức và tài liệu kỹ thuật số.",
+            "topics": ["knowledge management", "documentation", "content organization", "search systems", "collaboration"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Knowledge management basics", "Technology basics"]
+        },
+        {
+            "title": "Advanced JavaScript Frameworks",
+            "description": "Học sâu về các framework JavaScript hiện đại như Next.js, Nuxt.js và Svelte.",
+            "topics": ["javascript", "next.js", "nuxt.js", "svelte", "modern frameworks"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["JavaScript basics", "React/Vue basics"]
+        },
+        {
+            "title": "Progressive Web Apps Development",
+            "description": "Phát triển ứng dụng web tiến bộ với các tính năng như offline support và push notifications.",
+            "topics": ["pwa", "service workers", "web apis", "offline first", "push notifications"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics", "JavaScript basics"]
+        },
+        {
+            "title": "Microservices with Spring Boot",
+            "description": "Xây dựng microservices với Spring Boot và Spring Cloud.",
+            "topics": ["spring boot", "microservices", "spring cloud", "java", "distributed systems"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Java basics", "Spring basics"]
+        },
+        {
+            "title": "Advanced Node.js Development",
+            "description": "Phát triển ứng dụng Node.js nâng cao với performance optimization và security.",
+            "topics": ["node.js", "performance", "security", "scalability", "best practices"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Node.js basics", "JavaScript basics"]
+        },
+        {
+            "title": "Rust for Systems Programming",
+            "description": "Lập trình hệ thống với Rust, tập trung vào performance và safety.",
+            "topics": ["rust", "systems programming", "memory safety", "concurrency", "performance"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Programming basics", "Systems concepts"]
+        },
+        {
+            "title": "Go Microservices",
+            "description": "Xây dựng microservices với Go và các công cụ ecosystem.",
+            "topics": ["golang", "microservices", "docker", "kubernetes", "grpc"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Go basics", "Microservices concepts"]
+        },
+        {
+            "title": "Advanced Python for Data Science",
+            "description": "Python nâng cao cho khoa học dữ liệu và machine learning.",
+            "topics": ["python", "numpy", "pandas", "scikit-learn", "tensorflow"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Python basics", "Data science basics"]
+        },
+        {
+            "title": "Scala Programming",
+            "description": "Lập trình Scala cho ứng dụng enterprise và big data.",
+            "topics": ["scala", "functional programming", "akka", "play framework", "spark"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Programming basics", "Java basics"]
+        },
+        {
+            "title": "Advanced TypeScript Development",
+            "description": "TypeScript nâng cao với design patterns và best practices.",
+            "topics": ["typescript", "design patterns", "advanced types", "decorators", "generics"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["TypeScript basics", "JavaScript basics"]
+        },
+        {
+            "title": "Kotlin Backend Development",
+            "description": "Phát triển backend với Kotlin và Spring Boot.",
+            "topics": ["kotlin", "spring boot", "coroutines", "ktor", "backend"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Kotlin basics", "Backend basics"]
+        },
+        {
+            "title": "Advanced Cloud Architecture",
+            "description": "Thiết kế và triển khai kiến trúc cloud nâng cao.",
+            "topics": ["cloud architecture", "aws", "azure", "gcp", "multi-cloud"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Cloud basics", "Architecture basics"]
+        },
+        {
+            "title": "Serverless Computing",
+            "description": "Phát triển ứng dụng serverless với AWS Lambda và Azure Functions.",
+            "topics": ["serverless", "faas", "aws lambda", "azure functions", "event-driven"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud basics", "Programming basics"]
+        },
+        {
+            "title": "Cloud Native Security",
+            "description": "Bảo mật cho ứng dụng cloud native và containers.",
+            "topics": ["security", "kubernetes", "docker", "devsecops", "compliance"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Cloud basics", "Security basics"]
+        },
+        {
+            "title": "Advanced Kubernetes",
+            "description": "Kubernetes nâng cao với service mesh và observability.",
+            "topics": ["kubernetes", "istio", "service mesh", "monitoring", "observability"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Kubernetes basics", "Docker basics"]
+        },
+        {
+            "title": "Site Reliability Engineering",
+            "description": "Kỹ thuật đảm bảo độ tin cậy cho hệ thống.",
+            "topics": ["sre", "devops", "monitoring", "automation", "reliability"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["DevOps basics", "System administration"]
+        },
+        {
+            "title": "Infrastructure as Code",
+            "description": "Quản lý infrastructure với Terraform và CloudFormation.",
+            "topics": ["iac", "terraform", "cloudformation", "ansible", "automation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud basics", "DevOps basics"]
+        },
+        {
+            "title": "Advanced CI/CD",
+            "description": "Pipeline CI/CD nâng cao với Jenkins và GitLab.",
+            "topics": ["ci/cd", "jenkins", "gitlab", "automation", "deployment"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["CI/CD basics", "DevOps basics"]
+        },
+        {
+            "title": "Cloud Cost Optimization",
+            "description": "Tối ưu hóa chi phí và hiệu suất cloud.",
+            "topics": ["cost optimization", "cloud economics", "performance", "monitoring", "budgeting"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Cloud basics", "Finance basics"]
+        },
+        {
+            "title": "Multi-Cloud Management",
+            "description": "Quản lý và điều phối môi trường multi-cloud.",
+            "topics": ["multi-cloud", "hybrid cloud", "cloud management", "orchestration", "governance"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Cloud basics", "System administration"]
+        },
+        {
+            "title": "Cloud Migration Strategies",
+            "description": "Chiến lược và kỹ thuật migration lên cloud.",
+            "topics": ["cloud migration", "strategy", "planning", "execution", "optimization"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Cloud basics", "System administration"]
+        },
+        {
+            "title": "Advanced Machine Learning",
+            "description": "Học máy nâng cao với deep learning và neural networks.",
+            "topics": ["machine learning", "deep learning", "neural networks", "ai", "optimization"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Machine learning basics", "Mathematics"]
+        },
+        {
+            "title": "Natural Language Processing",
+            "description": "Xử lý ngôn ngữ tự nhiên với deep learning.",
+            "topics": ["nlp", "transformers", "bert", "text analysis", "language models"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Machine learning basics", "Python"]
+        },
+        {
+            "title": "Computer Vision",
+            "description": "Thị giác máy tính với deep learning.",
+            "topics": ["computer vision", "cnn", "object detection", "image processing", "opencv"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Machine learning basics", "Python"]
+        },
+        {
+            "title": "Reinforcement Learning",
+            "description": "Học tăng cường cho AI và robotics.",
+            "topics": ["reinforcement learning", "deep rl", "game ai", "robotics", "optimization"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Machine learning basics", "Python"]
+        },
+        {
+            "title": "MLOps Engineering",
+            "description": "Vận hành và triển khai mô hình machine learning.",
+            "topics": ["mlops", "deployment", "monitoring", "automation", "pipeline"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Machine learning basics", "DevOps basics"]
+        },
+        {
+            "title": "AI Ethics and Governance",
+            "description": "Đạo đức và quản trị trí tuệ nhân tạo.",
+            "topics": ["ai ethics", "governance", "bias", "fairness", "transparency"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["AI basics", "Ethics basics"]
+        },
+        {
+            "title": "Advanced Data Engineering",
+            "description": "Kỹ thuật dữ liệu nâng cao với big data tools.",
+            "topics": ["data engineering", "spark", "hadoop", "streaming", "etl"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Data engineering basics", "Programming basics"]
+        },
+        {
+            "title": "Time Series Analysis",
+            "description": "Phân tích dữ liệu chuỗi thời gian với machine learning.",
+            "topics": ["time series", "forecasting", "anomaly detection", "statistics", "ml"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Machine learning basics", "Statistics"]
+        },
+        {
+            "title": "Graph Neural Networks",
+            "description": "Deep learning trên dữ liệu đồ thị.",
+            "topics": ["gnn", "graph data", "network analysis", "deep learning", "applications"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Machine learning basics", "Graph theory"]
+        },
+        {
+            "title": "AI for Robotics",
+            "description": "Ứng dụng AI trong robotics và tự động hóa.",
+            "topics": ["robotics", "ai", "control systems", "computer vision", "planning"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["AI basics", "Robotics basics"]
+        },
+        {
+            "title": "Advanced Cybersecurity",
+            "description": "Bảo mật nâng cao và phòng chống tấn công mạng.",
+            "topics": ["cybersecurity", "penetration testing", "malware analysis", "incident response", "forensics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Security basics", "Networking basics"]
+        },
+        {
+            "title": "Cloud Security Architecture",
+            "description": "Thiết kế bảo mật cho hệ thống cloud.",
+            "topics": ["cloud security", "security architecture", "compliance", "identity management", "encryption"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Security basics", "Cloud basics"]
+        },
+        {
+            "title": "Application Security",
+            "description": "Bảo mật ứng dụng và phát triển an toàn.",
+            "topics": ["appsec", "secure coding", "vulnerability assessment", "owasp", "security testing"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Security basics", "Development basics"]
+        },
+        {
+            "title": "Network Security",
+            "description": "Bảo mật mạng và phòng chống tấn công.",
+            "topics": ["network security", "firewall", "ids/ips", "vpn", "zero trust"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Security basics", "Networking basics"]
+        },
+        {
+            "title": "Security Operations",
+            "description": "Vận hành bảo mật và quản lý sự cố.",
+            "topics": ["secops", "siem", "incident management", "threat hunting", "monitoring"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Security basics", "Operations basics"]
+        },
+        {
+            "title": "Malware Analysis",
+            "description": "Phân tích mã độc và reverse engineering.",
+            "topics": ["malware", "reverse engineering", "binary analysis", "threat analysis", "forensics"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Security basics", "Programming basics"]
+        },
+        {
+            "title": "Digital Forensics",
+            "description": "Điều tra số và phân tích bằng chứng.",
+            "topics": ["forensics", "incident response", "evidence collection", "analysis", "reporting"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Security basics", "System administration"]
+        },
+        {
+            "title": "Security Compliance",
+            "description": "Tuân thủ bảo mật và quản lý rủi ro.",
+            "topics": ["compliance", "risk management", "audit", "governance", "regulations"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Security basics", "Compliance basics"]
+        },
+        {
+            "title": "Mobile Security",
+            "description": "Bảo mật cho ứng dụng và thiết bị di động.",
+            "topics": ["mobile security", "app security", "device security", "mdm", "threats"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Security basics", "Mobile development basics"]
+        },
+        {
+            "title": "IoT Security",
+            "description": "Bảo mật cho Internet of Things và embedded systems.",
+            "topics": ["iot security", "embedded security", "network security", "protocols", "threats"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Security basics", "IoT basics"]
+        },
+        {
+            "title": "Advanced Web Development",
+            "description": "Phát triển web nâng cao với các công nghệ hiện đại.",
+            "topics": ["web development", "javascript", "frameworks", "performance", "security"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Web development basics", "JavaScript basics"]
+        },
+        {
+            "title": "Frontend Architecture",
+            "description": "Thiết kế kiến trúc frontend cho ứng dụng quy mô lớn.",
+            "topics": ["frontend", "architecture", "state management", "performance", "testing"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Frontend basics", "Architecture basics"]
+        },
+        {
+            "title": "Backend Architecture",
+            "description": "Thiết kế kiến trúc backend cho hệ thống phân tán.",
+            "topics": ["backend", "distributed systems", "scalability", "microservices", "databases"],
+            "level": "Advanced",
+            "duration": "12 weeks",
+            "prerequisites": ["Backend basics", "Architecture basics"]
+        },
+        {
+            "title": "Web Performance Optimization",
+            "description": "Tối ưu hóa hiệu suất cho ứng dụng web.",
+            "topics": ["performance", "optimization", "caching", "lazy loading", "metrics"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics", "Performance basics"]
+        },
+        {
+            "title": "Progressive Web Apps",
+            "description": "Phát triển Progressive Web Apps với các tính năng nâng cao.",
+            "topics": ["pwa", "offline first", "push notifications", "service workers", "performance"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics", "JavaScript basics"]
+        },
+        {
+            "title": "Web Accessibility",
+            "description": "Phát triển web với tính năng tiếp cận cho mọi người dùng.",
+            "topics": ["accessibility", "wcag", "aria", "semantic html", "testing"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Web development basics", "HTML/CSS basics"]
+        },
+        {
+            "title": "Web Security",
+            "description": "Bảo mật cho ứng dụng web và API.",
+            "topics": ["web security", "authentication", "authorization", "owasp", "encryption"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics", "Security basics"]
+        },
+        {
+            "title": "Web Testing",
+            "description": "Kiểm thử tự động cho ứng dụng web.",
+            "topics": ["testing", "unit tests", "e2e tests", "integration tests", "automation"],
+            "level": "Intermediate",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics", "Testing basics"]
+        },
+        {
+            "title": "Web Analytics",
+            "description": "Phân tích dữ liệu và đo lường hiệu suất web.",
+            "topics": ["analytics", "metrics", "user behavior", "performance", "optimization"],
+            "level": "Intermediate",
+            "duration": "8 weeks",
+            "prerequisites": ["Web development basics", "Analytics basics"]
+        },
+        {
+            "title": "Web Design Systems",
+            "description": "Thiết kế và phát triển design systems cho web.",
+            "topics": ["design systems", "components", "documentation", "style guides", "accessibility"],
+            "level": "Advanced",
+            "duration": "10 weeks",
+            "prerequisites": ["Web development basics", "Design basics"]
+        }
+    ]
+} 

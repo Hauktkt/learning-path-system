@@ -1,0 +1,546 @@
+{
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Programming - Beginner",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Cú pháp Java cơ bản",
+          "Lập trình hướng đối tượng (OOP)",
+          "Kiểu dữ liệu và biến",
+          "Cấu trúc điều khiển",
+          "Mảng và chuỗi",
+          "Lớp và đối tượng",
+          "Kế thừa và đa hình",
+          "Xử lý ngoại lệ"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Giai đoạn 1: Nền tảng Java cơ bản",
+        "duration": 20,
+        "tasks": [
+          "Làm quen với cú pháp Java",
+          "Tìm hiểu về lập trình hướng đối tượng",
+          "Thực hành các bài tập về mảng và chuỗi",
+          "Xây dựng các ứng dụng console đơn giản"
+        ]
+      },
+      {
+        "name": "Giai đoạn 2: Lập trình hướng đối tượng nâng cao và thư viện Java Core",
+        "duration": 20,
+        "tasks": [
+          "Tìm hiểu về kế thừa và đa hình",
+          "Sử dụng các lớp và đối tượng trong Java",
+          "Làm việc với Collections Framework",
+          "Xử lý lỗi và ngoại lệ"
+        ]
+      },
+      {
+        "name": "Giai đoạn 3: Giới thiệu Web Development với Java",
+        "duration": 20,
+        "tasks": [
+          "Tìm hiểu về Servlet và JSP",
+          "Giới thiệu về framework Spring MVC",
+          "Xây dựng ứng dụng web đơn giản với Servlet",
+          "Tìm hiểu về JDBC và kết nối cơ sở dữ liệu"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2025-04-24",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Cài đặt JDK và IDE (1.0 giờ)",
+          "Tìm hiểu cú pháp Java cơ bản: biến, kiểu dữ liệu, toán tử (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Thực hành viết chương trình Java đơn giản: Hello World, tính tổng hai số (1.0 giờ)",
+          "Tìm hiểu về cấu trúc điều khiển: if-else, switch-case (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-26",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về vòng lặp: for, while, do-while (1.0 giờ)",
+          "Thực hành các bài tập về cấu trúc điều khiển và vòng lặp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-27",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về mảng một chiều và hai chiều (1.0 giờ)",
+          "Thực hành các bài tập về mảng: tìm kiếm, sắp xếp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về chuỗi và các phương thức xử lý chuỗi (1.0 giờ)",
+          "Thực hành các bài tập về chuỗi: đảo ngược chuỗi, tìm kiếm chuỗi con (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức về cú pháp Java cơ bản, cấu trúc điều khiển, vòng lặp, mảng và chuỗi (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Thực hành tổng hợp: Viết chương trình quản lý sinh viên (console application) (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về lập trình hướng đối tượng (OOP): khái niệm, đối tượng, lớp (1.0 giờ)",
+          "Tìm hiểu về thuộc tính và phương thức (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về constructor và cách khởi tạo đối tượng (1.0 giờ)",
+          "Thực hành tạo lớp và đối tượng đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về tính đóng gói (encapsulation) và access modifiers (1.0 giờ)",
+          "Thực hành áp dụng tính đóng gói vào lớp đã tạo (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-04",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về tính kế thừa (inheritance) và cách sử dụng từ khóa extends (1.0 giờ)",
+          "Thực hành tạo lớp con kế thừa từ lớp cha (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về tính đa hình (polymorphism) và abstract class, interface (1.0 giờ)",
+          "Thực hành tạo abstract class và interface (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức về lập trình hướng đối tượng (OOP) (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Thực hành tổng hợp: Xây dựng chương trình quản lý thư viện (console application, áp dụng OOP) (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về Collection Framework: List, Set, Map (1.0 giờ)",
+          "Tìm hiểu về ArrayList và LinkedList (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Thực hành sử dụng ArrayList và LinkedList (1.0 giờ)",
+          "Tìm hiểu về HashSet và TreeSet (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Thực hành sử dụng HashSet và TreeSet (1.0 giờ)",
+          "Tìm hiểu về HashMap và TreeMap (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-11",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Thực hành sử dụng HashMap và TreeMap (1.0 giờ)",
+          "Tìm hiểu về Iterator và Iterable (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Thực hành sử dụng Iterator và Iterable (1.0 giờ)",
+          "Tìm hiểu về Generics (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức về Collection Framework (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Thực hành tổng hợp: Xây dựng chương trình quản lý sản phẩm (console application, sử dụng Collection Framework) (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về Exception Handling: try-catch-finally (1.0 giờ)",
+          "Tìm hiểu về các loại exception (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Thực hành xử lý exception (1.0 giờ)",
+          "Tìm hiểu về throw và throws (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Thực hành sử dụng throw và throws (1.0 giờ)",
+          "Tìm hiểu về tạo custom exception (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-18",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Thực hành tạo custom exception (1.0 giờ)",
+          "Tìm hiểu về File I/O (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Thực hành đọc và ghi file (1.0 giờ)",
+          "Ôn tập các kiến thức đã học về exception handling (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức về Exception Handling và File I/O (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Thực hành tổng hợp: Xây dựng chương trình đọc/ghi dữ liệu từ file (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu về Web Development với Java: Servlet và JSP (1.0 giờ)",
+          "Tìm hiểu về kiến trúc web cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Cài đặt và cấu hình Apache Tomcat (1.0 giờ)",
+          "Viết Servlet đầu tiên: Hello World Servlet (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về request và response trong Servlet (1.0 giờ)",
+          "Xử lý form data trong Servlet (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-25",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về JSP và cách nhúng Java code vào HTML (1.0 giờ)",
+          "Viết trang JSP đơn giản hiển thị thông tin (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-26",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về JSTL (JSP Standard Tag Library) (1.0 giờ)",
+          "Sử dụng JSTL để hiển thị dữ liệu từ Servlet (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-27",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức về Servlet và JSP (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-28",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Thực hành tổng hợp: Xây dựng ứng dụng web đơn giản sử dụng Servlet và JSP (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-29",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu về Spring MVC Framework (1.0 giờ)",
+          "Cấu hình Spring MVC (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-30",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tạo controller và view trong Spring MVC (1.0 giờ)",
+          "Xử lý request và response trong Spring MVC (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-31",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về Thymeleaf template engine (1.0 giờ)",
+          "Sử dụng Thymeleaf trong Spring MVC (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-01",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Giới thiệu về JDBC (Java Database Connectivity) (1.0 giờ)",
+          "Kết nối đến cơ sở dữ liệu sử dụng JDBC (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-02",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Thực hiện truy vấn cơ sở dữ liệu sử dụng JDBC (1.0 giờ)",
+          "Tìm hiểu về Statement và PreparedStatement (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-03",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức về Spring MVC và JDBC (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-04",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Thực hành tổng hợp: Xây dựng ứng dụng web đơn giản với Spring MVC và JDBC, kết nối đến cơ sở dữ liệu (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-05",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về các kiến trúc web phổ biến (1.0 giờ)",
+          "Tìm hiểu về RESTful API (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-06",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về JSON và XML (1.0 giờ)",
+          "Tìm hiểu về Swagger (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-07",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu các khái niệm cơ bản về bảo mật web (1.0 giờ)",
+          "Các biện pháp phòng chống tấn công phổ biến (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-08",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về testing trong Java (1.0 giờ)",
+          "Viết unit test đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-09",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về Git và Github (1.0 giờ)",
+          "Thực hành sử dụng Git cơ bản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-10",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức tổng quan (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-11",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Xem lại toàn bộ lộ trình và củng cố kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-12",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về các dự án Java Web thực tế (1.0 giờ)",
+          "Phân tích code của một dự án mẫu (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-13",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Lựa chọn framework Java Web để học chuyên sâu hơn (1.0 giờ)",
+          "Tìm kiếm các tài liệu học framework đã chọn (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-14",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Đọc thêm về các best practices trong Java Web development (1.0 giờ)",
+          "Tìm hiểu về clean code (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-15",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về design patterns áp dụng trong Java Web (1.0 giờ)",
+          "Nghiên cứu một vài design patterns phổ biến (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-16",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Nắm vững các kỹ năng debug Java Web application (1.0 giờ)",
+          "Sử dụng debugger của IDE để tìm và sửa lỗi (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-17",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Hoàn thành project cá nhân (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-18",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tối ưu project cá nhân (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-19",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Chuẩn bị cho vòng phỏng vấn Java Web (1.0 giờ)",
+          "Tìm hiểu các câu hỏi phỏng vấn thường gặp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-20",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Luyện tập trả lời phỏng vấn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-21",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu các công ty tuyển dụng Java Web developer (1.0 giờ)",
+          "Chuẩn bị CV và portfolio (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-22",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Nộp đơn xin việc (2.0 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình học Java cho người mới bắt đầu, tập trung vào web development trong 2 tháng, với 2 giờ học mỗi ngày. Lộ trình bao gồm kiến thức cơ bản về Java, lập trình hướng đối tượng, Collection Framework, Exception Handling, File I/O, Servlet, JSP, Spring MVC và JDBC.",
+    "projects": [
+      "Xây dựng ứng dụng quản lý sinh viên (console application)",
+      "Xây dựng chương trình quản lý thư viện (console application, áp dụng OOP)",
+      "Xây dựng chương trình quản lý sản phẩm (console application, sử dụng Collection Framework)",
+      "Xây dựng ứng dụng web đơn giản sử dụng Servlet và JSP",
+      "Xây dựng ứng dụng web đơn giản với Spring MVC và JDBC, kết nối đến cơ sở dữ liệu"
+    ],
+    "resources": [
+      "Tutorialspoint Java Tutorial",
+      "Java Documentation",
+      "Spring Documentation",
+      "W3Schools HTML, CSS, JavaScript"
+    ],
+    "tips": [
+      "Thực hành code thường xuyên để nắm vững kiến thức",
+      "Tìm kiếm và tham gia các cộng đồng Java để học hỏi kinh nghiệm",
+      "Đọc code của các dự án open source để nâng cao kỹ năng",
+      "Đặt câu hỏi khi gặp khó khăn",
+      "Kiên trì và không bỏ cuộc khi gặp thử thách"
+    ],
+    "field": "Java",
+    "level": "Beginner",
+    "duration": 2,
+    "daily_hours": 2,
+    "interests": [
+      "Web Development"
+    ],
+    "is_fallback": false
+  }
+}

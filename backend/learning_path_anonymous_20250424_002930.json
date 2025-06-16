@@ -1,0 +1,331 @@
+{
+  "learning_path": {
+    "field": "Python",
+    "level": "Beginner",
+    "duration": 2,
+    "daily_hours": 2,
+    "interests": [
+      "Web Development"
+    ],
+    "courses": [
+      {
+        "title": "Python Programming Fundamentals for Web Development",
+        "level": "Beginner",
+        "duration": 6,
+        "topics": [
+          "Cú pháp Python cơ bản",
+          "Kiểu dữ liệu và biến",
+          "Cấu trúc điều khiển",
+          "Hàm và Module",
+          "Lập trình hướng đối tượng",
+          "Làm việc với Web Framework (Flask)"
+        ]
+      },
+      {
+        "title": "Web Development with Flask - Basic",
+        "level": "Beginner",
+        "duration": 2,
+        "topics": [
+          "Giới thiệu Flask",
+          "Routes và Views",
+          "Templates (Jinja2)",
+          "Form và Request",
+          "Kết nối với Database (SQLite)"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Phase 1: Python Fundamentals (Weeks 1-3)",
+        "duration": 21,
+        "tasks": [
+          "Học cú pháp Python cơ bản",
+          "Làm quen với kiểu dữ liệu, biến, cấu trúc điều khiển",
+          "Tìm hiểu về hàm, module, và lập trình hướng đối tượng"
+        ]
+      },
+      {
+        "name": "Phase 2: Web Development Foundation with Flask (Weeks 4-6)",
+        "duration": 21,
+        "tasks": [
+          "Giới thiệu Flask và cài đặt",
+          "Xây dựng Routes và Views",
+          "Sử dụng Templates (Jinja2)",
+          "Xử lý Forms và Requests"
+        ]
+      },
+      {
+        "name": "Phase 3: Project Building and Practice (Weeks 7-8)",
+        "duration": 14,
+        "tasks": [
+          "Xây dựng một ứng dụng web đơn giản với Flask (ví dụ: danh sách việc cần làm, blog nhỏ)",
+          "Tìm hiểu thêm về các tính năng nâng cao của Flask",
+          "Ôn tập và hoàn thiện kỹ năng"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2025-04-24",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu về Python, cài đặt môi trường (1.0 giờ)",
+          "Biến, kiểu dữ liệu cơ bản (số, chuỗi) (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Các toán tử trong Python (1.0 giờ)",
+          "Cấu trúc điều khiển: if, else, elif (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-26",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Cấu trúc lặp: for, while (1.0 giờ)",
+          "Bài tập thực hành cấu trúc điều khiển và lặp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-27",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Kiểu dữ liệu List (1.0 giờ)",
+          "Các thao tác với List (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Kiểu dữ liệu Tuple và Set (1.0 giờ)",
+          "Kiểu dữ liệu Dictionary (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập các kiểu dữ liệu (1.0 giờ)",
+          "Bài tập tổng hợp về các kiểu dữ liệu (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Dự án nhỏ: Tạo một chương trình quản lý danh bạ đơn giản (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Hàm trong Python: định nghĩa và gọi hàm (1.0 giờ)",
+          "Tham số và giá trị trả về của hàm (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Phạm vi biến (global, local) (1.0 giờ)",
+          "Module trong Python: import module (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Lập trình hướng đối tượng: Khái niệm class và object (1.0 giờ)",
+          "Thuộc tính và phương thức của class (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-04",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Kế thừa trong lập trình hướng đối tượng (1.0 giờ)",
+          "Đa hình trong lập trình hướng đối tượng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Thực hành lập trình hướng đối tượng (1.0 giờ)",
+          "Xây dựng một ứng dụng đơn giản sử dụng OOP (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập lập trình hướng đối tượng (1.0 giờ)",
+          "Bài tập tổng hợp về OOP (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Dự án nhỏ: Xây dựng một chương trình quản lý sinh viên sử dụng OOP (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu về Flask: cài đặt và cấu hình (1.0 giờ)",
+          "Routes và Views trong Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Xây dựng một trang web đơn giản với Flask (1.0 giờ)",
+          "Templates (Jinja2): cú pháp và cách sử dụng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Sử dụng Jinja2 để tạo giao diện động (1.0 giờ)",
+          "Forms trong Flask: tạo và xử lý form (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-11",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Request trong Flask: lấy dữ liệu từ request (1.0 giờ)",
+          "Session và Cookies trong Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Kết nối với Database (SQLite) trong Flask (1.0 giờ)",
+          "CRUD operations (Create, Read, Update, Delete) (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập về Flask (1.0 giờ)",
+          "Bài tập tổng hợp về Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Dự án: Xây dựng ứng dụng To-Do list sử dụng Flask và SQLite (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tiếp tục dự án To-Do list (1.0 giờ)",
+          "Thực hành và sửa lỗi (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu thêm các thư viện Flask (Flask-WTF, Flask-SQLAlchemy) (1.0 giờ)",
+          "Tìm hiểu cách deploy ứng dụng Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về RESTful API (1.0 giờ)",
+          "Thực hành xây dựng API đơn giản với Flask (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-18",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập về RESTful API và Flask (1.0 giờ)",
+          "Thực hành mở rộng dự án To-Do list với API (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về testing ứng dụng Flask (1.0 giờ)",
+          "Thực hành viết unit test cho ứng dụng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập toàn bộ kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Dự án cuối khóa: Xây dựng một blog đơn giản với Flask (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tiếp tục dự án blog đơn giản (1.0 giờ)",
+          "Thực hành và sửa lỗi (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Hoàn thiện dự án blog đơn giản (1.0 giờ)",
+          "Tìm hiểu về các framework web Python khác (Django, FastAPI) (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Ôn tập và củng cố kiến thức (2.0 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình này được thiết kế cho người mới bắt đầu học Python và có mong muốn phát triển ứng dụng web. Nó bao gồm các kiến thức cơ bản về Python và framework Flask, giúp bạn xây dựng được các ứng dụng web đơn giản.",
+    "projects": [
+      "Ứng dụng To-Do list",
+      "Blog cá nhân đơn giản",
+      "Chương trình quản lý danh bạ"
+    ],
+    "resources": [
+      "https://www.python.org/",
+      "https://flask.palletsprojects.com/",
+      "https://realpython.com/",
+      "https://www.w3schools.com/python/"
+    ],
+    "tips": [
+      "Thực hành code mỗi ngày để củng cố kiến thức.",
+      "Đọc tài liệu và tìm hiểu các thư viện Python khác.",
+      "Tham gia các cộng đồng Python để học hỏi và chia sẻ kinh nghiệm.",
+      "Tìm kiếm các dự án mã nguồn mở để tham khảo."
+    ],
+    "is_fallback": false
+  }
+}

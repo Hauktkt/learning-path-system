@@ -1,0 +1,952 @@
+openapi: 3.0.0
+info:
+  title: RAG Learning Path API
+  description: API cho hệ thống tạo lộ trình học tập cá nhân hóa
+  version: 1.1.0
+  contact:
+    name: PersonalEDU Support
+    email: support@personaledu.example.com
+
+servers:
+  - url: http://localhost:5000
+    description: Local Development Server
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Thông báo lỗi
+      required:
+        - error
+    
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          description: ID người dùng
+        username:
+          type: string
+          description: Tên đăng nhập
+        email:
+          type: string
+          format: email
+          description: Email người dùng
+        created_at:
+          type: string
+          format: date-time
+          description: Thời điểm tạo tài khoản
+      required:
+        - id
+        - username
+        - email
+        - created_at
+    
+    AuthResponse:
+      type: object
+      properties:
+        user:
+          $ref: '#/components/schemas/User'
+        token:
+          type: string
+          description: Token xác thực
+      required:
+        - user
+        - token
+    
+    LearningPathParams:
+      type: object
+      properties:
+        field:
+          type: string
+          description: Lĩnh vực học tập
+          example: Python programming
+        level:
+          type: string
+          description: Trình độ người học
+          enum: [Beginner, Intermediate, Advanced]
+          example: Beginner
+        duration:
+          type: integer
+          description: Thời gian học (tháng)
+          minimum: 1
+          maximum: 12
+          example: 3
+        daily_hours:
+          type: integer
+          description: Số giờ học mỗi ngày
+          minimum: 1
+          maximum: 8
+          example: 2
+        interests:
+          type: array
+          items:
+            type: string
+          description: Sở thích, lĩnh vực quan tâm
+          example: ["Web Development", "Data Science"]
+      required:
+        - field
+        - level
+        - duration
+        - daily_hours
+        - interests
+    
+    Course:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Tên khóa học
+        level:
+          type: string
+          description: Trình độ khóa học
+        duration:
+          type: integer
+          description: Thời lượng (giờ)
+        topics:
+          type: array
+          items:
+            type: string
+          description: Danh sách chủ đề
+    
+    DailyTask:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          description: Ngày thực hiện
+        day_of_week:
+          type: string
+          description: Thứ trong tuần
+        tasks:
+          type: array
+          items:
+            type: string
+          description: Danh sách nhiệm vụ
+    
+    Phase:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Tên giai đoạn
+        duration:
+          type: integer
+          description: Thời gian (ngày)
+        tasks:
+          type: array
+          items:
+            type: string
+          description: Danh sách nhiệm vụ
+    
+    LearningPath:
+      type: object
+      properties:
+        field:
+          type: string
+          description: Lĩnh vực học tập
+        level:
+          type: string
+          description: Trình độ
+        duration:
+          type: integer
+          description: Thời gian (tháng)
+        daily_hours:
+          type: integer
+          description: Số giờ học mỗi ngày
+        overview:
+          type: string
+          description: Tổng quan lộ trình
+        courses:
+          type: array
+          items:
+            $ref: '#/components/schemas/Course'
+          description: Danh sách khóa học
+        daily_plan:
+          type: array
+          items:
+            $ref: '#/components/schemas/DailyTask'
+          description: Kế hoạch hàng ngày
+        phases:
+          type: array
+          items:
+            $ref: '#/components/schemas/Phase'
+          description: Các giai đoạn học tập
+        interests:
+          type: array
+          items:
+            type: string
+          description: Sở thích người dùng
+        is_fallback:
+          type: boolean
+          description: Có phải là lộ trình dự phòng
+        projects:
+          type: array
+          items:
+            type: string
+          description: Danh sách dự án thực hành
+        resources:
+          type: array
+          items:
+            type: string
+          description: Tài liệu tham khảo
+        tips:
+          type: array
+          items:
+            type: string
+          description: Lời khuyên học tập
+      required:
+        - field
+        - level
+        - duration
+        - daily_hours
+        - overview
+        - courses
+        - daily_plan
+        - phases
+    
+    LearningPathResponse:
+      type: object
+      properties:
+        learning_path:
+          $ref: '#/components/schemas/LearningPath'
+      required:
+        - learning_path
+    
+    Task:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID nhiệm vụ
+        title:
+          type: string
+          description: Tiêu đề
+        description:
+          type: string
+          description: Mô tả
+        completed:
+          type: boolean
+          description: Đã hoàn thành chưa
+        date:
+          type: string
+          format: date-time
+          nullable: true
+          description: Thời gian thực hiện
+      required:
+        - id
+        - title
+        - description
+        - completed
+    
+    Progress:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID tiến độ
+        skill_name:
+          type: string
+          description: Tên kỹ năng
+        progress_percentage:
+          type: integer
+          description: Phần trăm hoàn thành
+        last_updated:
+          type: string
+          format: date-time
+          nullable: true
+          description: Thời điểm cập nhật gần nhất
+      required:
+        - id
+        - skill_name
+        - progress_percentage
+    
+    StoredLearningPath:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID lộ trình
+        field:
+          type: string
+          description: Lĩnh vực học tập
+        level:
+          type: string
+          description: Trình độ
+        duration:
+          type: integer
+          description: Thời gian (tháng)
+        daily_hours:
+          type: integer
+          description: Số giờ học mỗi ngày
+        total_hours:
+          type: integer
+          description: Tổng số giờ
+        created_at:
+          type: string
+          format: date-time
+          description: Thời điểm tạo
+        tasks_by_phase:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              $ref: '#/components/schemas/Task'
+          description: Nhiệm vụ theo giai đoạn
+        progress:
+          type: array
+          items:
+            $ref: '#/components/schemas/Progress'
+          description: Tiến độ học tập
+      required:
+        - id
+        - field
+        - level
+        - duration
+        - daily_hours
+        - created_at
+    
+    SavePathResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Thông báo kết quả
+        path_id:
+          type: integer
+          description: ID lộ trình đã lưu
+      required:
+        - message
+        - path_id
+    
+    TaskToggleResponse:
+      type: object
+      properties:
+        task:
+          type: object
+          properties:
+            id:
+              type: integer
+              description: ID nhiệm vụ
+            completed:
+              type: boolean
+              description: Trạng thái hoàn thành
+        progress:
+          type: object
+          properties:
+            skill_name:
+              type: string
+              description: Tên kỹ năng
+            progress_percentage:
+              type: integer
+              description: Phần trăm hoàn thành
+      required:
+        - task
+        - progress
+    
+    WeeklyStat:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          description: Ngày
+        day_of_week:
+          type: string
+          description: Thứ trong tuần
+        completed_tasks:
+          type: integer
+          description: Số nhiệm vụ hoàn thành
+      required:
+        - date
+        - day_of_week
+        - completed_tasks
+    
+    OverallStats:
+      type: object
+      properties:
+        total_paths:
+          type: integer
+          description: Tổng số lộ trình
+        total_tasks:
+          type: integer
+          description: Tổng số nhiệm vụ
+        completed_tasks:
+          type: integer
+          description: Số nhiệm vụ hoàn thành
+        completion_percentage:
+          type: integer
+          description: Phần trăm hoàn thành
+        current_streak:
+          type: integer
+          description: Chuỗi ngày liên tiếp học tập
+      required:
+        - total_paths
+        - total_tasks
+        - completed_tasks
+        - completion_percentage
+        - current_streak
+    
+    WeeklyStats:
+      type: object
+      properties:
+        daily_stats:
+          type: array
+          items:
+            $ref: '#/components/schemas/WeeklyStat'
+          description: Thống kê theo ngày
+        overall_stats:
+          $ref: '#/components/schemas/OverallStats'
+          description: Thống kê tổng quan
+      required:
+        - daily_stats
+        - overall_stats
+
+paths:
+  /api/auth/register:
+    post:
+      summary: Đăng ký tài khoản mới
+      description: Tạo tài khoản người dùng mới và trả về token
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  description: Tên đăng nhập
+                email:
+                  type: string
+                  format: email
+                  description: Email
+                password:
+                  type: string
+                  format: password
+                  description: Mật khẩu
+              required:
+                - username
+                - email
+                - password
+      responses:
+        '201':
+          description: Đăng ký thành công
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          description: Dữ liệu không hợp lệ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/auth/login:
+    post:
+      summary: Đăng nhập
+      description: Đăng nhập và lấy token xác thực
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  description: Tên đăng nhập
+                password:
+                  type: string
+                  format: password
+                  description: Mật khẩu
+              required:
+                - username
+                - password
+      responses:
+        '200':
+          description: Đăng nhập thành công
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Thông tin đăng nhập không chính xác
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/auth/logout:
+    post:
+      summary: Đăng xuất
+      description: Đăng xuất và hủy token hiện tại
+      tags:
+        - Authentication
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Đăng xuất thành công
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Đăng xuất thành công
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/auth/me:
+    get:
+      summary: Thông tin người dùng hiện tại
+      description: Lấy thông tin người dùng từ token
+      tags:
+        - Authentication
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Thông tin người dùng
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user:
+                    $ref: '#/components/schemas/User'
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/auth/users/{username}/exists:
+    get:
+      summary: Kiểm tra tên người dùng
+      description: Kiểm tra xem tên người dùng đã tồn tại chưa
+      tags:
+        - Authentication
+      parameters:
+        - name: username
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Tên người dùng cần kiểm tra
+      responses:
+        '200':
+          description: Kết quả kiểm tra
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  exists:
+                    type: boolean
+                    description: Tên người dùng đã tồn tại hay chưa
+  
+  /api/learning-path:
+    post:
+      summary: Tạo lộ trình học tập
+      description: Tạo lộ trình học tập mới dựa trên thông tin người dùng
+      tags:
+        - Learning Path
+      parameters:
+        - name: username
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Tên người dùng (không bắt buộc)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LearningPathParams'
+      responses:
+        '200':
+          description: Lộ trình học tập đã tạo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LearningPathResponse'
+        '400':
+          description: Dữ liệu không hợp lệ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/progress/learning-paths:
+    get:
+      summary: Danh sách lộ trình học tập
+      description: Lấy danh sách lộ trình học tập của người dùng
+      tags:
+        - Progress
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Danh sách lộ trình
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  learning_paths:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          description: ID lộ trình
+                        field:
+                          type: string
+                          description: Lĩnh vực học tập
+                        level:
+                          type: string
+                          description: Trình độ
+                        duration:
+                          type: integer
+                          description: Thời gian (tháng)
+                        daily_hours:
+                          type: integer
+                          description: Số giờ học mỗi ngày
+                        total_hours:
+                          type: integer
+                          description: Tổng số giờ
+                        created_at:
+                          type: string
+                          format: date-time
+                          description: Thời điểm tạo
+                        progress:
+                          type: object
+                          properties:
+                            total_tasks:
+                              type: integer
+                              description: Tổng số nhiệm vụ
+                            completed_tasks:
+                              type: integer
+                              description: Số nhiệm vụ đã hoàn thành
+                            completion_percentage:
+                              type: integer
+                              description: Phần trăm hoàn thành
+                            skills:
+                              type: array
+                              items:
+                                $ref: '#/components/schemas/Progress'
+                              description: Tiến độ theo kỹ năng
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/progress/learning-paths/{path_id}:
+    get:
+      summary: Chi tiết lộ trình học tập
+      description: Lấy chi tiết một lộ trình học tập cụ thể
+      tags:
+        - Progress
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: path_id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID lộ trình học tập
+      responses:
+        '200':
+          description: Chi tiết lộ trình
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  learning_path:
+                    $ref: '#/components/schemas/StoredLearningPath'
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Không tìm thấy lộ trình
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/progress/learning-paths/{path_id}/save:
+    post:
+      summary: Lưu lộ trình học tập
+      description: Lưu lộ trình học tập vào cơ sở dữ liệu
+      tags:
+        - Progress
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: path_id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID lộ trình học tập (0 nếu tạo mới)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LearningPathResponse'
+      responses:
+        '200':
+          description: Lộ trình đã được lưu
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SavePathResponse'
+        '400':
+          description: Dữ liệu không hợp lệ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/progress/tasks/{task_id}/toggle:
+    post:
+      summary: Đánh dấu nhiệm vụ
+      description: Đánh dấu nhiệm vụ đã hoàn thành/chưa hoàn thành
+      tags:
+        - Progress
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID nhiệm vụ
+      responses:
+        '200':
+          description: Cập nhật thành công
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskToggleResponse'
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Không tìm thấy nhiệm vụ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/progress/tasks/{task_id}/notes:
+    post:
+      summary: Thêm ghi chú cho nhiệm vụ
+      description: Thêm ghi chú cho một nhiệm vụ cụ thể
+      tags:
+        - Progress
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ID nhiệm vụ
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                notes:
+                  type: string
+                  description: Nội dung ghi chú
+              required:
+                - notes
+      responses:
+        '200':
+          description: Thêm ghi chú thành công
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  task:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        description: ID nhiệm vụ
+                      description:
+                        type: string
+                        description: Mô tả nhiệm vụ đã cập nhật
+        '400':
+          description: Dữ liệu không hợp lệ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: Không tìm thấy nhiệm vụ
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /api/progress/stats/weekly:
+    get:
+      summary: Thống kê học tập theo tuần
+      description: Lấy thống kê học tập trong 7 ngày gần nhất
+      tags:
+        - Progress
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Thống kê học tập
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WeeklyStats'
+        '401':
+          description: Chưa xác thực
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Lỗi server
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  
+  /health:
+    get:
+      summary: Kiểm tra trạng thái
+      description: Kiểm tra trạng thái hoạt động của API
+      tags:
+        - Utility
+      responses:
+        '200':
+          description: API đang hoạt động
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+                  rag_system:
+                    type: boolean
+                    description: Trạng thái của RAG system
+                  version:
+                    type: string
+                    description: Phiên bản API
+                  features:
+                    type: array
+                    items:
+                      type: string
+                    description: Danh sách tính năng 

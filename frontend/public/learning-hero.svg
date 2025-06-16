@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="transparent"/>
+  <path d="M130 300H370C375.523 300 380 304.477 380 310V380C380 385.523 375.523 390 370 390H130C124.477 390 120 385.523 120 380V310C120 304.477 124.477 300 130 300Z" fill="#4F46E5" fill-opacity="0.1" stroke="#4F46E5" stroke-width="3"/>
+  <path d="M150 240H350C355.523 240 360 244.477 360 250V280C360 285.523 355.523 290 350 290H150C144.477 290 140 285.523 140 280V250C140 244.477 144.477 240 150 240Z" fill="#4F46E5" fill-opacity="0.2" stroke="#4F46E5" stroke-width="3"/>
+  <path d="M170 180H330C335.523 180 340 184.477 340 190V220C340 225.523 335.523 230 330 230H170C164.477 230 160 225.523 160 220V190C160 184.477 164.477 180 170 180Z" fill="#4F46E5" fill-opacity="0.3" stroke="#4F46E5" stroke-width="3"/>
+  <path d="M190 120H310C315.523 120 320 124.477 320 130V160C320 165.523 315.523 170 310 170H190C184.477 170 180 165.523 180 160V130C180 124.477 184.477 120 190 120Z" fill="#4F46E5" fill-opacity="0.4" stroke="#4F46E5" stroke-width="3"/>
+  <circle cx="250" cy="95" r="25" fill="#4F46E5"/>
+  <line x1="250" y1="220" x2="290" y2="220" stroke="#4F46E5" stroke-width="3"/>
+  <line x1="250" y1="280" x2="310" y2="280" stroke="#4F46E5" stroke-width="3"/>
+  <line x1="250" y1="350" x2="330" y2="350" stroke="#4F46E5" stroke-width="3"/>
+  <path d="M250 95L250 390" stroke="#4F46E5" stroke-width="3" stroke-dasharray="6 6"/>
+  <circle cx="250" cy="220" r="5" fill="#4F46E5"/>
+  <circle cx="250" cy="280" r="5" fill="#4F46E5"/>
+  <circle cx="250" cy="350" r="5" fill="#4F46E5"/>
+  <path d="M210 140H290" stroke="white" stroke-width="3"/>
+  <path d="M210 150H270" stroke="white" stroke-width="3"/>
+  <path d="M190 200H310" stroke="white" stroke-width="3"/>
+  <path d="M190 210H270" stroke="white" stroke-width="3"/>
+  <path d="M170 260H330" stroke="white" stroke-width="3"/>
+  <path d="M170 270H290" stroke="white" stroke-width="3"/>
+  <path d="M150 330H350" stroke="white" stroke-width="3"/>
+  <path d="M150 340H310" stroke="white" stroke-width="3"/>
+  <path d="M150 350H230" stroke="white" stroke-width="3"/>
+  <path d="M150 360H190" stroke="white" stroke-width="3"/>
+</svg> 

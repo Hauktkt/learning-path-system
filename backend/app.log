@@ -1,0 +1,486 @@
+2025-03-17 00:59:47,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-03-17 07:57:34,101 - src.main - INFO - Basic imports successful
+2025-03-17 07:57:34,113 - src.main - INFO - Models import successful
+2025-03-17 07:57:35,005 - faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-03-17 07:57:35,076 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-03-17 07:57:35,077 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-17 07:57:35,081 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-17 07:57:35,204 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-17 07:57:35,234 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-17 07:57:40,359 - src.main - INFO - Services import successful
+2025-03-17 07:57:41,061 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): openaipublic.blob.core.windows.net:443
+2025-03-17 07:57:42,031 - urllib3.connectionpool - DEBUG - https://openaipublic.blob.core.windows.net:443 "GET /encodings/cl100k_base.tiktoken HTTP/1.1" 200 1681126
+2025-03-17 07:57:44,419 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000029D7EC0C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 07:57:44,473 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 07:57:44,474 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-17 07:57:44,574 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029D7EC02900>
+2025-03-17 07:57:44,575 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000029D7EBD5130> server_hostname='api.openai.com' timeout=None
+2025-03-17 07:57:44,621 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029D7EBC1590>
+2025-03-17 07:57:44,622 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 07:57:44,622 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 07:57:44,623 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 07:57:44,623 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 07:57:44,624 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 07:57:45,224 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 00:57:44 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_711a89bfae572925a6e55d0310f8fbab'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=wR6z11b9m5BDwU36xMSJzKvtwDGv8U33u4O0rSFjmsU-1742173064-1.0.1.1-8N5O_rTJF1tTBrj.rrmGqclCdJIdJJkd3AkAQ7rHAGzq4BQMnEZtuiy_Zm9NwiZ8NYX78ohvuou1TPVRQJGDIbtndMtCjVKffg_Q.Imyr6s; path=/; expires=Mon, 17-Mar-25 01:27:44 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=6rZKcj04ZHWeFT1xj6i_e456cbdf31hVJ8EdvS9c174-1742173064686-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921889b2c9ff9cf3-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 07:57:45,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 07:57:45,226 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 07:57:45,227 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 07:57:45,227 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 07:57:45,228 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 07:57:45,228 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers([('date', 'Mon, 17 Mar 2025 00:57:44 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_711a89bfae572925a6e55d0310f8fbab'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=wR6z11b9m5BDwU36xMSJzKvtwDGv8U33u4O0rSFjmsU-1742173064-1.0.1.1-8N5O_rTJF1tTBrj.rrmGqclCdJIdJJkd3AkAQ7rHAGzq4BQMnEZtuiy_Zm9NwiZ8NYX78ohvuou1TPVRQJGDIbtndMtCjVKffg_Q.Imyr6s; path=/; expires=Mon, 17-Mar-25 01:27:44 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=6rZKcj04ZHWeFT1xj6i_e456cbdf31hVJ8EdvS9c174-1742173064686-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '921889b2c9ff9cf3-SIN'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-17 07:57:45,228 - openai._base_client - DEBUG - request_id: req_711a89bfae572925a6e55d0310f8fbab
+2025-03-17 07:57:45,229 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 07:57:45,231 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-03-17 07:57:45,231 - openai._base_client - DEBUG - 2 retries left
+2025-03-17 07:57:45,232 - openai._base_client - INFO - Retrying request to /embeddings in 0.460863 seconds
+2025-03-17 07:57:45,693 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000029D7EC0C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 07:57:45,695 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 07:57:45,696 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 07:57:45,696 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 07:57:45,697 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 07:57:45,697 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 07:57:45,697 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 07:57:46,168 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 00:57:45 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_087a972c7072815324e99ad7ac1c584d'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921889b97eb19cf3-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 07:57:46,169 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 07:57:46,169 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 07:57:46,170 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 07:57:46,170 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 07:57:46,171 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 07:57:46,171 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers({'date': 'Mon, 17 Mar 2025 00:57:45 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_087a972c7072815324e99ad7ac1c584d', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '921889b97eb19cf3-SIN', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-17 07:57:46,171 - openai._base_client - DEBUG - request_id: req_087a972c7072815324e99ad7ac1c584d
+2025-03-17 07:57:46,172 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 07:57:46,173 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-03-17 07:57:46,173 - openai._base_client - DEBUG - 1 retry left
+2025-03-17 07:57:46,174 - openai._base_client - INFO - Retrying request to /embeddings in 0.773247 seconds
+2025-03-17 07:57:46,948 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x0000029D7EC0C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 07:57:46,949 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 07:57:46,950 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 07:57:46,950 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 07:57:46,951 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 07:57:46,951 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 07:57:46,952 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 07:57:47,218 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 00:57:46 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_dd796eea884cfc448ce4310f9d6ffb60'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921889c15bcf9cf3-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 07:57:47,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 07:57:47,220 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 07:57:47,220 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 07:57:47,220 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 07:57:47,221 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 07:57:47,221 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers({'date': 'Mon, 17 Mar 2025 00:57:46 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_dd796eea884cfc448ce4310f9d6ffb60', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '921889c15bcf9cf3-SIN', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-17 07:57:47,221 - openai._base_client - DEBUG - request_id: req_dd796eea884cfc448ce4310f9d6ffb60
+2025-03-17 07:57:47,222 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 07:57:47,223 - openai._base_client - DEBUG - Re-raising status error
+2025-03-17 07:57:47,297 - httpcore.connection - DEBUG - close.started
+2025-03-17 07:57:47,298 - httpcore.connection - DEBUG - close.complete
+2025-03-17 08:07:26,855 - src.main - INFO - Basic imports successful
+2025-03-17 08:07:26,862 - src.main - INFO - Models import successful
+2025-03-17 08:07:27,032 - faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-03-17 08:07:27,252 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-03-17 08:07:27,253 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-17 08:07:27,253 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-17 08:07:27,321 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-17 08:07:27,327 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-17 08:07:28,740 - src.main - INFO - Services import successful
+2025-03-17 08:07:29,476 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000001A57CB5C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 08:07:29,533 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 08:07:29,533 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-17 08:07:29,626 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A57C796660>
+2025-03-17 08:07:29,627 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001A57C760F80> server_hostname='api.openai.com' timeout=None
+2025-03-17 08:07:29,674 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A57C788690>
+2025-03-17 08:07:29,675 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 08:07:29,675 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 08:07:29,676 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 08:07:29,676 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 08:07:29,677 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 08:07:30,432 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 01:07:29 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_bc878ad333cffa0628df4d69aaa65dd2'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=REv0gfO3ctTOvW6KthdGtdV60yV_Eopcd4WgQE3t7Kw-1742173649-1.0.1.1-yebtLVVvpQp2eyj1FmjH8MnoyQjCtySS72Id3lJejf.9qMNEKhZIupepLaAajHYVHiZSqNCbTgu17CuVwOYS7d5UtINdbUWEG_f3R098u50; path=/; expires=Mon, 17-Mar-25 01:37:29 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Fy2_zFpgwgPv8QZLlRYhj8JitVqINkD6Deub6urzT.M-1742173649916-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921897fb6a87fd2b-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 08:07:30,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 08:07:30,434 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 08:07:30,435 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 08:07:30,435 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 08:07:30,436 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 08:07:30,436 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers([('date', 'Mon, 17 Mar 2025 01:07:29 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_bc878ad333cffa0628df4d69aaa65dd2'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=REv0gfO3ctTOvW6KthdGtdV60yV_Eopcd4WgQE3t7Kw-1742173649-1.0.1.1-yebtLVVvpQp2eyj1FmjH8MnoyQjCtySS72Id3lJejf.9qMNEKhZIupepLaAajHYVHiZSqNCbTgu17CuVwOYS7d5UtINdbUWEG_f3R098u50; path=/; expires=Mon, 17-Mar-25 01:37:29 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=Fy2_zFpgwgPv8QZLlRYhj8JitVqINkD6Deub6urzT.M-1742173649916-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '921897fb6a87fd2b-SIN'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-17 08:07:30,437 - openai._base_client - DEBUG - request_id: req_bc878ad333cffa0628df4d69aaa65dd2
+2025-03-17 08:07:30,437 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 08:07:30,441 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-03-17 08:07:30,441 - openai._base_client - DEBUG - 2 retries left
+2025-03-17 08:07:30,441 - openai._base_client - INFO - Retrying request to /embeddings in 0.472188 seconds
+2025-03-17 08:07:30,914 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000001A57CB5C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 08:07:30,916 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 08:07:30,917 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 08:07:30,918 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 08:07:30,918 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 08:07:30,918 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 08:07:30,919 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 08:07:32,008 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 01:07:31 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_d7db20a4b26900f59736145348abbe26'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'921898033de9fd2b-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 08:07:32,009 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 08:07:32,009 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 08:07:32,010 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 08:07:32,010 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 08:07:32,011 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 08:07:32,011 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers({'date': 'Mon, 17 Mar 2025 01:07:31 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_d7db20a4b26900f59736145348abbe26', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '921898033de9fd2b-SIN', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-17 08:07:32,011 - openai._base_client - DEBUG - request_id: req_d7db20a4b26900f59736145348abbe26
+2025-03-17 08:07:32,012 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 08:07:32,013 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-03-17 08:07:32,013 - openai._base_client - DEBUG - 1 retry left
+2025-03-17 08:07:32,014 - openai._base_client - INFO - Retrying request to /embeddings in 0.854680 seconds
+2025-03-17 08:07:32,869 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000001A57CB5C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 08:07:32,870 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 08:07:32,871 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 08:07:32,871 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 08:07:32,872 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 08:07:32,872 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 08:07:32,873 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 08:07:33,291 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 01:07:32 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_7781488d53e974470a04eb6d0726ac14'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9218980f6f12fd2b-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 08:07:33,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 08:07:33,292 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 08:07:33,293 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 08:07:33,293 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 08:07:33,294 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 08:07:33,294 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers({'date': 'Mon, 17 Mar 2025 01:07:32 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_7781488d53e974470a04eb6d0726ac14', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9218980f6f12fd2b-SIN', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-17 08:07:33,295 - openai._base_client - DEBUG - request_id: req_7781488d53e974470a04eb6d0726ac14
+2025-03-17 08:07:33,295 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 08:07:33,296 - openai._base_client - DEBUG - Re-raising status error
+2025-03-17 08:07:33,362 - httpcore.connection - DEBUG - close.started
+2025-03-17 08:07:33,364 - httpcore.connection - DEBUG - close.complete
+2025-03-17 08:10:59,644 - src.main - INFO - Basic imports successful
+2025-03-17 08:10:59,650 - src.main - INFO - Models import successful
+2025-03-17 08:10:59,759 - faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-03-17 08:10:59,867 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-03-17 08:10:59,867 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-17 08:10:59,868 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-17 08:10:59,887 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-17 08:10:59,892 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-17 08:11:01,185 - src.main - INFO - Services import successful
+2025-03-17 08:11:01,915 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000002197C73C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 08:11:01,970 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 08:11:01,970 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-03-17 08:11:02,057 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002197C376660>
+2025-03-17 08:11:02,057 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002197C340F80> server_hostname='api.openai.com' timeout=None
+2025-03-17 08:11:02,091 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002197C368690>
+2025-03-17 08:11:02,091 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 08:11:02,092 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 08:11:02,092 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 08:11:02,093 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 08:11:02,093 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 08:11:02,660 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 01:11:02 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_6004b023f2fd3cbe4ef01715bf10c6b8'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=vEXbBoRb3dkSyo_kOIMWqLW0VRn4CsVwIQrlZS8bUZg-1742173862-1.0.1.1-BYcTaQtJfISRMWznwEg1PoZ6SMDkW9NCK_yiRXFuykX8pWmXzLs7N5Zf6tJFqI80DYevDZ6pYDiG80TFEche3r9V9ewTO_nejRm5pU.CBIQ; path=/; expires=Mon, 17-Mar-25 01:41:02 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=eznmSPwkwr3_QD8G_9IUJ2hA0gi8.Z9cOmuFtdmDL8c-1742173862150-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92189d2b1bd3ce62-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 08:11:02,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 08:11:02,662 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 08:11:02,662 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 08:11:02,663 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 08:11:02,663 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 08:11:02,664 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers([('date', 'Mon, 17 Mar 2025 01:11:02 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_6004b023f2fd3cbe4ef01715bf10c6b8'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=vEXbBoRb3dkSyo_kOIMWqLW0VRn4CsVwIQrlZS8bUZg-1742173862-1.0.1.1-BYcTaQtJfISRMWznwEg1PoZ6SMDkW9NCK_yiRXFuykX8pWmXzLs7N5Zf6tJFqI80DYevDZ6pYDiG80TFEche3r9V9ewTO_nejRm5pU.CBIQ; path=/; expires=Mon, 17-Mar-25 01:41:02 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=eznmSPwkwr3_QD8G_9IUJ2hA0gi8.Z9cOmuFtdmDL8c-1742173862150-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '92189d2b1bd3ce62-SIN'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-03-17 08:11:02,664 - openai._base_client - DEBUG - request_id: req_6004b023f2fd3cbe4ef01715bf10c6b8
+2025-03-17 08:11:02,665 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 08:11:02,667 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-03-17 08:11:02,668 - openai._base_client - DEBUG - 2 retries left
+2025-03-17 08:11:02,668 - openai._base_client - INFO - Retrying request to /embeddings in 0.469880 seconds
+2025-03-17 08:11:03,138 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000002197C73C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 08:11:03,140 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 08:11:03,140 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 08:11:03,141 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 08:11:03,141 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 08:11:03,142 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 08:11:03,142 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 08:11:03,638 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 01:11:03 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_27bb3a0f063fcb2902f43c7d7cc88b41'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92189d31ae30ce62-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 08:11:03,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 08:11:03,639 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 08:11:03,640 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 08:11:03,640 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 08:11:03,640 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 08:11:03,641 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers({'date': 'Mon, 17 Mar 2025 01:11:03 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_27bb3a0f063fcb2902f43c7d7cc88b41', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92189d31ae30ce62-SIN', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-17 08:11:03,641 - openai._base_client - DEBUG - request_id: req_27bb3a0f063fcb2902f43c7d7cc88b41
+2025-03-17 08:11:03,642 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 08:11:03,643 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-03-17 08:11:03,643 - openai._base_client - DEBUG - 1 retry left
+2025-03-17 08:11:03,644 - openai._base_client - INFO - Retrying request to /embeddings in 0.752300 seconds
+2025-03-17 08:11:04,397 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'post_parser': <function Embeddings.create.<locals>.parser at 0x000002197C73C220>, 'json_data': {'input': [[198, 286, 11106, 25, 13325, 272, 39815, 293, 41807, 2665, 7933, 86632, 93205, 293, 62202, 83, 15199, 92112, 198, 286, 7817, 25, 20774, 59975, 305, 83126, 13845, 53047, 62428, 70320, 348, 41038, 7933, 62552, 7933, 57073, 326, 37845, 490, 59606, 13325, 11, 272, 6792, 1343, 1995, 79, 272, 39815, 293, 41807, 48842, 79328, 24040, 1995, 72, 13080, 26298, 76, 326, 37845, 490, 59606, 627, 286, 41994, 25, 12371, 71348, 48842, 20548, 34550, 84, 294, 57073, 89157, 11, 356, 32935, 84, 490, 6792, 66, 74686, 41038, 84, 96094, 87982, 11, 473, 6496, 76, 11, 1796, 48842, 10685, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 19, 5672, 198, 260], [198, 286, 11106, 25, 5000, 11050, 13492, 78114, 198, 286, 7817, 25, 15281, 279, 32874, 315, 3566, 4500, 2737, 9492, 11, 15533, 11, 323, 13210, 198, 286, 41994, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 11, 71565, 7127, 198, 286, 9580, 25, 93275, 198, 286, 2394, 83401, 25, 720, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 91553, 37845, 296, 62552, 735, 99761, 305, 83126, 294, 57073, 89157, 198, 286, 7817, 25, 15754, 53047, 62428, 70320, 348, 41038, 1343, 40492, 77507, 331, 294, 57073, 89157, 11, 270, 90308, 597, 5615, 272, 39815, 293, 41807, 48842, 79328, 270, 19470, 3355, 52154, 13325, 2665, 2956, 10170, 627, 286, 41994, 25, 16610, 14149, 11, 34606, 300, 11, 7011, 15768, 11, 666, 90308, 597, 5615, 272, 39815, 293, 41807, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 13325, 272, 39815, 293, 41807, 198, 286, 21722, 25, 220, 23, 5672, 198, 260], [198, 286, 11106, 25, 3676, 2927, 76260, 198, 286, 7817, 25, 11060, 279, 57940, 315, 3676, 2927, 323, 6617, 46745, 4500, 198, 286, 41994, 25, 3680, 6966, 11, 622, 8253, 24635, 28309, 11, 3314, 9744, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 9492, 84679, 11, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 605, 5672, 198, 260], [198, 286, 11106, 25, 6146, 2927, 56360, 11050, 198, 286, 7817, 25, 8012, 69311, 19713, 3600, 449, 6146, 2927, 323, 17855, 198, 286, 41994, 25, 35917, 78946, 11, 17855, 11, 26487, 5446, 198, 286, 9580, 25, 61748, 198, 286, 2394, 83401, 25, 622, 8253, 24635, 28309, 198, 286, 21722, 25, 220, 717, 5672, 198, 260]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-03-17 08:11:04,398 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-03-17 08:11:04,399 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-17 08:11:04,399 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-17 08:11:04,400 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-17 08:11:04,400 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-17 08:11:04,401 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-17 08:11:04,938 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Mon, 17 Mar 2025 01:11:04 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_6bb25ebcf02ff1cbd77545a666cc8bad'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'92189d397aa2ce62-SIN'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-17 08:11:04,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-03-17 08:11:04,939 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-17 08:11:04,940 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-17 08:11:04,940 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-17 08:11:04,940 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-17 08:11:04,941 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/embeddings "429 Too Many Requests" Headers({'date': 'Mon, 17 Mar 2025 01:11:04 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_6bb25ebcf02ff1cbd77545a666cc8bad', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '92189d397aa2ce62-SIN', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-03-17 08:11:04,941 - openai._base_client - DEBUG - request_id: req_6bb25ebcf02ff1cbd77545a666cc8bad
+2025-03-17 08:11:04,942 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/embeddings'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-03-17 08:11:04,944 - openai._base_client - DEBUG - Re-raising status error
+2025-03-17 08:11:05,013 - httpcore.connection - DEBUG - close.started
+2025-03-17 08:11:05,014 - httpcore.connection - DEBUG - close.complete
+2025-03-18 01:53:11,393 - __main__ - INFO - Basic imports successful
+2025-03-18 01:53:11,395 - __main__ - ERROR - Import error: No module named 'src'
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\RAG\RAG\src\main.py", line 24, in <module>
+    from src.models import (
+    ...<2 lines>...
+    )
+ModuleNotFoundError: No module named 'src'
+2025-03-18 01:53:35,278 - src.main - INFO - Basic imports successful
+2025-03-18 01:53:35,329 - src.main - INFO - Models import successful
+2025-03-18 01:53:35,661 - faiss.loader - DEBUG - Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-03-18 01:53:35,966 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-03-18 01:53:35,968 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 01:53:35,968 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-18 01:53:36,016 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 01:53:36,033 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 01:53:46,112 - src.embeddings - INFO - Starting embeddings script...
+2025-03-18 01:53:46,113 - src.embeddings - INFO - Loading .env file...
+2025-03-18 01:53:46,114 - src.main - INFO - Services import successful
+2025-03-18 01:53:46,116 - src.embeddings - INFO - Initializing CourseEmbeddingSystem...
+2025-03-18 01:53:46,116 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 01:53:46,122 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-03-18 01:53:47,463 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-03-18 01:53:57,487 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): huggingface.co:443
+2025-03-18 01:53:58,012 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-03-18 01:53:58,281 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-03-18 01:53:59,482 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-03-18 01:53:59,992 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-18 01:54:01,822 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-18 01:54:02,218 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6756
+2025-03-18 01:54:02,241 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 01:54:02,247 - src.embeddings - INFO - Embedding model initialized successfully
+2025-03-18 01:54:02,249 - src.embeddings - INFO - Loading courses...
+2025-03-18 01:54:02,250 - src.embeddings - INFO - Looking for courses.json at: C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 01:54:02,254 - src.embeddings - INFO - Successfully loaded 100 courses
+2025-03-18 01:54:02,374 - src.embeddings - DEBUG - Loaded course: Web Development Fundamentals
+2025-03-18 01:54:02,400 - src.embeddings - DEBUG - Loaded course: React.js Essentials
+2025-03-18 01:54:02,401 - src.embeddings - DEBUG - Loaded course: Node.js Backend Development
+2025-03-18 01:54:02,402 - src.embeddings - DEBUG - Loaded course: Machine Learning Fundamentals
+2025-03-18 01:54:02,403 - src.embeddings - DEBUG - Loaded course: Mobile App Development with Flutter
+2025-03-18 01:54:02,403 - src.embeddings - DEBUG - Loaded course: Cloud Computing with AWS
+2025-03-18 01:54:02,404 - src.embeddings - DEBUG - Loaded course: Cybersecurity Fundamentals
+2025-03-18 01:54:02,405 - src.embeddings - DEBUG - Loaded course: UI/UX Design Principles
+2025-03-18 01:54:02,405 - src.embeddings - DEBUG - Loaded course: Deep Learning with TensorFlow
+2025-03-18 01:54:02,406 - src.embeddings - DEBUG - Loaded course: DevOps Engineering
+2025-03-18 01:54:02,407 - src.embeddings - DEBUG - Loaded course: Blockchain Development
+2025-03-18 01:54:02,407 - src.embeddings - DEBUG - Loaded course: Data Engineering
+2025-03-18 01:54:02,408 - src.embeddings - DEBUG - Loaded course: Game Development with Unity
+2025-03-18 01:54:02,409 - src.embeddings - DEBUG - Loaded course: Natural Language Processing
+2025-03-18 01:54:02,409 - src.embeddings - DEBUG - Loaded course: iOS App Development
+2025-03-18 01:54:02,410 - src.embeddings - DEBUG - Loaded course: Android App Development
+2025-03-18 01:54:02,411 - src.embeddings - DEBUG - Loaded course: Computer Vision
+2025-03-18 01:54:02,412 - src.embeddings - DEBUG - Loaded course: Microservices Architecture
+2025-03-18 01:54:02,412 - src.embeddings - DEBUG - Loaded course: Quantum Computing Basics
+2025-03-18 01:54:02,413 - src.embeddings - DEBUG - Loaded course: Augmented Reality Development
+2025-03-18 01:54:02,414 - src.embeddings - DEBUG - Loaded course: Robotics Programming
+2025-03-18 01:54:02,415 - src.embeddings - DEBUG - Loaded course: Edge Computing
+2025-03-18 01:54:02,417 - src.embeddings - DEBUG - Loaded course: 5G Network Programming
+2025-03-18 01:54:02,581 - src.embeddings - DEBUG - Loaded course: Marketing Digital
+2025-03-18 01:54:03,593 - src.embeddings - INFO - Initializing CourseEmbeddingSystem...
+2025-03-18 01:54:03,594 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 01:54:09,557 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-03-18 01:54:19,574 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): huggingface.co:443
+2025-03-18 01:54:19,853 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-03-18 01:54:20,122 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-03-18 01:54:20,389 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-03-18 01:54:20,653 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-03-18 01:54:21,532 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-03-18 01:54:29,053 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6756
+2025-03-18 01:54:29,059 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 01:54:29,061 - src.embeddings - INFO - Embedding model initialized successfully
+2025-03-18 01:54:29,062 - src.embeddings - INFO - Loading courses...
+2025-03-18 01:54:29,063 - src.embeddings - INFO - Looking for courses.json at: C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 01:54:29,065 - src.embeddings - INFO - Successfully loaded 100 courses
+2025-03-18 01:54:29,084 - src.embeddings - DEBUG - Loaded course: Web Development Fundamentals
+2025-03-18 01:54:29,103 - src.embeddings - DEBUG - Loaded course: React.js Essentials
+2025-03-18 01:54:29,104 - src.embeddings - DEBUG - Loaded course: Node.js Backend Development
+2025-03-18 01:54:29,105 - src.embeddings - DEBUG - Loaded course: Machine Learning Fundamentals
+2025-03-18 01:54:29,106 - src.embeddings - DEBUG - Loaded course: Mobile App Development with Flutter
+2025-03-18 01:54:29,107 - src.embeddings - DEBUG - Loaded course: Cloud Computing with AWS
+2025-03-18 01:54:29,107 - src.embeddings - DEBUG - Loaded course: Cybersecurity Fundamentals
+2025-03-18 01:54:29,108 - src.embeddings - DEBUG - Loaded course: UI/UX Design Principles
+2025-03-18 01:54:29,109 - src.embeddings - DEBUG - Loaded course: Deep Learning with TensorFlow
+2025-03-18 01:54:29,109 - src.embeddings - DEBUG - Loaded course: DevOps Engineering
+2025-03-18 01:54:29,110 - src.embeddings - DEBUG - Loaded course: Blockchain Development
+2025-03-18 01:54:29,111 - src.embeddings - DEBUG - Loaded course: Data Engineering
+2025-03-18 01:54:29,111 - src.embeddings - DEBUG - Loaded course: Game Development with Unity
+2025-03-18 01:54:29,112 - src.embeddings - DEBUG - Loaded course: Natural Language Processing
+2025-03-18 01:54:29,113 - src.embeddings - DEBUG - Loaded course: iOS App Development
+2025-03-18 01:54:29,113 - src.embeddings - DEBUG - Loaded course: Android App Development
+2025-03-18 01:54:29,114 - src.embeddings - DEBUG - Loaded course: Computer Vision
+2025-03-18 01:54:29,115 - src.embeddings - DEBUG - Loaded course: Microservices Architecture
+2025-03-18 01:54:29,115 - src.embeddings - DEBUG - Loaded course: Quantum Computing Basics
+2025-03-18 01:54:29,116 - src.embeddings - DEBUG - Loaded course: Augmented Reality Development
+2025-03-18 01:54:29,117 - src.embeddings - DEBUG - Loaded course: Robotics Programming
+2025-03-18 01:54:29,118 - src.embeddings - DEBUG - Loaded course: Edge Computing
+2025-03-18 01:54:29,118 - src.embeddings - DEBUG - Loaded course: 5G Network Programming
+2025-03-18 01:54:29,300 - src.embeddings - DEBUG - Loaded course: Marketing Digital

@@ -1,0 +1,356 @@
+{
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Programming - Beginner",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Giới thiệu Java",
+          "Cú pháp cơ bản",
+          "Lập trình hướng đối tượng",
+          "Xử lý ngoại lệ",
+          "Collections",
+          "Đa luồng",
+          "JDBC",
+          "GUI với Swing/JavaFX"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Kiến thức nền tảng Java",
+        "duration": 28,
+        "tasks": [
+          "Cài đặt JDK và IDE (IntelliJ IDEA hoặc Eclipse)",
+          "Tìm hiểu về cú pháp cơ bản của Java: biến, kiểu dữ liệu, toán tử",
+          "Làm quen với cấu trúc điều khiển: if-else, switch-case, vòng lặp",
+          "Xây dựng các ứng dụng console đơn giản",
+          "Tìm hiểu về mảng và chuỗi trong Java"
+        ]
+      },
+      {
+        "name": "Lập trình hướng đối tượng (OOP)",
+        "duration": 28,
+        "tasks": [
+          "Tìm hiểu về các khái niệm OOP: lớp, đối tượng, kế thừa, đa hình, đóng gói",
+          "Xây dựng các lớp và đối tượng trong Java",
+          "Áp dụng các nguyên tắc SOLID vào thiết kế lớp",
+          "Tìm hiểu về interface và abstract class",
+          "Thực hành xây dựng các ứng dụng OOP"
+        ]
+      },
+      {
+        "name": "Ứng dụng Java cơ bản và làm quen với Mobile App",
+        "duration": 4,
+        "tasks": [
+          "Tìm hiểu về xử lý ngoại lệ trong Java",
+          "Làm quen với Collections Framework",
+          "Giới thiệu về Android Development",
+          "Thiết lập môi trường phát triển Android (Android Studio)",
+          "Xây dựng ứng dụng Android đơn giản (Hello World)"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2025-04-21",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Cài đặt JDK và IntelliJ IDEA (1.0 giờ)",
+          "Tìm hiểu về biến và kiểu dữ liệu trong Java (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-22",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về các toán tử trong Java (1.0 giờ)",
+          "Thực hành các bài tập về biến, kiểu dữ liệu và toán tử (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-23",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu về cấu trúc điều khiển if-else (1.0 giờ)",
+          "Thực hành các bài tập về cấu trúc if-else (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-24",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về cấu trúc điều khiển switch-case (1.0 giờ)",
+          "Thực hành các bài tập về cấu trúc switch-case (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về vòng lặp for, while, do-while (1.0 giờ)",
+          "Thực hành các bài tập về vòng lặp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-26",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xây dựng ứng dụng console đơn giản sử dụng kiến thức đã học (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-27",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập lại kiến thức đã học trong tuần (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về mảng trong Java (1.0 giờ)",
+          "Thực hành các bài tập về mảng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về chuỗi trong Java (1.0 giờ)",
+          "Thực hành các bài tập về chuỗi (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu về lớp và đối tượng (1.0 giờ)",
+          "Thực hành xây dựng các lớp và đối tượng đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về kế thừa (1.0 giờ)",
+          "Thực hành xây dựng các lớp kế thừa (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về đa hình (1.0 giờ)",
+          "Thực hành các bài tập về đa hình (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xây dựng ứng dụng OOP đơn giản (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-04",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập lại kiến thức đã học trong tuần (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về đóng gói (1.0 giờ)",
+          "Thực hành đóng gói dữ liệu trong lớp (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về interface (1.0 giờ)",
+          "Thực hành xây dựng interface và implement (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu về abstract class (1.0 giờ)",
+          "Thực hành xây dựng abstract class và kế thừa (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về xử lý ngoại lệ try-catch (1.0 giờ)",
+          "Thực hành xử lý ngoại lệ trong code (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về finally và throws (1.0 giờ)",
+          "Thực hành sử dụng finally và throws (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xây dựng ứng dụng xử lý ngoại lệ (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-11",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập lại kiến thức đã học trong tuần (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về ArrayList (1.0 giờ)",
+          "Thực hành sử dụng ArrayList (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về LinkedList (1.0 giờ)",
+          "Thực hành sử dụng LinkedList (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu về HashMap (1.0 giờ)",
+          "Thực hành sử dụng HashMap (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về HashSet (1.0 giờ)",
+          "Thực hành sử dụng HashSet (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về Iterator (1.0 giờ)",
+          "Thực hành sử dụng Iterator (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xây dựng ứng dụng sử dụng Collections Framework (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-18",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập lại kiến thức đã học trong tuần (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Giới thiệu về Android và kiến trúc ứng dụng Android (1.0 giờ)",
+          "Cài đặt Android Studio và thiết lập môi trường phát triển (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về cấu trúc dự án Android và các thành phần cơ bản (1.0 giờ)",
+          "Xây dựng ứng dụng Hello World đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu về giao diện người dùng (UI) trong Android (1.0 giờ)",
+          "Thực hành tạo giao diện người dùng đơn giản với TextView và Button (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về Layout trong Android (1.0 giờ)",
+          "Thực hành với LinearLayout và RelativeLayout (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về Activity Lifecycle (1.0 giờ)",
+          "Thực hành với các Activity đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xây dựng ứng dụng Android đơn giản với giao diện và tương tác cơ bản (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-25",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập lại kiến thức đã học trong tuần và chuẩn bị cho các bước tiếp theo (2.0 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình học Java cơ bản trong 2 tháng, tập trung vào kiến thức nền tảng và làm quen với lập trình Android. Mục tiêu là xây dựng nền tảng vững chắc để tiếp tục học các framework nâng cao.",
+    "projects": [
+      "Ứng dụng quản lý danh bạ đơn giản",
+      "Ứng dụng tính toán đơn giản",
+      "Ứng dụng Android Hello World với tương tác"
+    ],
+    "resources": [
+      "Java Tutorial for Beginners: https://www.tutorialspoint.com/java/index.htm",
+      "Java Documentation: https://docs.oracle.com/en/java/",
+      "Head First Java (Book)",
+      "Effective Java (Book)",
+      "Android Developer Documentation: https://developer.android.com/"
+    ],
+    "tips": [
+      "Thực hành code thường xuyên",
+      "Đọc tài liệu và tìm hiểu sâu hơn",
+      "Tham gia cộng đồng Java để học hỏi và chia sẻ",
+      "Đặt câu hỏi khi gặp khó khăn",
+      "Kiên trì và không bỏ cuộc"
+    ],
+    "field": "Java programming",
+    "level": "Beginner",
+    "duration": 2,
+    "daily_hours": 2,
+    "interests": [
+      "Mobile app"
+    ],
+    "is_fallback": false
+  }
+}

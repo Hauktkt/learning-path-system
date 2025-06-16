@@ -1,0 +1,433 @@
+{
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python căn bản",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Cú pháp Python",
+          "Kiểu dữ liệu",
+          "Cấu trúc điều khiển",
+          "Hàm",
+          "Module",
+          "OOP cơ bản",
+          "Xử lý lỗi",
+          "Làm việc với file"
+        ]
+      },
+      {
+        "title": "Web Development với Flask",
+        "level": "Beginner",
+        "duration": 6,
+        "topics": [
+          "Giới thiệu Flask",
+          "Routing",
+          "Templates",
+          "Forms",
+          "Database",
+          "Authentication",
+          "REST API",
+          "Deployment"
+        ]
+      },
+      {
+        "title": "Data Science với Python",
+        "level": "Beginner",
+        "duration": 6,
+        "topics": [
+          "Giới thiệu Data Science",
+          "NumPy",
+          "Pandas",
+          "Matplotlib",
+          "Scikit-learn",
+          "Phân tích dữ liệu",
+          "Trực quan hóa dữ liệu",
+          "Machine Learning cơ bản"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Giai đoạn 1: Nền tảng Python",
+        "duration": 21,
+        "tasks": [
+          "Học cú pháp cơ bản",
+          "Tìm hiểu kiểu dữ liệu",
+          "Thực hành cấu trúc điều khiển",
+          "Xây dựng hàm và module",
+          "Làm quen với OOP"
+        ]
+      },
+      {
+        "name": "Giai đoạn 2: Web Development với Flask",
+        "duration": 21,
+        "tasks": [
+          "Xây dựng ứng dụng web đơn giản",
+          "Tạo trang web động",
+          "Kết nối với database",
+          "Triển khai ứng dụng"
+        ]
+      },
+      {
+        "name": "Giai đoạn 3: Data Science cơ bản",
+        "duration": 18,
+        "tasks": [
+          "Phân tích và trực quan hóa dữ liệu",
+          "Áp dụng thuật toán Machine Learning",
+          "Xây dựng mô hình dự đoán"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2024-10-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Giới thiệu Python và cài đặt (0.5 giờ)",
+          "Cú pháp cơ bản: biến, toán tử, comment (1.5 giờ)",
+          "Thực hành: Viết chương trình in 'Hello, World!' và tính tổng hai số (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-10-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Kiểu dữ liệu: số, chuỗi, boolean (1 giờ)",
+          "Cấu trúc dữ liệu: list, tuple, dictionary (2 giờ)",
+          "Thực hành: Tạo list chứa thông tin sinh viên, in ra thông tin (1 giờ)"
+        ]
+      },
+      {
+        "date": "2024-10-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Cấu trúc điều khiển: if-else, for, while (2 giờ)",
+          "Thực hành: Viết chương trình kiểm tra số chẵn/lẻ, tính giai thừa (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-10-31",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Hàm: định nghĩa, gọi hàm, tham số (2 giờ)",
+          "Thực hành: Viết hàm tính tổng, trung bình cộng của list số (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-01",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Module: import, sử dụng module có sẵn (1 giờ)",
+          "Thực hành: Sử dụng module 'math' để tính căn bậc hai, logarit (1 giờ)",
+          "Xử lý chuỗi: các phương thức của chuỗi (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-02",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Làm quen với OOP: class, object, thuộc tính, phương thức (2 giờ)",
+          "Thực hành: Tạo class 'SinhVien' với thuộc tính tên, tuổi, mã sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-03",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập toàn bộ kiến thức đã học trong tuần (2 giờ)",
+          "Thực hành tổng hợp: Xây dựng chương trình quản lý sinh viên đơn giản (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-04",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "OOP: kế thừa, đa hình (2 giờ)",
+          "Thực hành: Tạo class 'GiangVien' kế thừa từ 'SinhVien', thêm thuộc tính 'mon_hoc' (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-05",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Xử lý lỗi: try-except (2 giờ)",
+          "Thực hành: Viết chương trình xử lý lỗi chia cho 0, lỗi nhập sai kiểu dữ liệu (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-06",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Làm việc với file: đọc, ghi file (2 giờ)",
+          "Thực hành: Viết chương trình đọc dữ liệu từ file, ghi dữ liệu vào file (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-07",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu Flask: cài đặt, ứng dụng web đầu tiên (1 giờ)",
+          "Routing: định nghĩa routes, xử lý requests (2 giờ)",
+          "Thực hành: Tạo route hiển thị trang chủ (1 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-08",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Templates: sử dụng Jinja2 để tạo trang web động (2 giờ)",
+          "Thực hành: Tạo template hiển thị danh sách sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-09",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Forms: tạo form, xử lý dữ liệu form (2 giờ)",
+          "Thực hành: Tạo form đăng ký sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-10",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập Flask, template, form (2 giờ)",
+          "Thực hành: Hoàn thiện form đăng ký sinh viên, lưu dữ liệu vào file (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-11",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Database: kết nối với SQLite (2 giờ)",
+          "Thực hành: Tạo database quản lý sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-12",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Database: CRUD operations (2 giờ)",
+          "Thực hành: Thêm, sửa, xóa, xem thông tin sinh viên trong database (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-13",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Authentication: đăng ký, đăng nhập (2 giờ)",
+          "Thực hành: Tạo chức năng đăng ký, đăng nhập cho ứng dụng web (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-14",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "REST API: giới thiệu, xây dựng API đơn giản (2 giờ)",
+          "Thực hành: Tạo API lấy danh sách sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-15",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Deployment: triển khai ứng dụng lên Heroku (2 giờ)",
+          "Thực hành: Triển khai ứng dụng quản lý sinh viên lên Heroku (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-16",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Giới thiệu Data Science, NumPy (2 giờ)",
+          "Thực hành: Tạo, thao tác với mảng NumPy (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-17",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập Database, REST API, Deployment (2 giờ)",
+          "Thực hành: Viết API cho phép thêm, sửa, xóa sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-18",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Pandas: Series, DataFrame (2 giờ)",
+          "Thực hành: Tạo DataFrame từ list, dictionary (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-19",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Pandas: Đọc, ghi file CSV, Excel (2 giờ)",
+          "Thực hành: Đọc dữ liệu từ file CSV, hiển thị thông tin (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-20",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Pandas: Lọc, sắp xếp, nhóm dữ liệu (2 giờ)",
+          "Thực hành: Lọc dữ liệu sinh viên theo tuổi, sắp xếp theo tên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-21",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Matplotlib: vẽ biểu đồ (2 giờ)",
+          "Thực hành: Vẽ biểu đồ phân bố tuổi của sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-22",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Scikit-learn: giới thiệu, chuẩn bị dữ liệu (2 giờ)",
+          "Thực hành: Chia dữ liệu thành tập huấn luyện, tập kiểm tra (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-23",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Scikit-learn: Linear Regression (2 giờ)",
+          "Thực hành: Xây dựng mô hình Linear Regression (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-24",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập NumPy, Pandas, Matplotlib (2 giờ)",
+          "Thực hành: Phân tích dữ liệu về điểm thi của sinh viên (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-25",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Scikit-learn: Logistic Regression (2 giờ)",
+          "Thực hành: Xây dựng mô hình Logistic Regression (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-26",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Scikit-learn: Đánh giá mô hình (2 giờ)",
+          "Thực hành: Đánh giá độ chính xác của mô hình (2 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-27",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Project 1: Xây dựng ứng dụng web đơn giản với Flask (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-28",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Project 1: Xây dựng ứng dụng web đơn giản với Flask (tiếp tục) (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-29",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Project 2: Phân tích dữ liệu và trực quan hóa (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-11-30",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Project 2: Phân tích dữ liệu và trực quan hóa (tiếp tục) (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-01",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Ôn tập toàn bộ kiến thức và các project đã làm (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-02",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Project 3: Xây dựng mô hình dự đoán đơn giản (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-03",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Project 3: Xây dựng mô hình dự đoán đơn giản (tiếp tục) (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-04",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Tìm hiểu thêm về một thư viện/framework Python nâng cao (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-05",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu thêm về một thư viện/framework Python nâng cao (tiếp tục) (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-06",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Ôn tập và chuẩn bị cho các bước tiếp theo (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-07",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Ôn tập và chuẩn bị cho các bước tiếp theo (tiếp tục) (4 giờ)"
+        ]
+      },
+      {
+        "date": "2024-12-08",
+        "day_of_week": "Chủ nhật",
+        "tasks": [
+          "Đánh giá toàn bộ quá trình học tập và lên kế hoạch cho tương lai (4 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình học Python cho người mới bắt đầu trong 2 tháng, tập trung vào Web Development và Data Science. Lộ trình này bao gồm kiến thức nền tảng, thực hành và các dự án nhỏ để củng cố kiến thức.",
+    "projects": [
+      "Xây dựng ứng dụng web quản lý sinh viên đơn giản bằng Flask.",
+      "Phân tích và trực quan hóa dữ liệu về doanh số bán hàng.",
+      "Xây dựng mô hình dự đoán giá nhà dựa trên các yếu tố như diện tích, vị trí."
+    ],
+    "resources": [
+      "Tài liệu Python chính thức: https://docs.python.org/3/",
+      "Flask documentation: https://flask.palletsprojects.com/en/2.3.x/",
+      "Pandas documentation: https://pandas.pydata.org/docs/",
+      "NumPy documentation: https://numpy.org/doc/",
+      "Scikit-learn documentation: https://scikit-learn.org/stable/"
+    ],
+    "tips": [
+      "Thực hành thường xuyên là chìa khóa thành công.",
+      "Đọc code của người khác để học hỏi.",
+      "Tham gia cộng đồng Python để được hỗ trợ.",
+      "Đừng ngại đặt câu hỏi khi gặp khó khăn.",
+      "Chia nhỏ vấn đề lớn thành các vấn đề nhỏ hơn."
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "learning_path": {
+    "field": "Python programming",
+    "level": "Beginner",
+    "duration": 2,
+    "daily_hours": 2,
+    "interests": [
+      "Web Development"
+    ],
+    "courses": [
+      {
+        "title": "Python Programming Fundamentals for Web Development",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Python basics",
+          "Data structures",
+          "Object-oriented programming",
+          "Web development fundamentals",
+          "Introduction to Frameworks"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Phase 1: Python Fundamentals (Weeks 1-3)",
+        "duration": 21,
+        "tasks": [
+          "Understand Python syntax and data types",
+          "Learn about control flow and functions",
+          "Explore basic data structures like lists and dictionaries"
+        ]
+      },
+      {
+        "name": "Phase 2: Object-Oriented Programming and Web Development Basics (Weeks 4-6)",
+        "duration": 21,
+        "tasks": [
+          "Grasp object-oriented programming concepts",
+          "Learn about HTML, CSS, and basic JavaScript",
+          "Understand the basics of HTTP and web requests"
+        ]
+      },
+      {
+        "name": "Phase 3: Introduction to Web Frameworks and Project (Weeks 7-8)",
+        "duration": 14,
+        "tasks": [
+          "Get introduced to a Python web framework (e.g., Flask or Django)",
+          "Learn how to build simple web applications",
+          "Work on a small personal web project"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2025-04-24",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Giới thiệu Python: Cài đặt và thiết lập môi trường (0.5 giờ)",
+          "Biến, kiểu dữ liệu và toán tử trong Python (1.5 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Cấu trúc điều khiển: if, else, elif (1 giờ)",
+          "Vòng lặp: for và while (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-26",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Hàm: Định nghĩa và sử dụng (1.5 giờ)",
+          "Tham số và giá trị trả về (0.5 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-27",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Chuỗi: thao tác và định dạng (1 giờ)",
+          "Danh sách: Các thao tác cơ bản (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Từ điển: Khai báo, truy xuất và sử dụng (1 giờ)",
+          "Tuple và Set: Khái niệm và ứng dụng (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Xử lý ngoại lệ: try, except (1 giờ)",
+          "Đọc và ghi file (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 1 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Nhập module: math, random (1 giờ)",
+          "Thực hành sử dụng các hàm trong module (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Giới thiệu về lập trình hướng đối tượng (OOP) (1 giờ)",
+          "Class và Object: Định nghĩa và tạo (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Thuộc tính (Attributes) và Phương thức (Methods) (1 giờ)",
+          "Kế thừa (Inheritance) (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-04",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Đa hình (Polymorphism) (1 giờ)",
+          "Đóng gói (Encapsulation) (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về HTML cơ bản: cấu trúc trang web (1 giờ)",
+          "Các thẻ HTML quan trọng: headings, paragraphs, lists, links (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Giới thiệu về CSS: selectors, properties (1 giờ)",
+          "Áp dụng CSS vào HTML: inline, internal, external (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 2 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "JavaScript cơ bản: biến, kiểu dữ liệu, toán tử (1 giờ)",
+          "Câu lệnh điều kiện và vòng lặp trong JavaScript (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Hàm trong JavaScript: định nghĩa và sử dụng (1 giờ)",
+          "Sự kiện (Events) trong JavaScript (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về HTTP request và response (1 giờ)",
+          "Sử dụng thư viện `requests` trong Python để gửi HTTP request (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-11",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Giới thiệu về Flask: cài đặt và cấu hình (1 giờ)",
+          "Xây dựng ứng dụng Flask đơn giản: route và view (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Templates trong Flask: sử dụng Jinja2 (1 giờ)",
+          "Truyền dữ liệu từ view đến template (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Forms trong Flask: tạo và xử lý (1 giờ)",
+          "Sử dụng WTForms (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 3 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Kết nối Flask với cơ sở dữ liệu (1 giờ)",
+          "Sử dụng SQLite (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về ORM (Object-Relational Mapping) (1 giờ)",
+          "Sử dụng SQLAlchemy (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tạo model trong SQLAlchemy (1 giờ)",
+          "Thực hiện các thao tác CRUD (Create, Read, Update, Delete) (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-18",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Authentication: Đăng ký và đăng nhập (1 giờ)",
+          "Sử dụng Flask-Login (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Authorization: Phân quyền người dùng (1 giờ)",
+          "Sử dụng Flask-Principal (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tìm hiểu về Django: cài đặt và cấu hình (1 giờ)",
+          "Tạo project Django đầu tiên (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 4 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Django Models: Định nghĩa và sử dụng (1 giờ)",
+          "Django Admin: Giao diện quản trị (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Django Views: Function-based và Class-based (1 giờ)",
+          "Django Templates: Sử dụng Django Template Language (DTL) (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Django Forms: Tạo và xử lý (1 giờ)",
+          "Django URLs: Định nghĩa và sử dụng (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-25",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về RESTful APIs (1 giờ)",
+          "Xây dựng API đơn giản với Flask hoặc Django Rest Framework (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-26",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Testing: Viết unit tests cho ứng dụng web (1 giờ)",
+          "Debugging: Tìm và sửa lỗi trong ứng dụng web (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-27",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Triển khai (Deployment): Đưa ứng dụng web lên server (1 giờ)",
+          "Tìm hiểu về các dịch vụ hosting (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-28",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 5 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-29",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bắt đầu xây dựng dự án web cá nhân: Lên kế hoạch và thiết kế (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-30",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Xây dựng phần backend của dự án (1 giờ)",
+          "Thiết kế cơ sở dữ liệu (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-31",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xây dựng API cho dự án (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-01",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bắt đầu xây dựng phần frontend của dự án (1 giờ)",
+          "Thiết kế giao diện người dùng (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-02",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Kết nối frontend với backend thông qua API (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-03",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Kiểm tra và sửa lỗi (bug) cho dự án (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-04",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 6 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-05",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tiếp tục xây dựng dự án web cá nhân: thêm chức năng mới (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-06",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tối ưu hóa hiệu suất của ứng dụng web (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-07",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Cải thiện bảo mật cho ứng dụng web (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-08",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Viết tài liệu cho dự án (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-09",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Triển khai dự án lên server (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-10",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Thực hành và củng cố kiến thức (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-11",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 7 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-12",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu thêm về Django REST framework: Serializers (1 giờ)",
+          "Views và Routers trong Django REST framework (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-13",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Tìm hiểu về Asyncio trong Python (1 giờ)",
+          "Ứng dụng Asyncio vào Web development (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-14",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tìm hiểu về Docker (1 giờ)",
+          "Dockerize một ứng dụng Flask hoặc Django (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-15",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về CI/CD (Continuous Integration/Continuous Deployment) (1 giờ)",
+          "Sử dụng Github Actions (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-16",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Refactor dự án: Viết code sạch và dễ bảo trì (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-17",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Hoàn thiện dự án cá nhân (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-18",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 8 (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-19",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Chuẩn bị cho phỏng vấn (1 giờ)",
+          "Ôn tập kiến thức chuyên môn (1 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-20",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Luyện tập phỏng vấn (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-21",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Hoàn thiện dự án web và chuẩn bị trình bày (2 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-22",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Đánh giá lại toàn bộ lộ trình học tập (2 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình này được thiết kế để cung cấp cho người mới bắt đầu kiến thức cơ bản về lập trình Python và ứng dụng nó vào phát triển web. Nó bao gồm các khái niệm cơ bản về Python, OOP, HTML, CSS, JavaScript và giới thiệu các framework web phổ biến như Flask và Django.",
+    "projects": [
+      "Xây dựng một blog đơn giản sử dụng Flask hoặc Django.",
+      "Tạo một ứng dụng quản lý danh sách công việc (to-do list) với giao diện web.",
+      "Phát triển một trang web cá nhân giới thiệu bản thân và các dự án đã thực hiện.",
+      "Xây dựng một ứng dụng dự báo thời tiết đơn giản sử dụng API thời tiết."
+    ],
+    "resources": [
+      "Codecademy: Learn Python",
+      "FreeCodeCamp: Responsive Web Design Certification",
+      "MDN Web Docs: HTML, CSS, JavaScript",
+      "Flask Documentation",
+      "Django Documentation",
+      "Python Documentation"
+    ],
+    "tips": [
+      "Thực hành thường xuyên là chìa khóa để thành công.",
+      "Tìm một cộng đồng học tập để hỗ trợ và chia sẻ kinh nghiệm.",
+      "Đừng ngại đặt câu hỏi khi gặp khó khăn.",
+      "Xây dựng các dự án cá nhân để áp dụng kiến thức đã học.",
+      "Đọc tài liệu và blog chuyên ngành để cập nhật kiến thức mới."
+    ],
+    "is_fallback": false
+  }
+}

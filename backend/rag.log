@@ -1,0 +1,180 @@
+2025-03-18 10:09:02,983 - __main__ - INFO - Initialized Cohere client
+2025-03-18 10:09:02,986 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 10:09:13,701 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 10:09:13,706 - __main__ - INFO - Initialized sentence transformer model
+2025-03-18 10:09:13,710 - __main__ - INFO - Loaded courses from C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 10:09:13,711 - __main__ - INFO - Loaded 100 courses
+2025-03-18 10:09:14,277 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:09:14,441 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:09:16,153 - __main__ - INFO - Created embeddings with shape (100, 1024)
+2025-03-18 10:09:16,154 - __main__ - INFO - Created and populated FAISS index
+2025-03-18 10:09:16,156 - __main__ - INFO - Created embeddings and FAISS index
+2025-03-18 10:09:16,157 - __main__ - INFO - Finding similar courses for query: I want to learn Python programming from scratch
+2025-03-18 10:09:16,447 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:09:16,503 - __main__ - INFO - Found 3 similar courses
+2025-03-18 10:09:23,163 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 10:09:23,168 - __main__ - INFO - Finding similar courses for query: What are the prerequisites for learning Python?
+2025-03-18 10:09:23,440 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:09:23,456 - __main__ - INFO - Found 2 similar courses
+2025-03-18 10:09:30,230 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 10:14:41,797 - __main__ - INFO - Initialized Cohere client
+2025-03-18 10:14:41,799 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 10:14:45,265 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 10:14:45,268 - __main__ - INFO - Initialized sentence transformer model
+2025-03-18 10:14:45,271 - __main__ - INFO - Loaded courses from C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 10:14:45,272 - __main__ - INFO - Loaded 100 courses
+2025-03-18 10:14:45,819 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:14:46,009 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:14:47,681 - __main__ - INFO - Created embeddings with shape (100, 1024)
+2025-03-18 10:14:47,682 - __main__ - INFO - Created and populated FAISS index
+2025-03-18 10:14:47,683 - __main__ - INFO - Created embeddings and FAISS index
+2025-03-18 10:14:48,073 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:14:48,121 - __main__ - INFO - Found 3 similar courses
+2025-03-18 10:15:22,828 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 10:15:23,119 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 10:15:23,134 - __main__ - INFO - Found 2 similar courses
+2025-03-18 10:15:39,570 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 19:04:21,207 - __main__ - INFO - Initialized Cohere client
+2025-03-18 19:04:21,208 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 19:04:25,294 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 19:04:25,297 - __main__ - INFO - Initialized sentence transformer model
+2025-03-18 19:04:25,298 - __main__ - INFO - Loaded courses from C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 19:04:25,299 - __main__ - INFO - Loaded 100 courses
+2025-03-18 19:04:25,900 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:04:26,021 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:04:27,330 - __main__ - INFO - Created embeddings with shape (100, 1024)
+2025-03-18 19:04:27,331 - __main__ - INFO - Created and populated FAISS index
+2025-03-18 19:04:27,332 - __main__ - INFO - Created embeddings and FAISS index
+2025-03-18 19:04:27,625 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:04:27,650 - __main__ - INFO - Found 5 similar courses
+2025-03-18 19:05:13,818 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 19:05:14,148 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:05:14,192 - __main__ - INFO - Found 2 similar courses
+2025-03-18 19:05:33,930 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 19:16:17,146 - __main__ - INFO - Initialized Cohere client
+2025-03-18 19:16:17,148 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 19:16:22,208 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 19:16:22,212 - __main__ - INFO - Initialized sentence transformer model
+2025-03-18 19:16:22,215 - __main__ - INFO - Loaded courses from C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 19:16:22,216 - __main__ - INFO - Loaded 100 courses
+2025-03-18 19:16:22,792 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:16:23,039 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:16:24,748 - __main__ - INFO - Created embeddings with shape (100, 1024)
+2025-03-18 19:16:24,749 - __main__ - INFO - Created and populated FAISS index
+2025-03-18 19:16:24,750 - __main__ - INFO - Created embeddings and FAISS index
+2025-03-18 19:16:25,046 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:16:25,353 - __main__ - INFO - Found 5 similar courses
+2025-03-18 19:18:09,327 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 19:18:09,663 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:18:09,715 - __main__ - INFO - Found 2 similar courses
+2025-03-18 19:20:40,012 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 19:23:39,616 - __main__ - INFO - Initialized Cohere client
+2025-03-18 19:23:39,617 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-18 19:23:42,617 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-18 19:23:42,619 - __main__ - INFO - Initialized sentence transformer model
+2025-03-18 19:23:42,621 - __main__ - INFO - Loaded courses from C:\Users\HP\Downloads\RAG\RAG\data\courses.json
+2025-03-18 19:23:42,621 - __main__ - INFO - Loaded 100 courses
+2025-03-18 19:23:43,250 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:23:43,422 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:23:44,535 - __main__ - INFO - Created embeddings with shape (100, 1024)
+2025-03-18 19:23:44,535 - __main__ - INFO - Created and populated FAISS index
+2025-03-18 19:23:44,536 - __main__ - INFO - Created embeddings and FAISS index
+2025-03-18 19:23:44,819 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:23:44,892 - __main__ - INFO - Found 5 similar courses
+2025-03-18 19:24:44,810 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 19:24:45,101 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 19:24:45,124 - __main__ - INFO - Found 2 similar courses
+2025-03-18 19:28:19,173 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:00:18,843 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:00:19,116 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:00:20,204 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:00:20,205 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:00:20,205 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:00:20,277 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:00:20,284 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:00:20,560 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:00:31,437 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:06:45,682 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:06:45,878 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:06:47,238 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:06:47,239 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:06:47,240 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:06:47,313 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:06:47,320 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:06:47,602 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:06:56,768 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:08:56,920 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:08:56,921 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:08:57,791 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:08:57,792 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:08:57,792 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:08:57,811 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:08:57,816 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:08:58,112 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:09:40,303 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:12:03,944 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:12:04,209 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:12:05,938 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:12:05,939 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:12:05,940 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:12:05,958 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:12:05,963 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:12:06,283 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:12:15,312 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:23:15,669 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:23:15,955 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:23:17,073 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:23:17,074 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:23:17,074 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:23:17,140 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:23:17,147 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:23:17,431 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:23:30,876 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:31:29,166 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:31:29,413 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:31:30,125 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:31:30,126 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:31:30,127 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:31:30,198 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:31:30,205 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:31:30,539 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:33:39,784 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:40:27,526 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:40:27,772 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:40:29,288 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:40:29,288 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:40:29,289 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:40:29,348 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:40:29,354 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:40:29,652 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:40:58,143 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-18 20:43:30,598 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:43:30,757 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:43:31,507 - INFO - Loading faiss with AVX512 support.
+2025-03-18 20:43:31,508 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-18 20:43:31,509 - INFO - Loading faiss with AVX2 support.
+2025-03-18 20:43:31,531 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-18 20:43:31,537 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-18 20:43:31,824 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-18 20:44:04,868 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-19 00:27:06,013 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:27:06,748 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:36:38,658 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:36:39,391 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:38:04,884 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:40:42,362 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:40:51,269 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-19 00:47:31,968 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:47:32,896 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:47:41,582 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-19 00:48:35,118 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:48:35,643 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 00:48:44,257 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"

@@ -1,0 +1,6 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H100V100H0V0ZM99 1H1V99H99V1Z" fill="white" fill-opacity="0.1"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M10 10H90V90H10V10ZM89 11H11V89H89V11Z" fill="white" fill-opacity="0.05"/>
+  <path d="M0 0V-1H-1V0H0ZM100 0H101V-1H100V0ZM100 100V101H101V100H100ZM0 100H-1V101H0V100ZM0 1H100V-1H0V1ZM99 0V100H101V0H99ZM100 99H0V101H100V99ZM1 100V0H-1V100H1Z" fill="white" fill-opacity="0.1"/>
+  <path d="M10 10V9H9V10H10ZM90 10H91V9H90V10ZM90 90V91H91V90H90ZM10 90H9V91H10V90ZM10 11H90V9H10V11ZM89 10V90H91V10H89ZM90 89H10V91H90V89ZM11 90V10H9V90H11Z" fill="white" fill-opacity="0.05"/>
+</svg> 

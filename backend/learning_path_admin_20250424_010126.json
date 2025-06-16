@@ -1,0 +1,522 @@
+{
+  "learning_path": {
+    "field": "JavaScript programming",
+    "level": "Beginner",
+    "duration": 2,
+    "daily_hours": 2,
+    "interests": [
+      "Web Development"
+    ],
+    "courses": [
+      {
+        "title": "JavaScript Fundamentals for Web Development",
+        "level": "Beginner",
+        "duration": 4,
+        "topics": [
+          "Giới thiệu JavaScript",
+          "Cú pháp cơ bản",
+          "Biến, kiểu dữ liệu, toán tử",
+          "Cấu trúc điều khiển",
+          "Hàm",
+          "Đối tượng",
+          "DOM Manipulation"
+        ]
+      },
+      {
+        "title": "JavaScript in the Browser: DOM and Events",
+        "level": "Beginner",
+        "duration": 4,
+        "topics": [
+          "Document Object Model (DOM)",
+          "Events: click, hover, submit",
+          "Xử lý sự kiện",
+          "Thay đổi nội dung và thuộc tính HTML",
+          "CSS Manipulation",
+          "Thực hành với các hiệu ứng đơn giản"
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Phase 1: JavaScript Cơ Bản (Tuần 1-4)",
+        "duration": 30,
+        "tasks": [
+          "Nắm vững cú pháp JavaScript",
+          "Làm quen với các kiểu dữ liệu và toán tử",
+          "Học cách sử dụng cấu trúc điều khiển",
+          "Tìm hiểu về hàm và đối tượng",
+          "Bắt đầu làm quen với DOM"
+        ]
+      },
+      {
+        "name": "Phase 2: Tương tác với trình duyệt (Tuần 5-8)",
+        "duration": 30,
+        "tasks": [
+          "Hiểu sâu hơn về DOM",
+          "Học cách xử lý các sự kiện trong trình duyệt",
+          "Thay đổi nội dung và thuộc tính HTML/CSS",
+          "Xây dựng các ứng dụng web tương tác đơn giản"
+        ]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2025-04-24",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bài 1: Giới thiệu về JavaScript (1.0 giờ)",
+          "Cài đặt môi trường phát triển (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 2: Biến, kiểu dữ liệu và toán tử (1.0 giờ)",
+          "Thực hành: Viết các biểu thức đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-26",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 3: Cấu trúc điều khiển: if/else, switch (1.0 giờ)",
+          "Thực hành: Giải quyết các bài toán điều kiện (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-27",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bài 4: Vòng lặp: for, while (1.0 giờ)",
+          "Thực hành: Duyệt mảng và tính tổng (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-28",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bài 5: Hàm: Định nghĩa và sử dụng (1.0 giờ)",
+          "Thực hành: Viết hàm tính toán (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-29",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Bài 6: Đối tượng: Tạo và truy cập thuộc tính (1.0 giờ)",
+          "Thực hành: Tạo đối tượng mô tả thông tin (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-04-30",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 1 (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Bài 7: Giới thiệu về DOM (1.0 giờ)",
+          "Chọn phần tử DOM bằng JavaScript (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 8: Thay đổi nội dung và thuộc tính của phần tử DOM (1.0 giờ)",
+          "Thực hành: Thay đổi text của button (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 9: CSS Manipulation với JavaScript (1.0 giờ)",
+          "Thực hành: Thay đổi màu nền, kích thước chữ (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-04",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Bài 10: Sự kiện: click, hover, submit (1.0 giờ)",
+          "Thực hành: Tạo alert khi click vào button (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Bài 11: Xử lý sự kiện: Thêm, xóa phần tử DOM (1.0 giờ)",
+          "Thực hành: Thêm element vào danh sách (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Bài 12: Xây dựng ứng dụng Todo List đơn giản (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 2 và hoàn thiện ứng dụng Todo List (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Tìm hiểu về các phương thức DOM nâng cao: querySelector, querySelectorAll (1.0 giờ)",
+          "Thực hành: Sử dụng querySelectorAll để chọn các phần tử có cùng class (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Bài 13: Làm việc với form: Lấy dữ liệu từ form (1.0 giờ)",
+          "Thực hành: Tạo form đăng ký đơn giản (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Bài 14: Xác thực dữ liệu form (1.0 giờ)",
+          "Thực hành: Kiểm tra email, password (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-11",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Tìm hiểu về localStorage (1.0 giờ)",
+          "Thực hành: Lưu và lấy dữ liệu từ localStorage (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Giới thiệu về AJAX và API (1.0 giờ)",
+          "Thực hành: Gọi API đơn giản để lấy dữ liệu (1.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Xây dựng ứng dụng Calculator đơn giản (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức tuần 3 và hoàn thiện ứng dụng Calculator (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Thực hành AJAX: Gọi API để hiển thị danh sách sản phẩm (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Thực hành AJAX: Tìm kiếm sản phẩm bằng API (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tổng kết khóa học và chuẩn bị cho các bước tiếp theo (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-18",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập AJAX, Fetch API (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Xây dựng 1 game đơn giản (ví dụ: đoán số) (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Tiếp tục xây dựng game (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Hoàn thiện game và deploy lên Github Pages (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Ôn tập kiến thức về DOM manipulation (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Xây dựng một trang web hiển thị thông tin thời tiết sử dụng API (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Tiếp tục xây dựng trang web thông tin thời tiết (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-25",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Hoàn thiện trang web thông tin thời tiết (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-26",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Tìm hiểu về Jquery, cách sử dụng các selector và event đơn giản (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-27",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-28",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Làm bài kiểm tra cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-29",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Làm bài kiểm tra cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-30",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-05-31",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-01",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-02",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-03",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-04",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-05",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-06",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-07",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-08",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-09",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-10",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-11",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Làm bài kiểm tra cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-12",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Làm bài kiểm tra cuối khóa (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-13",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-14",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-15",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-16",
+        "day_of_week": "Thứ Hai",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-17",
+        "day_of_week": "Thứ Ba",
+        "tasks": [
+          "Xem lại các bài đã học, chuẩn bị cho level cao hơn (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-18",
+        "day_of_week": "Thứ Tư",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-19",
+        "day_of_week": "Thứ Năm",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-20",
+        "day_of_week": "Thứ Sáu",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-21",
+        "day_of_week": "Thứ Bảy",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      },
+      {
+        "date": "2025-06-22",
+        "day_of_week": "Chủ Nhật",
+        "tasks": [
+          "Ôn tập kiến thức (2.0 giờ)"
+        ]
+      }
+    ],
+    "overview": "Lộ trình học JavaScript cơ bản dành cho người mới bắt đầu, tập trung vào các kiến thức nền tảng và ứng dụng trong phát triển web. Trong 2 tháng, bạn sẽ được trang bị các kỹ năng cần thiết để xây dựng các trang web tương tác đơn giản.",
+    "projects": [
+      "Xây dựng trang web cá nhân đơn giản",
+      "Ứng dụng Todo List",
+      "Ứng dụng Calculator",
+      "Trang web hiển thị thông tin thời tiết"
+    ],
+    "resources": [
+      "MDN Web Docs (developer.mozilla.org)",
+      "FreeCodeCamp (freecodecamp.org)",
+      "JavaScript.info (javascript.info)",
+      "W3Schools (w3schools.com/js)"
+    ],
+    "tips": [
+      "Thực hành thường xuyên là chìa khóa để thành công",
+      "Đọc tài liệu và tìm kiếm giải pháp khi gặp khó khăn",
+      "Tham gia cộng đồng để học hỏi và chia sẻ kinh nghiệm",
+      "Chia nhỏ các bài tập lớn thành các bài tập nhỏ hơn",
+      "Đừng ngại thử nghiệm và mắc lỗi"
+    ],
+    "is_fallback": false
+  }
+}

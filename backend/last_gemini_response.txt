@@ -1,0 +1,504 @@
+```json
+{
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Dart Fundamentals",
+        "level": "Beginner",
+        "duration": 24,
+        "topics": ["Cú pháp Dart", "Kiểu dữ liệu", "Biến và Hằng", "Toán tử", "Cấu trúc điều khiển", "Hàm", "Lớp và Đối tượng", "Null safety"]
+      },
+      {
+        "title": "Asynchronous Programming in Dart",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": ["Futures", "Async/Await", "Streams"]
+      },
+      {
+        "title": "Flutter Basics",
+        "level": "Beginner",
+        "duration": 32,
+        "topics": ["Widgets", "Layouts", "State Management", "Navigation", "Networking", "Local Storage"]
+      }
+    ],
+    "phases": [
+      {
+        "name": "Giai đoạn 1: Nền tảng Dart",
+        "duration": 30,
+        "tasks": ["Học cú pháp cơ bản của Dart", "Tìm hiểu về các kiểu dữ liệu và toán tử", "Làm quen với cấu trúc điều khiển và hàm", "Khám phá lập trình hướng đối tượng trong Dart", "Tìm hiểu về Null safety"]
+      },
+      {
+        "name": "Giai đoạn 2: Lập trình bất đồng bộ và quản lý dữ liệu",
+        "duration": 30,
+        "tasks": ["Học về Futures và Async/Await", "Tìm hiểu về Streams", "Thực hành xử lý dữ liệu từ API", "Lưu trữ dữ liệu cục bộ với SharedPreferences hoặc SQLite"]
+      },
+      {
+        "name": "Giai đoạn 3: Xây dựng ứng dụng Flutter cơ bản",
+        "duration": 30,
+        "tasks": ["Làm quen với Widgets và Layouts", "Tìm hiểu về State Management (setState)", "Xây dựng giao diện người dùng cơ bản", "Thực hành điều hướng giữa các màn hình", "Kết nối ứng dụng với API"]
+      }
+    ],
+    "daily_plan": [
+      {
+        "date": "2024-01-01",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Giới thiệu về Dart: Lịch sử, ưu điểm, cài đặt (0.5 giờ)", "Cú pháp cơ bản: Biến, kiểu dữ liệu, toán tử (1.5 giờ)"]
+      },
+      {
+        "date": "2024-01-02",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Cấu trúc điều khiển: if/else, switch, for, while (1 giờ)", "Bài tập thực hành: Viết chương trình giải phương trình bậc nhất (1 giờ)"]
+      },
+      {
+        "date": "2024-01-03",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Hàm: Định nghĩa, gọi hàm, tham số (1 giờ)", "Bài tập thực hành: Viết hàm tính giai thừa (1 giờ)"]
+      },
+      {
+        "date": "2024-01-04",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Lớp và đối tượng: Khái niệm, thuộc tính, phương thức (1 giờ)", "Bài tập thực hành: Xây dựng lớp 'Hình chữ nhật' (1 giờ)"]
+      },
+      {
+        "date": "2024-01-05",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Kế thừa và đa hình (1 giờ)", "Bài tập thực hành: Xây dựng lớp 'Hình vuông' kế thừa từ 'Hình chữ nhật' (1 giờ)"]
+      },
+      {
+        "date": "2024-01-06",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Null safety: Khái niệm, cách sử dụng (1 giờ)", "Bài tập thực hành: Chuyển đổi code cũ sang sử dụng Null safety (1 giờ)"]
+      },
+      {
+        "date": "2024-01-07",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức tuần 1: Thực hành các bài tập tổng hợp (2 giờ)"]
+      },
+      {
+        "date": "2024-01-08",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Collection: List, Set, Map (1 giờ)", "Bài tập thực hành: Sử dụng List để lưu trữ danh sách sinh viên (1 giờ)"]
+      },
+      {
+        "date": "2024-01-09",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Generics (1 giờ)", "Bài tập thực hành: Xây dựng lớp Generic để lưu trữ các loại dữ liệu khác nhau (1 giờ)"]
+      },
+       {
+        "date": "2024-01-10",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Exception Handling: try-catch-finally (1 giờ)", "Bài tập thực hành: Xử lý lỗi khi đọc file (1 giờ)"]
+      },
+      {
+        "date": "2024-01-11",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Asynchronous Programming: Futures (1 giờ)", "Ví dụ: Gọi API đơn giản sử dụng Future (1 giờ)"]
+      },
+      {
+        "date": "2024-01-12",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Asynchronous Programming: Async/Await (1 giờ)", "Chuyển đổi ví dụ Future sang Async/Await (1 giờ)"]
+      },
+      {
+        "date": "2024-01-13",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Asynchronous Programming: Streams (1 giờ)", "Ví dụ: Đọc dữ liệu từ file theo Stream (1 giờ)"]
+      },
+      {
+        "date": "2024-01-14",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức tuần 2: Thực hành các bài tập tổng hợp về Asynchronous Programming (2 giờ)"]
+      },
+      {
+        "date": "2024-01-15",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Giới thiệu về Flutter: Cài đặt, cấu trúc dự án (0.5 giờ)", "Widgets cơ bản: Text, Image, Icon (1.5 giờ)"]
+      },
+      {
+        "date": "2024-01-16",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Layout Widgets: Row, Column, Container, Padding (1 giờ)", "Thực hành: Xây dựng layout đơn giản (1 giờ)"]
+      },
+      {
+        "date": "2024-01-17",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Stateful vs StatelessWidget (1 giờ)", "Tìm hiểu về setState() (1 giờ)"]
+      },
+      {
+        "date": "2024-01-18",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Input Widgets: TextField, Button (1 giờ)", "Thực hành: Xây dựng form đăng nhập đơn giản (1 giờ)"]
+      },
+      {
+        "date": "2024-01-19",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Listview (1 giờ)", "Thực hành: Hiển thị danh sách dữ liệu (1 giờ)"]
+      },
+      {
+        "date": "2024-01-20",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Navigation: Push, Pop (1 giờ)", "Thực hành: Điều hướng giữa các màn hình (1 giờ)"]
+      },
+      {
+        "date": "2024-01-21",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức tuần 3: Thực hành các bài tập tổng hợp về Flutter UI cơ bản (2 giờ)"]
+      },
+      {
+        "date": "2024-01-22",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["HTTP Requests: Sử dụng http package (1 giờ)", "Đọc dữ liệu từ API (1 giờ)"]
+      },
+      {
+        "date": "2024-01-23",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["JSON Parsing (1 giờ)", "Hiển thị dữ liệu từ API lên UI (1 giờ)"]
+      },
+      {
+        "date": "2024-01-24",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Shared Preferences (1 giờ)", "Lưu trữ dữ liệu đơn giản (1 giờ)"]
+      },
+      {
+        "date": "2024-01-25",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Sử dụng thư viện Provider cho State Management (2 giờ)"],
+      },
+      {
+        "date": "2024-01-26",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Tìm hiểu về Riverpod cho State Management (2 giờ)"],
+      },
+      {
+        "date": "2024-01-27",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Tìm hiểu về BLoC cho State Management (2 giờ)"],
+      },
+       {
+        "date": "2024-01-28",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức tuần 4: Thực hành các bài tập tổng hợp về Flutter Networking và State Management (2 giờ)"]
+      },
+       {
+        "date": "2024-01-29",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu về GetX cho State Management (2 giờ)"],
+      },
+      {
+        "date": "2024-01-30",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Bắt đầu dự án: Ứng dụng Todo List (2 giờ)"]
+      },
+      {
+        "date": "2024-01-31",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Hoàn thiện UI cho ứng dụng Todo List (2 giờ)"]
+      },
+      {
+        "date": "2024-02-01",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Hoàn thiện chức năng thêm, sửa, xóa Todo (2 giờ)"]
+      },
+      {
+        "date": "2024-02-02",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Hoàn thiện chức năng lưu trữ dữ liệu Todo List (2 giờ)"]
+      },
+      {
+        "date": "2024-02-03",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Thực hành UI Responsive (2 giờ)"]
+      },
+      {
+        "date": "2024-02-04",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập: Xây dựng các Widget tùy chỉnh (2 giờ)"]
+      },
+      {
+        "date": "2024-02-05",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Kiểm tra lỗi và tối ưu hóa hiệu năng ứng dụng Todo List (2 giờ)"]
+      },
+      {
+        "date": "2024-02-06",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Tìm hiểu về Firebase Authentication (2 giờ)"]
+      },
+      {
+        "date": "2024-02-07",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Tích hợp Firebase Authentication vào ứng dụng Todo List (2 giờ)"]
+      },
+      {
+        "date": "2024-02-08",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Tìm hiểu về Firebase Firestore (2 giờ)"]
+      },
+      {
+        "date": "2024-02-09",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Lưu trữ dữ liệu Todo List lên Firebase Firestore (2 giờ)"]
+      },
+      {
+        "date": "2024-02-10",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Cập nhật UI và thêm hiệu ứng chuyển động (2 giờ)"]
+      },
+      {
+        "date": "2024-02-11",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập: Tạo Unit Test cho ứng dụng Todo List (2 giờ)"]
+      },
+       {
+        "date": "2024-02-12",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu các kiến trúc phổ biến: MVVM (2 giờ)"],
+      },
+      {
+        "date": "2024-02-13",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Tìm hiểu các kiến trúc phổ biến: Redux (2 giờ)"],
+      },
+      {
+        "date": "2024-02-14",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Refactor dự án Todo List theo kiến trúc MVVM (2 giờ)"]
+      },
+      {
+        "date": "2024-02-15",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Bắt đầu dự án: Ứng dụng Blog đơn giản (2 giờ)"]
+      },
+      {
+        "date": "2024-02-16",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Thiết kế UI cho ứng dụng Blog (2 giờ)"]
+      },
+      {
+        "date": "2024-02-17",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Xây dựng chức năng hiển thị danh sách bài viết (2 giờ)"]
+      },
+      {
+        "date": "2024-02-18",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức tuần 7: Tìm hiểu các thư viện animation và hiệu ứng đặc biệt (2 giờ)"]
+      },
+      {
+        "date": "2024-02-19",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Xây dựng chức năng xem chi tiết bài viết (2 giờ)"]
+      },
+      {
+        "date": "2024-02-20",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Tìm hiểu về Web development với Dart (2 giờ)"],
+      },
+      {
+        "date": "2024-02-21",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Sử dụng Aqueduct framework để xây dựng Web API (2 giờ)"],
+      },
+      {
+        "date": "2024-02-22",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Tích hợp Web API vào ứng dụng Blog (2 giờ)"]
+      },
+      {
+        "date": "2024-02-23",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Triển khai ứng dụng web (2 giờ)"],
+      },
+      {
+        "date": "2024-02-24",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Học về PWA (Progressive Web Apps) (2 giờ)"],
+      },
+      {
+        "date": "2024-02-25",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức tuần 8: Thực hành tối ưu hóa performance cho ứng dụng web (2 giờ)"]
+      },
+       {
+        "date": "2024-02-26",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu về Flutter for web (2 giờ)"],
+      },
+       {
+        "date": "2024-02-27",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Chuyển đổi ứng dụng mobile Blog sang Flutter web (2 giờ)"],
+      },
+      {
+        "date": "2024-02-28",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Tìm hiểu về gRPC (2 giờ)"],
+      },
+      {
+        "date": "2024-02-29",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Xây dựng gRPC server bằng Dart (2 giờ)"],
+      },
+      {
+        "date": "2024-03-01",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Kết nối gRPC server với ứng dụng Blog (2 giờ)"]
+      },
+      {
+        "date": "2024-03-02",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Viết Unit test và Widget test (2 giờ)"]
+      },
+      {
+        "date": "2024-03-03",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức: Tìm hiểu về Design Pattern (2 giờ)"]
+      },
+       {
+        "date": "2024-03-04",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu về Clean Architecture (2 giờ)"],
+      },
+      {
+        "date": "2024-03-05",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Refactor ứng dụng Blog theo Clean Architecture (2 giờ)"],
+      },
+      {
+        "date": "2024-03-06",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Tìm hiểu về GraphQL (2 giờ)"],
+      },
+      {
+        "date": "2024-03-07",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Tích hợp GraphQL vào ứng dụng Blog (2 giờ)"],
+      },
+      {
+        "date": "2024-03-08",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Tìm hiểu về CI/CD (2 giờ)"],
+      },
+      {
+        "date": "2024-03-09",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Triển khai ứng dụng Blog lên Google Play Store (2 giờ)"]
+      },
+      {
+        "date": "2024-03-10",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Tổng kết: Ôn tập và thực hành các kiến thức đã học (2 giờ)"]
+      },
+      {
+        "date": "2024-03-11",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu về MobX cho State Management (2 giờ)"]
+      },
+      {
+        "date": "2024-03-12",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["So sánh các giải pháp State Management (2 giờ)"]
+      },
+      {
+        "date": "2024-03-13",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Tìm hiểu về Testing (2 giờ)"]
+      },
+      {
+        "date": "2024-03-14",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Tìm hiểu về Accessibility (2 giờ)"]
+      },
+      {
+        "date": "2024-03-15",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Tìm hiểu về Localization (2 giờ)"]
+      },
+      {
+        "date": "2024-03-16",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Tìm hiểu về Animation (2 giờ)"]
+      },
+      {
+        "date": "2024-03-17",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập: Thực hiện một project nhỏ tự chọn (2 giờ)"]
+      },
+      {
+        "date": "2024-03-18",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu về Dependency Injection (2 giờ)"]
+      },
+      {
+        "date": "2024-03-19",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Tìm hiểu về Code Generation (2 giờ)"]
+      },
+      {
+        "date": "2024-03-20",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Tìm hiểu về Reactive Programming (2 giờ)"]
+      },
+      {
+        "date": "2024-03-21",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Tìm hiểu về Isolate (2 giờ)"]
+      },
+      {
+        "date": "2024-03-22",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Tìm hiểu về Memory Management (2 giờ)"]
+      },
+      {
+        "date": "2024-03-23",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Tìm hiểu về Performance Optimization (2 giờ)"]
+      },
+      {
+        "date": "2024-03-24",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập và thực hành các kiến thức nâng cao (2 giờ)"]
+      },
+      {
+        "date": "2024-03-25",
+        "day_of_week": "Thứ Hai",
+        "tasks": ["Tìm hiểu về Microservices (2 giờ)"]
+      },
+      {
+        "date": "2024-03-26",
+        "day_of_week": "Thứ Ba",
+        "tasks": ["Tìm hiểu về Serverless (2 giờ)"]
+      },
+      {
+        "date": "2024-03-27",
+        "day_of_week": "Thứ Tư",
+        "tasks": ["Tìm hiểu về Docker (2 giờ)"]
+      },
+      {
+        "date": "2024-03-28",
+        "day_of_week": "Thứ Năm",
+        "tasks": ["Tìm hiểu về Kubernetes (2 giờ)"]
+      },
+      {
+        "date": "2024-03-29",
+        "day_of_week": "Thứ Sáu",
+        "tasks": ["Tìm hiểu về Cloud Computing (2 giờ)"]
+      },
+      {
+        "date": "2024-03-30",
+        "day_of_week": "Thứ Bảy",
+        "tasks": ["Tìm hiểu về Blockchain (2 giờ)"]
+      },
+      {
+        "date": "2024-03-31",
+        "day_of_week": "Chủ nhật",
+        "tasks": ["Ôn tập kiến thức: Thực hiện một dự án cuối khóa (2 giờ)"]
+      }
+    ],
+    "overview": "Lộ trình học Dart trong 3 tháng, 2 giờ mỗi ngày, tập trung vào Web Development và Mobile app (Flutter).",
+    "projects": ["Ứng dụng Todo List", "Ứng dụng Blog đơn giản", "Ứng dụng quản lý chi tiêu cá nhân (Tùy chọn)"],
+    "resources": ["Dart.dev (Official documentation)", "Flutter.dev (Official documentation)", "Awesome Flutter (GitHub repository)", "Medium (Flutter articles)", "Stack Overflow"],
+    "tips": ["Thực hành thường xuyên", "Đọc code của người khác", "Tham gia cộng đồng", "Đặt câu hỏi khi gặp khó khăn", "Kiên trì và đam mê"]
+  }
+}
+```

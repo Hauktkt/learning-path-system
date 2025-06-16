@@ -1,0 +1,2095 @@
+2025-03-19 01:51:24,197 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 01:51:24,487 - INFO - Loading faiss with AVX512 support.
+2025-03-19 01:51:24,488 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-19 01:51:24,488 - INFO - Loading faiss with AVX2 support.
+2025-03-19 01:51:24,555 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-19 01:51:24,562 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-19 01:53:59,791 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 01:53:59,953 - INFO - Loading faiss with AVX512 support.
+2025-03-19 01:53:59,954 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-19 01:53:59,954 - INFO - Loading faiss with AVX2 support.
+2025-03-19 01:54:00,029 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-19 01:54:00,034 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-19 01:55:22,333 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 01:55:22,502 - INFO - Loading faiss with AVX512 support.
+2025-03-19 01:55:22,502 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-19 01:55:22,503 - INFO - Loading faiss with AVX2 support.
+2025-03-19 01:55:22,568 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-19 01:55:22,576 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-19 02:00:49,095 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-19 02:06:40,521 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 02:06:49,061 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-19 10:39:22,516 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-19 10:39:22,814 - INFO - Loading faiss with AVX512 support.
+2025-03-19 10:39:22,815 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-19 10:39:22,816 - INFO - Loading faiss with AVX2 support.
+2025-03-19 10:39:23,072 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-19 10:39:23,192 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:02:24,589 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:03:39,920 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:03:40,416 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:03:40,418 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:03:40,419 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:03:40,610 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:03:40,718 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:04:03,971 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:04:12,784 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-20 21:05:45,755 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:05:54,459 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-20 21:08:25,495 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:08:26,157 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:08:26,159 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:08:26,159 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:08:26,304 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:08:26,351 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:13:10,329 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:13:10,750 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:13:10,750 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:13:10,751 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:13:10,794 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:13:10,801 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:14:47,644 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:14:47,982 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:14:47,983 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:14:47,983 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:14:48,009 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:14:48,019 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:15:58,790 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:15:59,150 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:15:59,152 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:15:59,152 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:15:59,173 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:15:59,178 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:17:07,214 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\RAG\RAG\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-20 21:17:12,949 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:17:13,185 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:17:13,186 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:17:13,186 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:17:13,208 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:17:13,215 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:17:13,584 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:17:22,257 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-20 21:27:21,746 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:27:22,398 - INFO - Loading faiss with AVX512 support.
+2025-03-20 21:27:22,398 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-20 21:27:22,399 - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:27:22,533 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:27:22,559 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-20 21:27:50,252 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:27:58,953 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-20 21:29:31,141 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:29:39,781 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-20 21:32:52,134 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-20 21:33:05,299 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-21 12:10:17,226 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-21 12:10:17,779 - INFO - Loading faiss with AVX512 support.
+2025-03-21 12:10:17,781 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-21 12:10:17,783 - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:10:18,103 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:10:18,205 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-21 12:43:44,240 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-21 12:43:44,751 - INFO - Loading faiss with AVX512 support.
+2025-03-21 12:43:44,752 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-21 12:43:44,753 - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:43:45,067 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:43:45,178 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-21 12:46:41,743 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\RAG\RAG\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-03-22 13:39:10,976 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-22 13:39:11,491 - INFO - Loading faiss with AVX512 support.
+2025-03-22 13:39:11,491 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-22 13:39:11,491 - INFO - Loading faiss with AVX2 support.
+2025-03-22 13:39:11,624 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-22 13:39:11,654 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-22 13:39:28,177 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-22 19:31:44,179 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-22 19:31:44,595 - INFO - Loading faiss with AVX512 support.
+2025-03-22 19:31:44,595 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-22 19:31:44,596 - INFO - Loading faiss with AVX2 support.
+2025-03-22 19:31:44,664 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-22 19:31:44,672 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-22 19:33:09,459 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-22 19:54:37,138 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-03-22 19:54:37,323 - INFO - Loading faiss with AVX512 support.
+2025-03-22 19:54:37,324 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-03-22 19:54:37,324 - INFO - Loading faiss with AVX2 support.
+2025-03-22 19:54:37,407 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-22 19:54:37,417 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-22 19:55:06,376 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-03-22 20:05:54,682 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 02:48:52,528 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 02:48:53,160 - INFO - Loading faiss with AVX512 support.
+2025-04-02 02:48:53,161 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 02:48:53,161 - INFO - Loading faiss with AVX2 support.
+2025-04-02 02:48:53,296 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 02:48:53,322 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 02:50:06,782 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 02:50:06,835 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 02:50:09,119 - INFO - Loading faiss with AVX512 support.
+2025-04-02 02:50:09,120 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 02:50:09,120 - INFO - Loading faiss with AVX2 support.
+2025-04-02 02:50:09,144 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 02:50:09,151 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:04:16,177 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:04:16,257 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:04:17,566 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:04:17,567 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:04:17,568 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:04:17,644 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:04:17,650 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:05:35,081 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 03:08:40,995 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 03:19:03,357 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:19:03,424 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:19:04,909 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:19:04,910 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:19:04,910 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:19:05,043 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:19:05,060 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:24:50,241 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:24:50,326 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:24:51,812 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:24:51,813 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:24:51,814 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:24:51,943 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:24:51,955 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:25:00,348 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 03:29:40,272 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:29:40,396 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:29:41,511 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:29:41,513 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:29:41,514 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:29:42,937 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:29:42,948 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:30:30,361 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:30:30,397 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:30:31,549 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:30:31,551 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:30:31,552 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:30:31,592 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:30:31,614 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:37:04,022 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:37:04,023 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:37:04,998 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:37:04,999 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:37:04,999 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:37:05,115 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:37:05,135 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:37:22,558 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 03:43:18,757 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:43:18,811 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:43:20,191 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:43:20,192 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:43:20,193 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:43:20,259 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:43:20,274 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:44:42,165 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:44:42,167 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:44:46,561 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:44:46,563 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:44:51,059 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:44:51,062 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:44:55,461 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:44:55,463 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:45:04,064 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:45:04,066 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:45:14,714 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:45:14,717 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:45:25,364 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:45:25,366 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:45:26,599 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:45:26,601 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:45:28,090 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:45:28,091 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:45:28,092 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:45:28,169 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:45:28,186 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:45:36,012 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:45:36,014 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:45:46,663 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:45:46,664 - WARNING - Retrying langchain_community.llms.cohere.completion_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised BadRequestError: status_code: 400, body: {'message': 'too many tokens: total number of tokens in the prompt cannot exceed 4081 - received 6795. Try using a shorter prompt, or enabling prompt truncating. See https://docs.cohere.com/reference/generate for more details.'}.
+2025-04-02 03:45:57,212 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 400 Bad Request"
+2025-04-02 03:47:38,342 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:47:38,354 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:47:39,873 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:47:39,876 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:47:39,877 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:47:40,030 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:47:40,094 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:48:04,187 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 03:53:40,944 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:53:40,971 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:53:42,007 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:53:42,009 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:53:42,010 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:53:42,076 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:53:42,093 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:57:37,420 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:57:37,482 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 03:57:38,213 - INFO - Loading faiss with AVX512 support.
+2025-04-02 03:57:38,214 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 03:57:38,215 - INFO - Loading faiss with AVX2 support.
+2025-04-02 03:57:38,271 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 03:57:38,286 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 03:58:02,815 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 04:01:34,068 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:01:34,070 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:01:35,710 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:01:35,712 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:01:35,713 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:01:35,946 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:01:35,966 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:03:27,320 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 04:09:09,847 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:09:09,851 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:09:10,918 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:09:10,919 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:09:10,919 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:09:11,018 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:09:11,034 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:12:30,857 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:12:30,908 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:12:31,803 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:12:31,804 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:12:31,805 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:12:31,880 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:12:31,899 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:12:54,101 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 04:14:58,419 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:14:58,421 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:14:59,498 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:14:59,500 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:14:59,501 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:14:59,566 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:14:59,581 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:15:24,525 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-04-02 04:19:43,191 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:19:43,194 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:19:45,258 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:19:45,260 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:19:45,262 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:19:45,393 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:19:45,417 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:23:04,203 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:23:04,206 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:23:05,290 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:23:05,291 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:23:05,292 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:23:05,363 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:23:05,381 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:24:56,839 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:24:56,883 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:24:58,228 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:24:58,231 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:24:58,232 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:24:58,303 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:24:58,311 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:25:36,912 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:25:37,013 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:25:37,918 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:25:37,919 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:25:37,919 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:25:37,975 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:25:37,991 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:27:46,418 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:27:46,484 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:27:47,562 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:27:47,564 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:27:47,565 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:27:47,615 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:27:47,633 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:38:24,267 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:38:24,274 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:38:25,473 - INFO - Loading faiss with AVX512 support.
+2025-04-02 04:38:25,474 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 04:38:25,476 - INFO - Loading faiss with AVX2 support.
+2025-04-02 04:38:25,631 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 04:38:25,651 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 04:38:30,533 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:38:31,121 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:39:42,212 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:39:42,699 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:40:46,088 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:40:46,479 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:43:04,532 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:43:04,973 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:50:25,520 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:50:25,941 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:51:16,633 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 04:51:17,003 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 05:06:17,097 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 05:06:17,512 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:29:20,892 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:29:20,917 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:29:21,699 - INFO - Loading faiss with AVX512 support.
+2025-04-02 18:29:21,700 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-02 18:29:21,700 - INFO - Loading faiss with AVX2 support.
+2025-04-02 18:29:21,846 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-02 18:29:21,865 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-02 18:29:32,155 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:29:32,651 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:39:49,339 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:39:49,786 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:42:00,484 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:42:01,012 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:43:25,691 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-02 18:43:26,305 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 10:53:17,329 - INFO - Google API key found in environment variables.
+2025-04-10 10:53:17,332 - INFO - Google API key found in environment variables.
+2025-04-10 11:34:44,756 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:34:44,758 - INFO - Google API key found in environment variables.
+2025-04-10 11:34:46,417 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:34:47,725 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:34:47,759 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:34:48,627 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:34:48,627 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:34:48,629 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:34:48,927 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:34:48,968 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:35:17,358 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:35:17,691 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:41:24,608 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:41:24,609 - INFO - Google API key found in environment variables.
+2025-04-10 11:41:26,431 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:41:27,831 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:41:27,889 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:41:28,865 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:41:28,867 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:41:28,867 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:41:28,921 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:41:28,927 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:41:29,235 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:42:43,026 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:42:43,027 - INFO - Google API key found in environment variables.
+2025-04-10 11:42:44,283 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:42:45,483 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:42:45,498 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:42:46,578 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:42:46,579 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:42:46,579 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:42:46,602 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:42:46,608 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:42:46,903 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:43:08,200 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:43:08,201 - INFO - Google API key found in environment variables.
+2025-04-10 11:43:09,469 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:43:10,765 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:43:10,819 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:43:11,351 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:43:11,352 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:43:11,352 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:43:11,376 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:43:11,382 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:43:11,660 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:43:53,771 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:43:53,772 - INFO - Google API key found in environment variables.
+2025-04-10 11:43:55,666 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:43:57,235 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:43:57,264 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:43:58,101 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:43:58,101 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:43:58,102 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:43:58,126 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:43:58,133 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:44:07,178 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:48:42,152 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:48:42,153 - INFO - Google API key found in environment variables.
+2025-04-10 11:48:44,216 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:48:46,426 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:48:46,429 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:48:47,742 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:48:47,743 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:48:47,744 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:48:47,857 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:48:47,869 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:48:58,448 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:51:29,295 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:51:29,295 - INFO - Google API key found in environment variables.
+2025-04-10 11:51:31,059 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:51:32,528 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:51:32,528 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:51:34,040 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:51:34,041 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:51:34,041 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:51:34,072 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:51:34,082 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:51:34,405 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:51:54,305 - INFO - Ph�n t�ch JSON th�nh c�ng
+2025-04-10 11:54:16,217 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:55:36,715 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:55:36,716 - INFO - Google API key found in environment variables.
+2025-04-10 11:55:38,597 - INFO - Cohere API key found in environment variables.
+2025-04-10 11:55:40,187 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:55:40,189 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 11:55:41,356 - INFO - Loading faiss with AVX512 support.
+2025-04-10 11:55:41,357 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 11:55:41,357 - INFO - Loading faiss with AVX2 support.
+2025-04-10 11:55:41,435 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 11:55:41,444 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 11:55:48,232 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:03:42,793 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:03:57,291 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:03:57,292 - INFO - Google API key found in environment variables.
+2025-04-10 12:03:59,338 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:05:03,909 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:05:03,909 - INFO - Google API key found in environment variables.
+2025-04-10 12:05:05,484 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:05:07,774 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:05:07,881 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:05:09,194 - INFO - Loading faiss with AVX512 support.
+2025-04-10 12:05:09,194 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 12:05:09,195 - INFO - Loading faiss with AVX2 support.
+2025-04-10 12:05:09,281 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 12:05:09,295 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 12:05:09,614 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:05:41,305 - INFO - Ph�n t�ch JSON th�nh c�ng
+2025-04-10 12:05:43,991 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:05:43,992 - INFO - Google API key found in environment variables.
+2025-04-10 12:05:46,512 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:05:49,610 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:05:49,669 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:05:50,920 - INFO - Loading faiss with AVX512 support.
+2025-04-10 12:05:50,921 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 12:05:50,921 - INFO - Loading faiss with AVX2 support.
+2025-04-10 12:05:50,958 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 12:05:50,965 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 12:06:13,545 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:11:38,091 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:11:38,092 - INFO - Google API key found in environment variables.
+2025-04-10 12:11:41,200 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:11:45,815 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:11:45,919 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:11:45,931 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:11:48,088 - INFO - Loading faiss with AVX512 support.
+2025-04-10 12:11:48,090 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 12:11:48,090 - INFO - Loading faiss with AVX2 support.
+2025-04-10 12:11:48,223 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 12:11:48,241 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 12:11:48,591 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 12:12:21,237 - INFO - Ph�n t�ch JSON th�nh c�ng
+2025-04-10 12:17:02,435 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:19:17,541 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:20:42,452 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:21:11,669 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:34:03,322 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:34:04,279 - INFO - Loading faiss with AVX512 support.
+2025-04-10 12:34:04,280 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 12:34:04,281 - INFO - Loading faiss with AVX2 support.
+2025-04-10 12:34:04,377 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 12:34:04,388 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 12:34:36,212 - INFO - Ph�n t�ch JSON th�nh c�ng
+2025-04-10 12:39:10,730 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:39:12,128 - INFO - Loading faiss with AVX512 support.
+2025-04-10 12:39:12,129 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 12:39:12,129 - INFO - Loading faiss with AVX2 support.
+2025-04-10 12:39:12,218 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 12:39:12,226 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 12:41:57,062 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:41:58,073 - INFO - Loading faiss with AVX512 support.
+2025-04-10 12:41:58,074 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 12:41:58,075 - INFO - Loading faiss with AVX2 support.
+2025-04-10 12:41:58,112 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 12:41:58,124 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 12:47:13,281 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:47:31,322 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:47:37,401 - INFO - Request th�nh c�ng!
+2025-04-10 12:47:37,427 - INFO - Ph�n t�ch JSON th�nh c�ng
+2025-04-10 12:49:05,762 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:52:08,772 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:52:28,896 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:53:09,795 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:53:34,032 - INFO - Request th�nh c�ng!
+2025-04-10 12:53:34,055 - INFO - Ph�n t�ch JSON th�nh c�ng
+2025-04-10 12:58:15,545 - INFO - Cohere API key found in environment variables.
+2025-04-10 12:58:35,992 - INFO - Request create_learning_path - User: testuser, Field: Dart programming, Level: Beginner, Duration: 2, Daily Hours: 4, Interests: ['Java', 'Web Development']
+2025-04-10 12:59:29,365 - INFO - Request create_learning_path - User: testuser, Field: Dart programming, Level: Beginner, Duration: 3, Daily Hours: 2, Interests: ['Web Development', 'Mobile app']
+2025-04-10 13:01:50,247 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:01:56,006 - INFO - Request create_learning_path - User: testuser, Field: Dart programming, Level: Beginner, Duration: 3, Daily Hours: 2, Interests: ['Web Development', 'Mobile app']
+2025-04-10 13:05:05,458 - INFO - Request create_learning_path - User: testuser, Field: Dart programming, Level: Beginner, Duration: 3, Daily Hours: 2, Interests: ['Web Development', 'Mobile app']
+2025-04-10 13:08:14,667 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:17:35,070 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:17:41,082 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:17:52,935 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:19:03,485 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:22:05,437 - INFO - Đã load 184 khóa học
+2025-04-10 13:22:06,273 - INFO - Cohere API key found in environment variables.
+2025-04-10 13:22:07,271 - WARNING - Không thể tải vector store từ file: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-04-10 13:22:07,272 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 13:22:07,272 - INFO - Đã tạo vector store thành công
+2025-04-10 13:22:07,273 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 13:22:17,913 - INFO - Request create_learning_path - User: testuser, Field: Dart programming, Level: Beginner, Duration: 3, Daily Hours: 2, Interests: ['Web Development', 'Mobile app']
+2025-04-10 13:22:17,914 - INFO - Bắt đầu tạo lộ trình học tập cho Dart programming, trình độ Beginner
+2025-04-10 13:22:17,914 - INFO - Tìm kiếm khóa học liên quan đến 'Dart programming' sử dụng vector store
+2025-04-10 13:22:17,914 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 13:22:17,914 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 13:22:18,320 - INFO - Thời gian request Gemini: 0.41 giây
+2025-04-10 13:22:18,320 - ERROR - Request thất bại với mã lỗi: 400
+2025-04-10 13:22:18,321 - ERROR - Thông báo lỗi: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-04-10 13:22:18,321 - ERROR - Lỗi khi gọi Gemini API: Request Gemini API thất bại: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-04-10 13:22:18,322 - INFO - Sử dụng lộ trình học tập dự phòng cho Dart programming
+2025-04-10 13:22:18,323 - INFO - Đã tạo lộ trình học tập fallback
+2025-04-10 13:22:18,324 - INFO - Tạo lộ trình học tập thành công - Thời gian: 0.41 giây
+2025-04-10 13:22:18,327 - INFO - Đã lưu lộ trình vào file: learning_path_testuser_20250410_132218.json
+2025-04-10 13:29:38,965 - INFO - Request create_learning_path - User: testuser, Field: Dart programming, Level: Beginner, Duration: 3, Daily Hours: 2, Interests: ['Web Development', 'Mobile app']
+2025-04-10 13:29:38,982 - INFO - Bắt đầu tạo lộ trình học tập cho Dart programming, trình độ Beginner
+2025-04-10 13:29:38,986 - INFO - Tìm kiếm khóa học liên quan đến 'Dart programming' sử dụng vector store
+2025-04-10 13:29:38,987 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 13:29:38,989 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 13:29:39,543 - INFO - Thời gian request Gemini: 0.55 giây
+2025-04-10 13:29:39,549 - ERROR - Request thất bại với mã lỗi: 400
+2025-04-10 13:29:39,549 - ERROR - Thông báo lỗi: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-04-10 13:29:39,552 - ERROR - Lỗi khi gọi Gemini API: Request Gemini API thất bại: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-04-10 13:29:39,556 - INFO - Sử dụng lộ trình học tập dự phòng cho Dart programming
+2025-04-10 13:29:39,563 - INFO - Đã tạo lộ trình học tập fallback
+2025-04-10 13:29:39,570 - INFO - Tạo lộ trình học tập thành công - Thời gian: 0.59 giây
+2025-04-10 13:29:39,600 - INFO - Đã lưu lộ trình vào file: learning_path_testuser_20250410_132939.json
+2025-04-10 14:04:57,782 - INFO - Đã load 184 khóa học
+2025-04-10 14:04:58,280 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:04:59,434 - WARNING - Không thể tải vector store từ file: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-04-10 14:04:59,435 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:04:59,435 - INFO - Đã tạo vector store thành công
+2025-04-10 14:04:59,435 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:04:59,599 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:04:59,600 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:04:59,612 - INFO -  * Restarting with stat
+2025-04-10 14:05:02,798 - INFO - Đã load 184 khóa học
+2025-04-10 14:05:03,290 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:05:03,918 - WARNING - Không thể tải vector store từ file: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-04-10 14:05:03,919 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:05:03,919 - INFO - Đã tạo vector store thành công
+2025-04-10 14:05:03,920 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:05:03,953 - WARNING -  * Debugger is active!
+2025-04-10 14:05:03,959 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:05:45,194 - INFO - Bắt đầu tạo lộ trình học tập cho Dart programming, trình độ Beginner
+2025-04-10 14:05:45,195 - INFO - Tìm kiếm khóa học liên quan đến 'Dart programming' sử dụng vector store
+2025-04-10 14:05:45,195 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 14:05:45,196 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 14:06:16,793 - INFO - Thời gian request Gemini: 31.60 giây
+2025-04-10 14:06:16,794 - INFO - Request thành công!
+2025-04-10 14:06:16,794 - INFO - Nhận được phản hồi từ Gemini API: 16801 ký tự
+2025-04-10 14:06:16,797 - INFO - Đã tìm thấy JSON trong code block
+2025-04-10 14:06:16,797 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Dart Fundamentals",
+        "level": "Beginner",
+        "duration": 24,
+        "topics": ["Cú pháp Dart", "Kiểu dữ liệu", "Biến và H
+2025-04-10 14:06:16,798 - WARNING - Lỗi parse JSON ban đầu: Illegal trailing comma before end of object: line 1 column 6459 (char 6458)
+2025-04-10 14:06:16,800 - INFO - JSON sau khi làm sạch: {   "learning_path": {     "courses": [       {         "title": "Dart Fundamentals",         "level": "Beginner",         "duration": 24,         "topics": ["C php Dart", "Kiu d liu", "Bin v Hng", "T
+2025-04-10 14:06:16,800 - ERROR - Vẫn không thể parse JSON sau khi làm sạch: Expecting ',' delimiter: line 1 column 2231 (char 2230)
+2025-04-10 14:06:16,802 - INFO - Đã lưu phản hồi gốc vào file last_gemini_response.txt
+2025-04-10 14:06:16,806 - INFO - 127.0.0.1 - - [10/Apr/2025 14:06:16] "POST /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 14:07:51,849 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\test_api.py', reloading
+2025-04-10 14:07:52,342 - INFO -  * Restarting with stat
+2025-04-10 14:07:55,632 - INFO - Đã load 184 khóa học
+2025-04-10 14:07:56,102 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:07:56,831 - WARNING - Không thể tải vector store từ file: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-04-10 14:07:56,832 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:07:56,833 - INFO - Đã tạo vector store thành công
+2025-04-10 14:07:56,833 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:07:56,865 - WARNING -  * Debugger is active!
+2025-04-10 14:07:56,872 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:12:11,513 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\rag_system.py', reloading
+2025-04-10 14:12:12,131 - INFO -  * Restarting with stat
+2025-04-10 14:12:16,452 - INFO - Đã load 184 khóa học
+2025-04-10 14:12:17,106 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:12:18,200 - WARNING - Không thể tải vector store từ file: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-04-10 14:12:18,200 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:12:18,201 - INFO - Đã tạo vector store thành công
+2025-04-10 14:12:18,201 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:12:18,239 - WARNING -  * Debugger is active!
+2025-04-10 14:12:18,246 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:12:25,325 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\vector_store.py', reloading
+2025-04-10 14:12:25,555 - INFO -  * Restarting with stat
+2025-04-10 14:12:28,334 - INFO - Đã load 184 khóa học
+2025-04-10 14:12:28,924 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:12:30,374 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:12:30,375 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:12:30,376 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:12:30,481 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:12:30,490 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:12:30,498 - INFO - Đã tải vector store từ file
+2025-04-10 14:12:30,499 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:12:30,499 - INFO - Đã tạo vector store thành công
+2025-04-10 14:12:30,500 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:12:30,527 - WARNING -  * Debugger is active!
+2025-04-10 14:12:30,537 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:12:35,057 - INFO - Đã load 184 khóa học
+2025-04-10 14:12:35,575 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:12:36,435 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:12:36,436 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:12:36,437 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:12:36,464 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:12:36,470 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:12:36,474 - INFO - Đã tải vector store từ file
+2025-04-10 14:12:36,474 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:12:36,475 - INFO - Đã tạo vector store thành công
+2025-04-10 14:12:36,475 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:12:36,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:12:36,517 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:12:36,519 - INFO -  * Restarting with stat
+2025-04-10 14:12:39,187 - INFO - Đã load 184 khóa học
+2025-04-10 14:12:39,763 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:12:41,645 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:12:41,646 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:12:41,646 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:12:41,680 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:12:41,692 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:12:41,696 - INFO - Đã tải vector store từ file
+2025-04-10 14:12:41,697 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:12:41,697 - INFO - Đã tạo vector store thành công
+2025-04-10 14:12:41,698 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:12:41,723 - WARNING -  * Debugger is active!
+2025-04-10 14:12:41,731 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:12:51,143 - INFO - Bắt đầu tạo lộ trình học tập cho Dart programming, trình độ Beginner
+2025-04-10 14:12:51,144 - INFO - Tìm kiếm khóa học liên quan đến 'Dart programming' sử dụng vector store
+2025-04-10 14:12:51,144 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 14:12:51,145 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 14:13:20,396 - INFO - Thời gian request Gemini: 29.25 giây
+2025-04-10 14:13:20,397 - INFO - Request thành công!
+2025-04-10 14:13:20,397 - INFO - Nhận được phản hồi từ Gemini API: 14529 ký tự
+2025-04-10 14:13:20,398 - INFO - Đã tìm thấy JSON trong code block
+2025-04-10 14:13:20,399 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Dart Fundamentals",
+        "level": "Beginner",
+        "duration": 4,
+        "topics": ["Biến và kiểu dữ liệu", "Toán tử", "Cấu trú
+2025-04-10 14:13:20,399 - INFO - Phân tích JSON thành công
+2025-04-10 14:13:20,403 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-10 14:13:20,410 - INFO - 127.0.0.1 - - [10/Apr/2025 14:13:20] "POST /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 14:14:31,990 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\rag_system.py', reloading
+2025-04-10 14:14:32,210 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\rag_system.py', reloading
+2025-04-10 14:14:33,034 - INFO -  * Restarting with stat
+2025-04-10 14:14:33,136 - INFO -  * Restarting with stat
+2025-04-10 14:14:38,910 - INFO - Đã load 184 khóa học
+2025-04-10 14:14:38,911 - INFO - Đã load 184 khóa học
+2025-04-10 14:14:40,083 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:14:40,084 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:14:41,869 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:14:41,870 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:14:41,871 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:14:41,926 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:14:41,942 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:14:41,942 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:14:41,943 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:14:41,943 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:14:41,950 - INFO - Đã tải vector store từ file
+2025-04-10 14:14:41,951 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:14:41,951 - INFO - Đã tạo vector store thành công
+2025-04-10 14:14:41,952 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:14:41,993 - WARNING -  * Debugger is active!
+2025-04-10 14:14:41,995 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:14:42,003 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:14:42,009 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:14:42,015 - INFO - Đã tải vector store từ file
+2025-04-10 14:14:42,015 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:14:42,016 - INFO - Đã tạo vector store thành công
+2025-04-10 14:14:42,017 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:14:42,041 - WARNING -  * Debugger is active!
+2025-04-10 14:14:42,055 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:16:08,162 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\rag_system.py', reloading
+2025-04-10 14:16:08,275 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\rag_system.py', reloading
+2025-04-10 14:16:08,723 - INFO -  * Restarting with stat
+2025-04-10 14:16:08,892 - INFO -  * Restarting with stat
+2025-04-10 14:16:14,295 - INFO - Đã load 184 khóa học
+2025-04-10 14:16:14,919 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:16:15,992 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:16:15,993 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:16:15,994 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:16:16,033 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:16:16,041 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:16:16,048 - INFO - Đã tải vector store từ file
+2025-04-10 14:16:16,049 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:16:16,049 - INFO - Đã tạo vector store thành công
+2025-04-10 14:16:16,050 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:16:16,077 - WARNING -  * Debugger is active!
+2025-04-10 14:16:16,084 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:16:27,491 - INFO - Đã load 184 khóa học
+2025-04-10 14:16:27,881 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:16:28,672 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:16:28,673 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:16:28,673 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:16:28,699 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:16:28,706 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:16:28,710 - INFO - Đã tải vector store từ file
+2025-04-10 14:16:28,711 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:16:28,711 - INFO - Đã tạo vector store thành công
+2025-04-10 14:16:28,711 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:17:17,810 - INFO - Đã load 184 khóa học
+2025-04-10 14:17:18,335 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:17:19,243 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:17:19,244 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:17:19,244 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:17:19,280 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:17:19,287 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:17:19,292 - INFO - Đã tải vector store từ file
+2025-04-10 14:17:19,292 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:17:19,293 - INFO - Đã tạo vector store thành công
+2025-04-10 14:17:19,293 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:17:19,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:17:19,340 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:17:19,343 - INFO -  * Restarting with stat
+2025-04-10 14:17:21,639 - INFO - Đã load 184 khóa học
+2025-04-10 14:17:22,376 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:17:25,117 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:17:25,118 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:17:25,119 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:17:25,182 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:17:25,198 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:17:25,209 - INFO - Đã tải vector store từ file
+2025-04-10 14:17:25,211 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:17:25,212 - INFO - Đã tạo vector store thành công
+2025-04-10 14:17:25,213 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:17:25,262 - WARNING -  * Debugger is active!
+2025-04-10 14:17:25,275 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:17:27,349 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\main.py', reloading
+2025-04-10 14:17:27,356 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\main.py', reloading
+2025-04-10 14:17:27,871 - INFO -  * Restarting with stat
+2025-04-10 14:17:28,145 - INFO -  * Restarting with stat
+2025-04-10 14:17:31,187 - INFO - Đã load 184 khóa học
+2025-04-10 14:17:31,408 - INFO - Đã load 184 khóa học
+2025-04-10 14:17:31,931 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:17:32,213 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:17:33,340 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:17:33,341 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:17:33,342 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:17:33,374 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:17:33,381 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:17:33,386 - INFO - Đã tải vector store từ file
+2025-04-10 14:17:33,387 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:17:33,387 - INFO - Đã tạo vector store thành công
+2025-04-10 14:17:33,388 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:17:33,408 - WARNING -  * Debugger is active!
+2025-04-10 14:17:33,414 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:17:33,507 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:17:33,508 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:17:33,508 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:17:33,542 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:17:33,552 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:17:33,557 - INFO - Đã tải vector store từ file
+2025-04-10 14:17:33,557 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:17:33,558 - INFO - Đã tạo vector store thành công
+2025-04-10 14:17:33,559 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:17:33,579 - WARNING -  * Debugger is active!
+2025-04-10 14:17:33,587 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:18:03,285 - INFO - Bắt đầu tạo lộ trình học tập cho Dart programming, trình độ Beginner
+2025-04-10 14:18:03,287 - INFO - Tìm kiếm khóa học liên quan đến 'Dart programming' sử dụng vector store
+2025-04-10 14:18:03,288 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 14:18:03,288 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 14:18:20,406 - INFO - Thời gian request Gemini: 17.12 giây
+2025-04-10 14:18:20,406 - INFO - Request thành công!
+2025-04-10 14:18:20,407 - INFO - Nhận được phản hồi từ Gemini API: 8556 ký tự
+2025-04-10 14:18:20,408 - INFO - Đã tìm thấy JSON trong code block
+2025-04-10 14:18:20,409 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Dart cơ bản cho người mới bắt đầu",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": ["Biến và kiểu dữ liệu", "To
+2025-04-10 14:18:20,410 - INFO - Phân tích JSON thành công
+2025-04-10 14:18:20,411 - INFO - Đã chuẩn hóa ngày tháng cho 42 ngày
+2025-04-10 14:18:20,414 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-10 14:18:20,420 - INFO - 127.0.0.1 - - [10/Apr/2025 14:18:20] "POST /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 14:20:36,582 - INFO - Đã load 184 khóa học
+2025-04-10 14:20:37,130 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:20:38,203 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:20:38,204 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:20:38,205 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:20:38,244 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:20:38,255 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:20:38,260 - INFO - Đã tải vector store từ file
+2025-04-10 14:20:38,260 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:20:38,261 - INFO - Đã tạo vector store thành công
+2025-04-10 14:20:38,261 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:20:38,310 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:20:38,310 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:20:38,312 - INFO -  * Restarting with stat
+2025-04-10 14:20:41,166 - INFO - Đã load 184 khóa học
+2025-04-10 14:20:41,794 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:20:43,306 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:20:43,307 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:20:43,309 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:20:43,360 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:20:43,373 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:20:43,378 - INFO - Đã tải vector store từ file
+2025-04-10 14:20:43,379 - INFO - Vector store đã được khởi tạo thành công
+2025-04-10 14:20:43,380 - INFO - Đã tạo vector store thành công
+2025-04-10 14:20:43,384 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:20:43,411 - WARNING -  * Debugger is active!
+2025-04-10 14:20:43,422 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:20:48,111 - INFO - Bắt đầu tạo lộ trình học tập cho Dart programming, trình độ Beginner
+2025-04-10 14:20:48,111 - INFO - Tìm kiếm khóa học liên quan đến 'Dart programming' sử dụng vector store
+2025-04-10 14:20:48,112 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 14:20:48,112 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 14:20:48,554 - INFO - Thời gian request Gemini: 0.44 giây
+2025-04-10 14:20:48,560 - ERROR - Request thất bại với mã lỗi: 400
+2025-04-10 14:20:48,561 - ERROR - Thông báo lỗi: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-04-10 14:20:48,561 - WARNING - Sử dụng lộ trình dự phòng do lỗi API: 400
+2025-04-10 14:20:48,561 - INFO - Sử dụng lộ trình học tập dự phòng cho Dart programming
+2025-04-10 14:20:48,562 - INFO - Đã tạo lộ trình học tập fallback
+2025-04-10 14:20:48,575 - INFO - 127.0.0.1 - - [10/Apr/2025 14:20:48] "POST /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 14:22:09,827 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\vector_store.py', reloading
+2025-04-10 14:22:10,848 - INFO -  * Restarting with stat
+2025-04-10 14:32:12,544 - INFO - Đã load 184 khóa học
+2025-04-10 14:32:13,064 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:32:14,169 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 14:32:19,403 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 14:32:19,533 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 14:32:20,611 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:32:20,611 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:32:20,611 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:32:20,698 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:32:20,708 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:32:20,721 - INFO - Đã tạo vector store thành công
+2025-04-10 14:32:20,721 - INFO - Đã tạo vector store thành công
+2025-04-10 14:32:20,723 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:32:20,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:32:20,766 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:32:20,769 - INFO -  * Restarting with stat
+2025-04-10 14:32:24,247 - INFO - Đã load 184 khóa học
+2025-04-10 14:32:24,713 - INFO - Cohere API key found in environment variables.
+2025-04-10 14:32:25,493 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 14:32:26,803 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 14:32:26,866 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 14:32:28,273 - INFO - Loading faiss with AVX512 support.
+2025-04-10 14:32:28,274 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 14:32:28,274 - INFO - Loading faiss with AVX2 support.
+2025-04-10 14:32:28,298 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 14:32:28,306 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 14:32:28,318 - INFO - Đã tạo vector store thành công
+2025-04-10 14:32:28,319 - INFO - Đã tạo vector store thành công
+2025-04-10 14:32:28,320 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 14:32:28,337 - WARNING -  * Debugger is active!
+2025-04-10 14:32:28,343 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 14:32:43,693 - INFO - Bắt đầu tạo lộ trình học tập cho Java programming, trình độ Beginner
+2025-04-10 14:32:43,694 - INFO - Tìm kiếm khóa học liên quan đến 'Java programming' sử dụng vector store
+2025-04-10 14:32:43,694 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-10 14:32:43,694 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-10 14:32:59,434 - INFO - Thời gian request Gemini: 15.74 giây
+2025-04-10 14:32:59,435 - INFO - Request thành công!
+2025-04-10 14:32:59,435 - INFO - Nhận được phản hồi từ Gemini API: 8563 ký tự
+2025-04-10 14:32:59,438 - INFO - Đã tìm thấy JSON trong code block
+2025-04-10 14:32:59,439 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Core",
+        "level": "Beginner",
+        "duration": 16,
+        "topics": ["Cú pháp cơ bản", "Lập trình hướng đối tượng", "Cấ
+2025-04-10 14:32:59,439 - INFO - Phân tích JSON thành công
+2025-04-10 14:32:59,440 - INFO - Đã chuẩn hóa ngày tháng cho 32 ngày
+2025-04-10 14:32:59,443 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-10 14:32:59,447 - INFO - 127.0.0.1 - - [10/Apr/2025 14:32:59] "POST /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:03:41,285 - INFO - 127.0.0.1 - - [10/Apr/2025 15:03:41] "[33mGET /api/docs HTTP/1.1[0m" 404 -
+2025-04-10 15:03:41,545 - INFO - 127.0.0.1 - - [10/Apr/2025 15:03:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 15:03:44,211 - INFO - 127.0.0.1 - - [10/Apr/2025 15:03:44] "[33mGET /api/doc HTTP/1.1[0m" 404 -
+2025-04-10 15:04:09,019 - INFO - 127.0.0.1 - - [10/Apr/2025 15:04:09] "GET / HTTP/1.1" 200 -
+2025-04-10 15:04:41,696 - INFO - 127.0.0.1 - - [10/Apr/2025 15:04:41] "GET /health HTTP/1.1" 200 -
+2025-04-10 15:45:43,239 - INFO - 127.0.0.1 - - [10/Apr/2025 15:45:43] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:45:43,244 - INFO - 127.0.0.1 - - [10/Apr/2025 15:45:43] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:46:07,500 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:07] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:46:07,507 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:07] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:46:27,308 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:27] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 15:46:27,572 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:27] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:46:27,811 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:27] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:46:54,799 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:54] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:46:54,801 - INFO - 127.0.0.1 - - [10/Apr/2025 15:46:54] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:47:24,087 - INFO - 127.0.0.1 - - [10/Apr/2025 15:47:24] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:47:24,091 - INFO - 127.0.0.1 - - [10/Apr/2025 15:47:24] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:49:18,475 - INFO - 127.0.0.1 - - [10/Apr/2025 15:49:18] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 15:49:18,761 - INFO - 127.0.0.1 - - [10/Apr/2025 15:49:18] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:49:19,067 - INFO - 127.0.0.1 - - [10/Apr/2025 15:49:19] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:50:31,785 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\api.py', reloading
+2025-04-10 15:50:36,321 - INFO -  * Restarting with stat
+2025-04-10 15:50:45,687 - INFO - Đã load 184 khóa học
+2025-04-10 15:50:46,591 - INFO - Cohere API key found in environment variables.
+2025-04-10 15:50:47,862 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 15:50:50,356 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:50:50,357 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:50:52,519 - INFO - Loading faiss with AVX512 support.
+2025-04-10 15:50:52,520 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 15:50:52,520 - INFO - Loading faiss with AVX2 support.
+2025-04-10 15:50:52,645 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 15:50:52,669 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 15:50:52,696 - INFO - Đã tạo vector store thành công
+2025-04-10 15:50:52,697 - INFO - Đã tạo vector store thành công
+2025-04-10 15:50:52,698 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 15:50:52,777 - WARNING -  * Debugger is active!
+2025-04-10 15:50:52,790 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 15:50:53,872 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\rag_system.py', reloading
+2025-04-10 15:50:54,525 - INFO -  * Restarting with stat
+2025-04-10 15:51:07,216 - INFO - Đã load 184 khóa học
+2025-04-10 15:51:07,993 - INFO - Cohere API key found in environment variables.
+2025-04-10 15:51:08,940 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 15:51:10,337 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:51:10,358 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:51:11,604 - INFO - Loading faiss with AVX512 support.
+2025-04-10 15:51:11,605 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 15:51:11,605 - INFO - Loading faiss with AVX2 support.
+2025-04-10 15:51:11,641 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 15:51:11,652 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 15:51:11,680 - INFO - Đã tạo vector store thành công
+2025-04-10 15:51:11,682 - INFO - Đã tạo vector store thành công
+2025-04-10 15:51:11,683 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 15:51:11,721 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 15:51:11,721 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 15:51:11,723 - INFO -  * Restarting with stat
+2025-04-10 15:51:15,251 - INFO - Đã load 184 khóa học
+2025-04-10 15:51:15,736 - INFO - Cohere API key found in environment variables.
+2025-04-10 15:51:16,439 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 15:51:17,801 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:51:17,802 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:51:19,153 - INFO - Loading faiss with AVX512 support.
+2025-04-10 15:51:19,153 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 15:51:19,154 - INFO - Loading faiss with AVX2 support.
+2025-04-10 15:51:19,183 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 15:51:19,192 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 15:51:19,204 - INFO - Đã tạo vector store thành công
+2025-04-10 15:51:19,204 - INFO - Đã tạo vector store thành công
+2025-04-10 15:51:19,205 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 15:51:19,229 - WARNING -  * Debugger is active!
+2025-04-10 15:51:19,235 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 15:51:30,403 - INFO - 127.0.0.1 - - [10/Apr/2025 15:51:30] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:51:42,767 - INFO - 127.0.0.1 - - [10/Apr/2025 15:51:42] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 15:51:43,703 - INFO - 127.0.0.1 - - [10/Apr/2025 15:51:43] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:51:44,088 - INFO - 127.0.0.1 - - [10/Apr/2025 15:51:44] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:54:35,849 - INFO - 127.0.0.1 - - [10/Apr/2025 15:54:35] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 15:54:36,530 - INFO - 127.0.0.1 - - [10/Apr/2025 15:54:36] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:54:36,841 - INFO - 127.0.0.1 - - [10/Apr/2025 15:54:36] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:55:27,808 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\api.py', reloading
+2025-04-10 15:55:30,785 - INFO -  * Restarting with stat
+2025-04-10 15:56:33,772 - INFO - Đã load 184 khóa học
+2025-04-10 15:56:35,017 - INFO - Cohere API key found in environment variables.
+2025-04-10 15:56:36,408 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 15:56:38,244 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:56:38,311 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:56:39,582 - INFO - Loading faiss with AVX512 support.
+2025-04-10 15:56:39,583 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 15:56:39,584 - INFO - Loading faiss with AVX2 support.
+2025-04-10 15:56:39,687 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 15:56:39,701 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 15:56:39,718 - INFO - Đã tạo vector store thành công
+2025-04-10 15:56:39,719 - INFO - Đã tạo vector store thành công
+2025-04-10 15:56:39,719 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 15:56:39,777 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 15:56:39,778 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 15:56:39,782 - INFO -  * Restarting with stat
+2025-04-10 15:56:43,788 - INFO - Đã load 184 khóa học
+2025-04-10 15:56:44,353 - INFO - Cohere API key found in environment variables.
+2025-04-10 15:56:45,435 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 15:56:47,405 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:56:47,535 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 15:56:48,927 - INFO - Loading faiss with AVX512 support.
+2025-04-10 15:56:48,928 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 15:56:48,928 - INFO - Loading faiss with AVX2 support.
+2025-04-10 15:56:48,962 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 15:56:48,969 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 15:56:48,982 - INFO - Đã tạo vector store thành công
+2025-04-10 15:56:48,983 - INFO - Đã tạo vector store thành công
+2025-04-10 15:56:48,983 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 15:56:49,007 - WARNING -  * Debugger is active!
+2025-04-10 15:56:49,016 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 15:56:59,454 - INFO - 127.0.0.1 - - [10/Apr/2025 15:56:59] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:57:12,093 - INFO - 127.0.0.1 - - [10/Apr/2025 15:57:12] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 15:57:12,435 - INFO - 127.0.0.1 - - [10/Apr/2025 15:57:12] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:57:12,744 - INFO - 127.0.0.1 - - [10/Apr/2025 15:57:12] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 15:58:17,437 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\api.py', reloading
+2025-04-10 15:58:18,118 - INFO -  * Restarting with stat
+2025-04-10 16:00:17,437 - INFO - Đã load 184 khóa học
+2025-04-10 16:00:17,992 - INFO - Cohere API key found in environment variables.
+2025-04-10 16:00:18,890 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 16:00:20,212 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:00:20,260 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:00:21,810 - INFO - Loading faiss with AVX512 support.
+2025-04-10 16:00:21,811 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 16:00:21,811 - INFO - Loading faiss with AVX2 support.
+2025-04-10 16:00:21,959 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 16:00:21,976 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 16:00:22,006 - INFO - Đã tạo vector store thành công
+2025-04-10 16:00:22,007 - INFO - Đã tạo vector store thành công
+2025-04-10 16:00:22,008 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 16:00:22,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 16:00:22,087 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 16:00:22,090 - INFO -  * Restarting with stat
+2025-04-10 16:00:30,162 - INFO - Đã load 184 khóa học
+2025-04-10 16:00:30,737 - INFO - Cohere API key found in environment variables.
+2025-04-10 16:00:31,721 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 16:00:33,504 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:00:33,564 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:00:35,897 - INFO - Loading faiss with AVX512 support.
+2025-04-10 16:00:35,899 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 16:00:35,899 - INFO - Loading faiss with AVX2 support.
+2025-04-10 16:00:35,954 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 16:00:35,971 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 16:00:36,001 - INFO - Đã tạo vector store thành công
+2025-04-10 16:00:36,002 - INFO - Đã tạo vector store thành công
+2025-04-10 16:00:36,003 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 16:00:36,050 - WARNING -  * Debugger is active!
+2025-04-10 16:00:36,064 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 16:01:16,027 - INFO - 127.0.0.1 - - [10/Apr/2025 16:01:16] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 16:01:25,798 - INFO - 127.0.0.1 - - [10/Apr/2025 16:01:25] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 16:01:26,272 - INFO - 127.0.0.1 - - [10/Apr/2025 16:01:26] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 16:01:26,577 - INFO - 127.0.0.1 - - [10/Apr/2025 16:01:26] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 16:14:55,592 - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Máy tính\\RAG\\RAG\\src\\api.py', reloading
+2025-04-10 16:14:58,167 - INFO -  * Restarting with stat
+2025-04-10 16:17:02,169 - INFO - Đã load 184 khóa học
+2025-04-10 16:17:02,747 - INFO - Cohere API key found in environment variables.
+2025-04-10 16:17:04,002 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 16:17:05,634 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:17:05,712 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:17:07,613 - INFO - Loading faiss with AVX512 support.
+2025-04-10 16:17:07,614 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 16:17:07,615 - INFO - Loading faiss with AVX2 support.
+2025-04-10 16:17:07,840 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 16:17:07,854 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 16:17:07,881 - INFO - Đã tạo vector store thành công
+2025-04-10 16:17:07,881 - INFO - Đã tạo vector store thành công
+2025-04-10 16:17:07,882 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 16:17:07,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 16:17:07,962 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 16:17:07,967 - INFO -  * Restarting with stat
+2025-04-10 16:17:29,792 - INFO - Đã load 184 khóa học
+2025-04-10 16:17:31,419 - INFO - Cohere API key found in environment variables.
+2025-04-10 16:17:34,973 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-10 16:17:38,738 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:17:38,739 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-10 16:17:43,043 - INFO - Loading faiss with AVX512 support.
+2025-04-10 16:17:43,047 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-10 16:17:43,047 - INFO - Loading faiss with AVX2 support.
+2025-04-10 16:17:43,271 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-10 16:17:43,311 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-10 16:17:43,414 - INFO - Đã tạo vector store thành công
+2025-04-10 16:17:43,421 - INFO - Đã tạo vector store thành công
+2025-04-10 16:17:43,422 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-10 16:17:43,569 - WARNING -  * Debugger is active!
+2025-04-10 16:17:43,622 - INFO -  * Debugger PIN: 104-344-794
+2025-04-10 16:32:35,253 - INFO - 127.0.0.1 - - [10/Apr/2025 16:32:35] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-10 16:32:35,734 - INFO - 127.0.0.1 - - [10/Apr/2025 16:32:35] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-10 16:32:36,048 - INFO - 127.0.0.1 - - [10/Apr/2025 16:32:36] "OPTIONS /api/learning-path?username=testuser HTTP/1.1" 200 -
+2025-04-21 18:00:43,780 - INFO - Đã load 184 khóa học
+2025-04-21 18:00:44,740 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:00:45,851 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:00:47,876 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:00:47,893 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:00:49,575 - INFO - Loading faiss with AVX512 support.
+2025-04-21 18:00:49,575 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-21 18:00:49,576 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:00:49,795 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:00:49,843 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:00:49,863 - INFO - Đã tạo vector store thành công
+2025-04-21 18:00:49,864 - INFO - Đã tạo vector store thành công
+2025-04-21 18:00:49,865 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:08:27,908 - INFO - Đã load 184 khóa học
+2025-04-21 18:08:28,686 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:08:30,107 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:08:32,344 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:08:32,374 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:08:34,951 - INFO - Loading faiss with AVX512 support.
+2025-04-21 18:08:34,952 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-21 18:08:34,953 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:08:35,022 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:08:35,041 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:08:35,067 - INFO - Đã tạo vector store thành công
+2025-04-21 18:08:35,068 - INFO - Đã tạo vector store thành công
+2025-04-21 18:08:35,069 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:29:40,594 - INFO - Đã load 184 khóa học
+2025-04-21 18:29:40,972 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:29:41,617 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:29:43,064 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:29:43,080 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:29:44,069 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:29:45,546 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:29:45,551 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:29:45,558 - INFO - Đã tạo vector store thành công
+2025-04-21 18:29:45,558 - INFO - Đã tạo vector store thành công
+2025-04-21 18:29:45,559 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:29:45,613 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-21 18:29:45,614 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 18:29:45,616 - INFO -  * Restarting with stat
+2025-04-21 18:29:47,897 - INFO - Đã load 184 khóa học
+2025-04-21 18:29:48,282 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:29:48,948 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:29:50,298 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:29:50,405 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:29:51,486 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:29:51,546 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:29:51,550 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:29:51,558 - INFO - Đã tạo vector store thành công
+2025-04-21 18:29:51,558 - INFO - Đã tạo vector store thành công
+2025-04-21 18:29:51,559 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:29:51,570 - WARNING -  * Debugger is active!
+2025-04-21 18:29:51,580 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:30:07,726 - INFO - 127.0.0.1 - - [21/Apr/2025 18:30:07] "GET / HTTP/1.1" 200 -
+2025-04-21 18:30:07,878 - INFO - 127.0.0.1 - - [21/Apr/2025 18:30:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-21 18:30:13,270 - INFO - 127.0.0.1 - - [21/Apr/2025 18:30:13] "[33mGET /api-docs HTTP/1.1[0m" 404 -
+2025-04-21 18:30:23,702 - INFO - 127.0.0.1 - - [21/Apr/2025 18:30:23] "[33mGET /api/api-docs HTTP/1.1[0m" 404 -
+2025-04-21 18:30:30,178 - INFO - 127.0.0.1 - - [21/Apr/2025 18:30:30] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-04-21 18:30:32,864 - INFO - 127.0.0.1 - - [21/Apr/2025 18:30:32] "GET / HTTP/1.1" 200 -
+2025-04-21 18:30:49,115 - INFO - Bắt đầu tạo lộ trình học tập cho Python programming, trình độ Beginner
+2025-04-21 18:30:49,116 - INFO - Tìm kiếm khóa học liên quan đến 'Python programming' sử dụng vector store
+2025-04-21 18:30:49,116 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 18:30:49,116 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 18:31:09,437 - INFO - Thời gian request Gemini: 20.32 giây
+2025-04-21 18:31:09,437 - INFO - Request thành công!
+2025-04-21 18:31:09,438 - INFO - Nhận được phản hồi từ Gemini API: 10676 ký tự
+2025-04-21 18:31:09,439 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 18:31:09,439 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python cơ bản",
+        "level": "Beginner",
+        "duration": 24,
+        "topics": ["Cú pháp Python", "Kiểu dữ liệu", "Cấu trúc đi
+2025-04-21 18:31:09,440 - INFO - Phân tích JSON thành công
+2025-04-21 18:31:09,440 - INFO - Đã chuẩn hóa ngày tháng cho 58 ngày
+2025-04-21 18:31:09,442 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 18:31:09,444 - INFO - 127.0.0.1 - - [21/Apr/2025 18:31:09] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:38:25,346 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:25] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:38:25,347 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:25] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:38:33,325 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:33] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:38:33,641 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:33] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:38:51,889 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:51] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 18:38:52,156 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:52] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:38:52,405 - INFO - 127.0.0.1 - - [21/Apr/2025 18:38:52] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:20,690 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:20] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:20,995 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:20] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:22,552 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:22] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:22,864 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:22] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:29,265 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:29] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:29,267 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:29] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:32,363 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:32] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:39:32,674 - INFO - 127.0.0.1 - - [21/Apr/2025 18:39:32] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:40:04,596 - INFO - 127.0.0.1 - - [21/Apr/2025 18:40:04] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:40:04,597 - INFO - 127.0.0.1 - - [21/Apr/2025 18:40:04] "OPTIONS /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 18:46:05,110 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\auth_api.py', reloading
+2025-04-21 18:46:05,330 - INFO -  * Restarting with stat
+2025-04-21 18:46:08,272 - INFO - Đã load 184 khóa học
+2025-04-21 18:46:08,685 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:46:09,329 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:46:10,652 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:46:10,710 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:46:11,846 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:46:11,909 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:46:11,916 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:46:11,923 - INFO - Đã tạo vector store thành công
+2025-04-21 18:46:11,923 - INFO - Đã tạo vector store thành công
+2025-04-21 18:46:11,924 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:46:11,938 - WARNING -  * Debugger is active!
+2025-04-21 18:46:11,949 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:47:13,765 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\progress_api.py', reloading
+2025-04-21 18:47:13,965 - INFO -  * Restarting with stat
+2025-04-21 18:47:16,286 - INFO - Đã load 184 khóa học
+2025-04-21 18:47:16,672 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:47:17,314 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:47:18,754 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:47:18,831 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:47:19,965 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:47:20,023 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:47:20,028 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:47:20,035 - INFO - Đã tạo vector store thành công
+2025-04-21 18:47:20,036 - INFO - Đã tạo vector store thành công
+2025-04-21 18:47:20,036 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:47:20,047 - WARNING -  * Debugger is active!
+2025-04-21 18:47:20,058 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:48:08,520 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\api.py', reloading
+2025-04-21 18:48:08,707 - INFO -  * Restarting with stat
+2025-04-21 18:48:10,990 - INFO - Đã load 184 khóa học
+2025-04-21 18:48:11,367 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:48:12,010 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:48:13,368 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:48:13,371 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:48:15,387 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:48:15,444 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:48:15,449 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:48:15,456 - INFO - Đã tạo vector store thành công
+2025-04-21 18:48:15,457 - INFO - Đã tạo vector store thành công
+2025-04-21 18:48:15,457 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:48:15,468 - WARNING -  * Debugger is active!
+2025-04-21 18:48:15,479 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:48:52,975 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\test_auth_progress.py', reloading
+2025-04-21 18:48:53,177 - INFO -  * Restarting with stat
+2025-04-21 18:48:55,490 - INFO - Đã load 184 khóa học
+2025-04-21 18:48:55,875 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:48:56,515 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:48:57,745 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:48:57,780 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:48:58,893 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:48:58,952 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:48:58,957 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:48:58,964 - INFO - Đã tạo vector store thành công
+2025-04-21 18:48:58,964 - INFO - Đã tạo vector store thành công
+2025-04-21 18:48:58,965 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:48:58,975 - WARNING -  * Debugger is active!
+2025-04-21 18:48:58,986 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:49:58,710 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\init_db.py', reloading
+2025-04-21 18:49:58,907 - INFO -  * Restarting with stat
+2025-04-21 18:50:01,287 - INFO - Đã load 184 khóa học
+2025-04-21 18:50:01,689 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:50:02,379 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:50:03,630 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:50:03,689 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:50:04,454 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:50:04,515 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:50:04,520 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:50:04,527 - INFO - Đã tạo vector store thành công
+2025-04-21 18:50:04,527 - INFO - Đã tạo vector store thành công
+2025-04-21 18:50:04,528 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:50:04,538 - WARNING -  * Debugger is active!
+2025-04-21 18:50:04,551 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:56:07,914 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\unified_api.py', reloading
+2025-04-21 18:56:08,123 - INFO -  * Restarting with stat
+2025-04-21 18:56:10,484 - INFO - Đã load 184 khóa học
+2025-04-21 18:56:10,872 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:56:11,520 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:56:12,903 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:56:12,907 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:56:14,215 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:56:14,272 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:56:14,276 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:56:14,284 - INFO - Đã tạo vector store thành công
+2025-04-21 18:56:14,284 - INFO - Đã tạo vector store thành công
+2025-04-21 18:56:14,285 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:56:14,295 - WARNING -  * Debugger is active!
+2025-04-21 18:56:14,306 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:57:25,151 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\unified_api.py', reloading
+2025-04-21 18:57:25,364 - INFO -  * Restarting with stat
+2025-04-21 18:57:27,687 - INFO - Đã load 184 khóa học
+2025-04-21 18:57:28,077 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:57:28,725 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:57:30,107 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:57:30,203 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:57:31,192 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:57:31,247 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:57:31,252 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:57:31,259 - INFO - Đã tạo vector store thành công
+2025-04-21 18:57:31,259 - INFO - Đã tạo vector store thành công
+2025-04-21 18:57:31,260 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:57:31,270 - WARNING -  * Debugger is active!
+2025-04-21 18:57:31,280 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:58:43,144 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\test_unified_api.py', reloading
+2025-04-21 18:58:43,349 - INFO -  * Restarting with stat
+2025-04-21 18:58:45,740 - INFO - Đã load 184 khóa học
+2025-04-21 18:58:46,153 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:58:46,806 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:58:48,124 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:58:48,156 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:58:49,267 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:58:49,328 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:58:49,333 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:58:49,340 - INFO - Đã tạo vector store thành công
+2025-04-21 18:58:49,340 - INFO - Đã tạo vector store thành công
+2025-04-21 18:58:49,341 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:58:49,352 - WARNING -  * Debugger is active!
+2025-04-21 18:58:49,363 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 18:59:04,538 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\run.py', reloading
+2025-04-21 18:59:04,736 - INFO -  * Restarting with stat
+2025-04-21 18:59:07,056 - INFO - Đã load 184 khóa học
+2025-04-21 18:59:07,442 - INFO - Cohere API key found in environment variables.
+2025-04-21 18:59:08,083 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 18:59:09,496 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:59:09,503 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 18:59:10,760 - INFO - Loading faiss with AVX2 support.
+2025-04-21 18:59:10,820 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 18:59:10,825 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 18:59:10,832 - INFO - Đã tạo vector store thành công
+2025-04-21 18:59:10,832 - INFO - Đã tạo vector store thành công
+2025-04-21 18:59:10,832 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 18:59:10,843 - WARNING -  * Debugger is active!
+2025-04-21 18:59:10,853 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 19:08:50,438 - INFO - 127.0.0.1 - - [21/Apr/2025 19:08:50] "[35m[1mPOST /api/learning-path HTTP/1.1[0m" 500 -
+2025-04-21 19:09:12,218 - INFO - Bắt đầu tạo lộ trình học tập cho Python programming, trình độ Beginner
+2025-04-21 19:09:12,219 - INFO - Tìm kiếm khóa học liên quan đến 'Python programming' sử dụng vector store
+2025-04-21 19:09:12,219 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 19:09:12,219 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 19:09:30,439 - INFO - Thời gian request Gemini: 18.22 giây
+2025-04-21 19:09:30,439 - INFO - Request thành công!
+2025-04-21 19:09:30,439 - INFO - Nhận được phản hồi từ Gemini API: 9162 ký tự
+2025-04-21 19:09:30,440 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 19:09:30,441 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python cơ bản",
+        "level": "Beginner",
+        "duration": 24,
+        "topics": ["Cú pháp Python", "Kiểu dữ liệu", "Cấu trúc đi
+2025-04-21 19:09:30,442 - INFO - Phân tích JSON thành công
+2025-04-21 19:09:30,442 - INFO - Đã chuẩn hóa ngày tháng cho 51 ngày
+2025-04-21 19:09:30,444 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 19:09:30,446 - INFO - 127.0.0.1 - - [21/Apr/2025 19:09:30] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 19:09:54,966 - INFO - 127.0.0.1 - - [21/Apr/2025 19:09:54] "[35m[1mPOST /api/learning-path?username=tesst_user HTTP/1.1[0m" 500 -
+2025-04-21 19:10:07,812 - INFO - 127.0.0.1 - - [21/Apr/2025 19:10:07] "[35m[1mPOST /api/learning-path?username=test_user HTTP/1.1[0m" 500 -
+2025-04-21 19:11:43,351 - INFO - Bắt đầu tạo lộ trình học tập cho Python programming, trình độ Beginner
+2025-04-21 19:11:43,352 - INFO - Tìm kiếm khóa học liên quan đến 'Python programming' sử dụng vector store
+2025-04-21 19:11:43,352 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 19:11:43,352 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 19:11:57,836 - INFO - Thời gian request Gemini: 14.48 giây
+2025-04-21 19:11:57,836 - INFO - Request thành công!
+2025-04-21 19:11:57,836 - INFO - Nhận được phản hồi từ Gemini API: 8186 ký tự
+2025-04-21 19:11:57,837 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 19:11:57,837 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python căn bản",
+        "level": "Beginner",
+        "duration": 16,
+        "topics": ["Cú pháp Python", "Kiểu dữ liệu", "Biến", "Câ
+2025-04-21 19:11:57,838 - INFO - Phân tích JSON thành công
+2025-04-21 19:11:57,839 - INFO - Đã chuẩn hóa ngày tháng cho 42 ngày
+2025-04-21 19:11:57,840 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 19:11:57,843 - INFO - 127.0.0.1 - - [21/Apr/2025 19:11:57] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 19:13:48,031 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\auth_api.py', reloading
+2025-04-21 19:13:48,243 - INFO -  * Restarting with stat
+2025-04-21 19:13:50,663 - INFO - Đã load 184 khóa học
+2025-04-21 19:13:51,059 - INFO - Cohere API key found in environment variables.
+2025-04-21 19:13:51,729 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 19:13:53,284 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:13:53,285 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:13:54,587 - INFO - Loading faiss with AVX2 support.
+2025-04-21 19:13:54,641 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 19:13:54,646 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 19:13:54,653 - INFO - Đã tạo vector store thành công
+2025-04-21 19:13:54,653 - INFO - Đã tạo vector store thành công
+2025-04-21 19:13:54,654 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 19:13:54,665 - WARNING -  * Debugger is active!
+2025-04-21 19:13:54,675 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 19:22:30,045 - INFO - 127.0.0.1 - - [21/Apr/2025 19:22:30] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 19:23:00,412 - INFO - 127.0.0.1 - - [21/Apr/2025 19:23:00] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 19:44:37,504 - INFO - 127.0.0.1 - - [21/Apr/2025 19:44:37] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 19:44:59,585 - INFO - 127.0.0.1 - - [21/Apr/2025 19:44:59] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 19:47:50,231 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\unified_api.py', reloading
+2025-04-21 19:47:50,540 - INFO -  * Restarting with stat
+2025-04-21 19:47:53,104 - INFO - Đã load 184 khóa học
+2025-04-21 19:47:53,502 - INFO - Cohere API key found in environment variables.
+2025-04-21 19:47:54,176 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 19:47:55,538 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:47:55,656 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:47:56,940 - INFO - Loading faiss with AVX2 support.
+2025-04-21 19:47:57,008 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 19:47:57,017 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 19:47:57,031 - INFO - Đã tạo vector store thành công
+2025-04-21 19:47:57,032 - INFO - Đã tạo vector store thành công
+2025-04-21 19:47:57,033 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 19:47:57,066 - WARNING -  * Debugger is active!
+2025-04-21 19:47:57,101 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 19:51:06,435 - INFO - Đã load 184 khóa học
+2025-04-21 19:51:06,905 - INFO - Cohere API key found in environment variables.
+2025-04-21 19:51:07,603 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 19:51:09,116 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:51:09,118 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:51:10,248 - INFO - Loading faiss with AVX2 support.
+2025-04-21 19:51:10,268 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 19:51:10,273 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 19:51:10,280 - INFO - Đã tạo vector store thành công
+2025-04-21 19:51:10,281 - INFO - Đã tạo vector store thành công
+2025-04-21 19:51:10,281 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 19:51:10,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-04-21 19:51:10,324 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 19:51:10,326 - INFO -  * Restarting with stat
+2025-04-21 19:51:13,036 - INFO - Đã load 184 khóa học
+2025-04-21 19:51:13,534 - INFO - Cohere API key found in environment variables.
+2025-04-21 19:51:14,228 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 19:51:15,567 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:51:15,627 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 19:51:16,638 - INFO - Loading faiss with AVX2 support.
+2025-04-21 19:51:16,661 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 19:51:16,666 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 19:51:16,673 - INFO - Đã tạo vector store thành công
+2025-04-21 19:51:16,673 - INFO - Đã tạo vector store thành công
+2025-04-21 19:51:16,674 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 19:51:16,689 - WARNING -  * Debugger is active!
+2025-04-21 19:51:16,701 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 19:51:37,806 - INFO - 127.0.0.1 - - [21/Apr/2025 19:51:37] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 19:51:38,062 - INFO - 127.0.0.1 - - [21/Apr/2025 19:51:38] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 19:51:59,225 - INFO - 127.0.0.1 - - [21/Apr/2025 19:51:59] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 19:51:59,539 - INFO - 127.0.0.1 - - [21/Apr/2025 19:51:59] "[31m[1mPOST /api/learning-path HTTP/1.1[0m" 400 -
+2025-04-21 19:51:59,968 - INFO - 127.0.0.1 - - [21/Apr/2025 19:51:59] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 19:52:00,274 - INFO - 127.0.0.1 - - [21/Apr/2025 19:52:00] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 19:52:00,274 - INFO - 127.0.0.1 - - [21/Apr/2025 19:52:00] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 19:52:00,594 - INFO - 127.0.0.1 - - [21/Apr/2025 19:52:00] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 19:59:26,321 - INFO - 127.0.0.1 - - [21/Apr/2025 19:59:26] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 19:59:26,571 - INFO - 127.0.0.1 - - [21/Apr/2025 19:59:26] "[31m[1mPOST /api/learning-path HTTP/1.1[0m" 400 -
+2025-04-21 19:59:27,785 - INFO - 127.0.0.1 - - [21/Apr/2025 19:59:27] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 19:59:28,089 - INFO - 127.0.0.1 - - [21/Apr/2025 19:59:28] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 19:59:28,090 - INFO - 127.0.0.1 - - [21/Apr/2025 19:59:28] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 19:59:28,407 - INFO - 127.0.0.1 - - [21/Apr/2025 19:59:28] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:02:39,063 - INFO - Đã load 184 khóa học
+2025-04-21 20:02:39,458 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:02:40,107 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:02:41,561 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:02:41,648 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:02:43,021 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:02:43,041 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:02:43,046 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:02:43,054 - INFO - Đã tạo vector store thành công
+2025-04-21 20:02:43,054 - INFO - Đã tạo vector store thành công
+2025-04-21 20:02:43,055 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:02:43,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-04-21 20:02:43,082 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 20:02:43,083 - INFO -  * Restarting with stat
+2025-04-21 20:02:45,814 - INFO - Đã load 184 khóa học
+2025-04-21 20:02:46,217 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:02:46,922 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:02:48,319 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:02:48,448 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:02:49,761 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:02:49,785 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:02:49,790 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:02:49,797 - INFO - Đã tạo vector store thành công
+2025-04-21 20:02:49,798 - INFO - Đã tạo vector store thành công
+2025-04-21 20:02:49,798 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:02:49,813 - WARNING -  * Debugger is active!
+2025-04-21 20:02:49,824 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:03:05,113 - INFO - 127.0.0.1 - - [21/Apr/2025 20:03:05] "OPTIONS /api/learning-path HTTP/1.1" 200 -
+2025-04-21 20:03:05,360 - INFO - 127.0.0.1 - - [21/Apr/2025 20:03:05] "[31m[1mPOST /api/learning-path HTTP/1.1[0m" 400 -
+2025-04-21 20:03:06,791 - INFO - 127.0.0.1 - - [21/Apr/2025 20:03:06] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:03:07,099 - INFO - 127.0.0.1 - - [21/Apr/2025 20:03:07] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:03:07,101 - INFO - 127.0.0.1 - - [21/Apr/2025 20:03:07] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:03:07,417 - INFO - 127.0.0.1 - - [21/Apr/2025 20:03:07] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:04:25,279 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\unified_api.py', reloading
+2025-04-21 20:04:25,701 - INFO -  * Restarting with stat
+2025-04-21 20:04:28,220 - INFO - Đã load 184 khóa học
+2025-04-21 20:04:28,607 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:04:29,255 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:04:30,705 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:04:30,951 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:04:32,201 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:04:32,222 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:04:32,227 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:04:32,234 - INFO - Đã tạo vector store thành công
+2025-04-21 20:04:32,234 - INFO - Đã tạo vector store thành công
+2025-04-21 20:04:32,235 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:04:32,250 - WARNING -  * Debugger is active!
+2025-04-21 20:04:32,261 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:07:51,739 - INFO - 127.0.0.1 - - [21/Apr/2025 20:07:51] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:07:51,740 - INFO - 127.0.0.1 - - [21/Apr/2025 20:07:51] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:07:51,994 - INFO - 127.0.0.1 - - [21/Apr/2025 20:07:51] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:07:52,066 - INFO - 127.0.0.1 - - [21/Apr/2025 20:07:52] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:08:18,876 - INFO - 127.0.0.1 - - [21/Apr/2025 20:08:18] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:08:19,187 - INFO - 127.0.0.1 - - [21/Apr/2025 20:08:19] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:08:19,189 - INFO - 127.0.0.1 - - [21/Apr/2025 20:08:19] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:08:19,509 - INFO - 127.0.0.1 - - [21/Apr/2025 20:08:19] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:10:59,276 - INFO - Bắt đầu tạo lộ trình học tập cho Python programming, trình độ Beginner
+2025-04-21 20:10:59,279 - INFO - Tìm kiếm khóa học liên quan đến 'Python programming' sử dụng vector store
+2025-04-21 20:10:59,281 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 20:10:59,283 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:11:22,381 - INFO - Thời gian request Gemini: 23.10 giây
+2025-04-21 20:11:22,382 - INFO - Request thành công!
+2025-04-21 20:11:22,384 - INFO - Nhận được phản hồi từ Gemini API: 11061 ký tự
+2025-04-21 20:11:22,389 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:11:22,390 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python cơ bản",
+        "level": "Beginner",
+        "duration": 12,
+        "topics": ["Biến và kiểu dữ liệu", "Câu lệnh điều kiện và
+2025-04-21 20:11:22,395 - INFO - Phân tích JSON thành công
+2025-04-21 20:11:22,397 - INFO - Đã chuẩn hóa ngày tháng cho 62 ngày
+2025-04-21 20:11:22,407 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:11:22,431 - INFO - 127.0.0.1 - - [21/Apr/2025 20:11:22] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 20:11:30,659 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\swagger_ui.py', reloading
+2025-04-21 20:11:31,201 - INFO -  * Restarting with stat
+2025-04-21 20:11:33,893 - INFO - Đã load 184 khóa học
+2025-04-21 20:11:34,340 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:11:34,992 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:11:36,629 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:11:36,747 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:11:37,929 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:11:37,951 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:11:37,956 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:11:37,963 - INFO - Đã tạo vector store thành công
+2025-04-21 20:11:37,964 - INFO - Đã tạo vector store thành công
+2025-04-21 20:11:37,964 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:11:37,981 - WARNING -  * Debugger is active!
+2025-04-21 20:11:37,992 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:11:49,253 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\unified_api.py', reloading
+2025-04-21 20:11:49,899 - INFO -  * Restarting with stat
+2025-04-21 20:11:52,540 - INFO - Đã load 184 khóa học
+2025-04-21 20:11:52,925 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:11:53,571 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:11:54,941 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:11:54,993 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:11:56,115 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:11:56,138 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:11:56,142 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:11:56,150 - INFO - Đã tạo vector store thành công
+2025-04-21 20:11:56,150 - INFO - Đã tạo vector store thành công
+2025-04-21 20:11:56,151 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:11:56,166 - WARNING -  * Debugger is active!
+2025-04-21 20:11:56,178 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:12:02,183 - INFO - 127.0.0.1 - - [21/Apr/2025 20:12:02] "[33mGET /api/docs HTTP/1.1[0m" 404 -
+2025-04-21 20:14:10,599 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\main.py', reloading
+2025-04-21 20:14:10,948 - INFO -  * Restarting with stat
+2025-04-21 20:14:13,604 - INFO - Đã load 184 khóa học
+2025-04-21 20:14:14,008 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:14:14,666 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:14:15,864 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:14:15,867 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:14:16,562 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:14:16,582 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:14:16,587 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:14:16,595 - INFO - Đã tạo vector store thành công
+2025-04-21 20:14:16,595 - INFO - Đã tạo vector store thành công
+2025-04-21 20:14:16,596 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:14:16,611 - WARNING -  * Debugger is active!
+2025-04-21 20:14:16,622 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:14:36,542 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:36] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:14:36,543 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:36] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:14:36,801 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:36] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:14:36,866 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:36] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:14:46,394 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\run.py', reloading
+2025-04-21 20:14:46,620 - INFO -  * Restarting with stat
+2025-04-21 20:14:49,108 - INFO - Đã load 184 khóa học
+2025-04-21 20:14:49,500 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:14:50,216 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:14:51,628 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:14:51,653 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:14:52,979 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:14:53,000 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:14:53,005 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:14:53,012 - INFO - Đã tạo vector store thành công
+2025-04-21 20:14:53,013 - INFO - Đã tạo vector store thành công
+2025-04-21 20:14:53,013 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:14:53,028 - WARNING -  * Debugger is active!
+2025-04-21 20:14:53,039 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:14:53,052 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:53] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:14:53,053 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:53] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:14:53,054 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:53] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:14:53,370 - INFO - 127.0.0.1 - - [21/Apr/2025 20:14:53] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:15:22,953 - INFO - 127.0.0.1 - - [21/Apr/2025 20:15:22] "OPTIONS /api/progress/learning-paths HTTP/1.1" 200 -
+2025-04-21 20:15:23,214 - INFO - 127.0.0.1 - - [21/Apr/2025 20:15:23] "[31m[1mGET /api/progress/learning-paths HTTP/1.1[0m" 401 -
+2025-04-21 20:15:25,951 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\run.py', reloading
+2025-04-21 20:15:26,344 - INFO -  * Restarting with stat
+2025-04-21 20:15:28,838 - INFO - Đã load 184 khóa học
+2025-04-21 20:15:29,230 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:15:29,889 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:15:31,281 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:15:31,334 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:15:32,413 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:15:32,437 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:15:32,457 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:15:32,474 - INFO - Đã tạo vector store thành công
+2025-04-21 20:15:32,474 - INFO - Đã tạo vector store thành công
+2025-04-21 20:15:32,475 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:15:32,504 - WARNING -  * Debugger is active!
+2025-04-21 20:15:32,518 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:20:07,372 - INFO - Đã load 184 khóa học
+2025-04-21 20:20:07,771 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:20:08,414 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:20:10,062 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:20:10,063 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:20:11,419 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:20:11,439 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:20:11,445 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:20:11,453 - INFO - Đã tạo vector store thành công
+2025-04-21 20:20:11,453 - INFO - Đã tạo vector store thành công
+2025-04-21 20:20:11,454 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:20:11,494 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-04-21 20:20:11,495 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 20:20:11,496 - INFO -  * Restarting with stat
+2025-04-21 20:20:13,962 - INFO - Đã load 184 khóa học
+2025-04-21 20:20:14,348 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:20:14,998 - WARNING - File index index_data\course_index không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:20:16,365 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:20:17,335 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:20:18,659 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:20:18,681 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:20:18,686 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:20:18,694 - INFO - Đã tạo vector store thành công
+2025-04-21 20:20:18,695 - INFO - Đã tạo vector store thành công
+2025-04-21 20:20:18,696 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:20:18,711 - WARNING -  * Debugger is active!
+2025-04-21 20:20:18,721 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:20:30,803 - INFO - Bắt đầu tạo lộ trình học tập cho Python programming, trình độ Beginner
+2025-04-21 20:20:30,805 - INFO - Tìm kiếm khóa học liên quan đến 'Python programming' sử dụng vector store
+2025-04-21 20:20:30,806 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 20:20:30,808 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:20:47,747 - INFO - Thời gian request Gemini: 16.94 giây
+2025-04-21 20:20:47,749 - INFO - Request thành công!
+2025-04-21 20:20:47,750 - INFO - Nhận được phản hồi từ Gemini API: 8944 ký tự
+2025-04-21 20:20:47,754 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:20:47,755 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python căn bản",
+        "level": "Beginner",
+        "duration": 16,
+        "topics": ["Biến và kiểu dữ liệu", "Cấu trúc điều khiển"
+2025-04-21 20:20:47,760 - INFO - Phân tích JSON thành công
+2025-04-21 20:20:47,764 - INFO - Đã chuẩn hóa ngày tháng cho 49 ngày
+2025-04-21 20:20:47,771 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:20:47,786 - INFO - 127.0.0.1 - - [21/Apr/2025 20:20:47] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 20:23:31,088 - INFO - Bắt đầu tạo lộ trình học tập cho Python Programming, trình độ Beginner
+2025-04-21 20:23:31,090 - INFO - Tìm kiếm khóa học liên quan đến 'Python Programming' sử dụng vector store
+2025-04-21 20:23:31,092 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 20:23:31,094 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:23:51,249 - INFO - Thời gian request Gemini: 20.15 giây
+2025-04-21 20:23:51,251 - INFO - Request thành công!
+2025-04-21 20:23:51,253 - INFO - Nhận được phản hồi từ Gemini API: 9858 ký tự
+2025-04-21 20:23:51,255 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:23:51,257 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python cơ bản",
+        "level": "Beginner",
+        "duration": 16,
+        "topics": ["Biến và kiểu dữ liệu", "Cấu trúc điều khiển",
+2025-04-21 20:23:51,262 - INFO - Phân tích JSON thành công
+2025-04-21 20:23:51,265 - INFO - Đã chuẩn hóa ngày tháng cho 59 ngày
+2025-04-21 20:23:51,273 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:23:51,288 - INFO - 127.0.0.1 - - [21/Apr/2025 20:23:51] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 20:24:45,037 - INFO - Bắt đầu tạo lộ trình học tập cho Java, trình độ Beginner
+2025-04-21 20:24:45,037 - INFO - Tìm kiếm khóa học liên quan đến 'Java' sử dụng vector store
+2025-04-21 20:24:45,038 - ERROR - Lỗi tìm kiếm khóa học: 'NoneType' object has no attribute 'search_courses'
+2025-04-21 20:24:45,038 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:25:01,050 - INFO - Thời gian request Gemini: 16.01 giây
+2025-04-21 20:25:01,051 - INFO - Request thành công!
+2025-04-21 20:25:01,053 - INFO - Nhận được phản hồi từ Gemini API: 7817 ký tự
+2025-04-21 20:25:01,057 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:25:01,058 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Core",
+        "level": "Beginner",
+        "duration": 16,
+        "topics": ["Cú pháp cơ bản", "Kiểu dữ liệu", "Toán tử", "Cấu 
+2025-04-21 20:25:01,063 - INFO - Phân tích JSON thành công
+2025-04-21 20:25:01,065 - INFO - Đã chuẩn hóa ngày tháng cho 35 ngày
+2025-04-21 20:25:01,072 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:25:01,082 - INFO - 127.0.0.1 - - [21/Apr/2025 20:25:01] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 20:29:04,105 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\vector_store.py', reloading
+2025-04-21 20:29:04,366 - INFO -  * Restarting with stat
+2025-04-21 20:29:06,816 - INFO - Đã load 184 khóa học
+2025-04-21 20:29:07,204 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:29:07,853 - WARNING - File index index_data\index.faiss không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:29:09,099 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:29:09,129 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:29:10,935 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:29:10,957 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:29:10,962 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:29:10,969 - INFO - Đã tạo vector store thành công
+2025-04-21 20:29:10,970 - INFO - Đã tạo vector store thành công
+2025-04-21 20:29:10,970 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:29:10,985 - WARNING -  * Debugger is active!
+2025-04-21 20:29:10,996 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:29:34,238 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\rag_system.py', reloading
+2025-04-21 20:29:34,460 - INFO -  * Restarting with stat
+2025-04-21 20:29:36,950 - INFO - Đã load 184 khóa học
+2025-04-21 20:29:37,342 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:29:37,992 - INFO - Tải vector store từ file index_data\index.faiss
+2025-04-21 20:29:37,996 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:29:38,017 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:29:38,022 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:29:38,037 - INFO - Vector store đã được khởi tạo thành công
+2025-04-21 20:29:38,037 - INFO - Đã tạo vector store thành công
+2025-04-21 20:29:38,038 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:29:38,052 - WARNING -  * Debugger is active!
+2025-04-21 20:29:38,063 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:32:20,256 - INFO - Bắt đầu tạo lộ trình học tập cho Java, trình độ Beginner
+2025-04-21 20:32:20,256 - WARNING - Vector store là None, sẽ tạo mới vector store
+2025-04-21 20:32:20,258 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:32:20,917 - INFO - Tải vector store từ file index_data\index.faiss
+2025-04-21 20:32:20,919 - INFO - Vector store đã được khởi tạo thành công
+2025-04-21 20:32:20,919 - INFO - Đã tạo vector store thành công
+2025-04-21 20:32:20,920 - INFO - Tìm kiếm khóa học liên quan đến 'Java' sử dụng vector store
+2025-04-21 20:32:21,391 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:32:21,406 - ERROR - Lỗi tìm kiếm khóa học: 
+2025-04-21 20:32:21,407 - WARNING - Sử dụng phương pháp tìm kiếm thủ công cho 'Java'
+2025-04-21 20:32:21,408 - INFO - Tìm kiếm thủ công: Đã tìm thấy 5 khóa học liên quan
+2025-04-21 20:32:21,408 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:32:41,907 - INFO - Thời gian request Gemini: 20.50 giây
+2025-04-21 20:32:41,907 - INFO - Request thành công!
+2025-04-21 20:32:41,908 - INFO - Nhận được phản hồi từ Gemini API: 10868 ký tự
+2025-04-21 20:32:41,909 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:32:41,909 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Programming - Beginner",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": ["Giới thiệu Java", "Cấu trúc dữ l
+2025-04-21 20:32:41,910 - INFO - Phân tích JSON thành công
+2025-04-21 20:32:41,910 - INFO - Đã chuẩn hóa ngày tháng cho 49 ngày
+2025-04-21 20:32:41,912 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:32:41,914 - INFO - 127.0.0.1 - - [21/Apr/2025 20:32:41] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 20:40:02,058 - INFO - Đã load 184 khóa học
+2025-04-21 20:40:02,445 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:40:03,087 - INFO - Tải vector store từ file index_data\index.faiss
+2025-04-21 20:40:03,092 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:40:03,113 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:40:03,118 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:40:03,120 - INFO - Vector store đã được khởi tạo thành công
+2025-04-21 20:40:03,120 - INFO - Đã tạo vector store thành công
+2025-04-21 20:40:03,121 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:40:03,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-04-21 20:40:03,150 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 20:40:03,151 - INFO -  * Restarting with stat
+2025-04-21 20:40:05,529 - INFO - Đã load 184 khóa học
+2025-04-21 20:40:05,915 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:40:06,566 - INFO - Tải vector store từ file index_data\index.faiss
+2025-04-21 20:40:06,571 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:40:06,591 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:40:06,597 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:40:06,599 - INFO - Vector store đã được khởi tạo thành công
+2025-04-21 20:40:06,599 - INFO - Đã tạo vector store thành công
+2025-04-21 20:40:06,599 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:40:06,614 - WARNING -  * Debugger is active!
+2025-04-21 20:40:06,624 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:42:35,420 - INFO - Bắt đầu tạo lộ trình học tập cho Java, trình độ Beginner
+2025-04-21 20:42:35,420 - WARNING - Vector store là None, sẽ tạo mới vector store
+2025-04-21 20:42:35,422 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:42:36,080 - WARNING - File index index_data\index.faiss không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:42:37,499 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:42:37,507 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:42:38,412 - INFO - Đã tạo vector store thành công
+2025-04-21 20:42:38,412 - INFO - Đã tạo vector store thành công
+2025-04-21 20:42:38,413 - INFO - Tìm kiếm khóa học liên quan đến 'Java' sử dụng vector store
+2025-04-21 20:42:38,696 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:42:38,729 - INFO - Đã tìm thấy 5 khóa học liên quan
+2025-04-21 20:42:38,729 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:42:52,829 - INFO - Thời gian request Gemini: 14.10 giây
+2025-04-21 20:42:52,830 - INFO - Request thành công!
+2025-04-21 20:42:52,830 - INFO - Nhận được phản hồi từ Gemini API: 6981 ký tự
+2025-04-21 20:42:52,831 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:42:52,832 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Programming - Beginner",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": ["Cú pháp Java cơ bản", "Lập trình
+2025-04-21 20:42:52,833 - INFO - Phân tích JSON thành công
+2025-04-21 20:42:52,833 - INFO - Đã chuẩn hóa ngày tháng cho 33 ngày
+2025-04-21 20:42:52,834 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:42:52,837 - INFO - 127.0.0.1 - - [21/Apr/2025 20:42:52] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
+2025-04-21 20:45:14,356 - INFO -  * Detected change in 'C:\\Users\\lam08\\Desktop\\HCMC\\RAG\\src\\rag_system.py', reloading
+2025-04-21 20:45:14,581 - INFO -  * Restarting with stat
+2025-04-21 20:45:17,104 - INFO - Đã load 184 khóa học
+2025-04-21 20:45:17,501 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:45:18,149 - INFO - Tải vector store từ file index_data\index.faiss
+2025-04-21 20:45:18,153 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:45:18,173 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:45:18,178 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:45:18,180 - INFO - Vector store đã được khởi tạo thành công
+2025-04-21 20:45:18,180 - INFO - Đã tạo vector store thành công
+2025-04-21 20:45:18,181 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:45:18,195 - WARNING -  * Debugger is active!
+2025-04-21 20:45:18,206 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:45:54,401 - INFO - Đã load 184 khóa học
+2025-04-21 20:45:54,785 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:45:55,431 - WARNING - File index index_data\index.faiss không tồn tại, vector store sẽ được khởi tạo
+2025-04-21 20:45:56,727 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:45:56,769 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:45:57,855 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:45:57,875 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:45:57,880 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:45:57,888 - INFO - Đã tạo vector store thành công
+2025-04-21 20:45:57,889 - INFO - Đã tạo vector store thành công
+2025-04-21 20:45:57,889 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:45:57,915 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2025-04-21 20:45:57,916 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 20:45:57,918 - INFO -  * Restarting with stat
+2025-04-21 20:46:00,346 - INFO - Đã load 184 khóa học
+2025-04-21 20:46:00,736 - INFO - Cohere API key found in environment variables.
+2025-04-21 20:46:01,396 - INFO - Tải vector store từ file index_data\index.faiss
+2025-04-21 20:46:01,401 - INFO - Loading faiss with AVX2 support.
+2025-04-21 20:46:01,420 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-21 20:46:01,425 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-21 20:46:01,427 - INFO - Vector store đã được khởi tạo thành công
+2025-04-21 20:46:01,427 - INFO - Đã tạo vector store thành công
+2025-04-21 20:46:01,427 - INFO - Khởi tạo LearningPathRAG thành công
+2025-04-21 20:46:01,442 - WARNING -  * Debugger is active!
+2025-04-21 20:46:01,453 - INFO -  * Debugger PIN: 123-774-217
+2025-04-21 20:46:12,712 - INFO - Bắt đầu tạo lộ trình học tập cho Python programming, trình độ Beginner
+2025-04-21 20:46:12,712 - INFO - Tìm kiếm khóa học liên quan đến 'Python programming' sử dụng vector store
+2025-04-21 20:46:13,213 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:46:13,226 - ERROR - Lỗi tìm kiếm khóa học: 
+2025-04-21 20:46:13,226 - WARNING - Sử dụng phương pháp tìm kiếm thủ công cho 'Python programming'
+2025-04-21 20:46:13,227 - INFO - Tìm kiếm thủ công: Đã tìm thấy 5 khóa học liên quan
+2025-04-21 20:46:13,228 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:46:20,977 - INFO - Bắt đầu tạo lộ trình học tập cho Java, trình độ Beginner
+2025-04-21 20:46:20,978 - INFO - Tìm kiếm khóa học liên quan đến 'Java' sử dụng vector store
+2025-04-21 20:46:21,429 - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-04-21 20:46:21,443 - ERROR - Lỗi tìm kiếm khóa học: 
+2025-04-21 20:46:21,443 - WARNING - Sử dụng phương pháp tìm kiếm thủ công cho 'Java'
+2025-04-21 20:46:21,444 - INFO - Tìm kiếm thủ công: Đã tìm thấy 5 khóa học liên quan
+2025-04-21 20:46:21,444 - INFO - Gọi Gemini API để tạo lộ trình học tập
+2025-04-21 20:46:33,020 - INFO - Thời gian request Gemini: 19.79 giây
+2025-04-21 20:46:33,021 - INFO - Request thành công!
+2025-04-21 20:46:33,023 - INFO - Nhận được phản hồi từ Gemini API: 11370 ký tự
+2025-04-21 20:46:33,026 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:46:33,027 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Python Programming Fundamentals - Beginner",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": [
+          "Variab
+2025-04-21 20:46:33,028 - INFO - Phân tích JSON thành công
+2025-04-21 20:46:33,029 - INFO - Đã chuẩn hóa ngày tháng cho 42 ngày
+2025-04-21 20:46:33,030 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:46:33,033 - INFO - 127.0.0.1 - - [21/Apr/2025 20:46:33] "POST /api/learning-path HTTP/1.1" 200 -
+2025-04-21 20:46:36,820 - INFO - Thời gian request Gemini: 15.37 giây
+2025-04-21 20:46:36,820 - INFO - Request thành công!
+2025-04-21 20:46:36,820 - INFO - Nhận được phản hồi từ Gemini API: 7194 ký tự
+2025-04-21 20:46:36,821 - INFO - Đã tìm thấy JSON trong code block
+2025-04-21 20:46:36,821 - INFO - JSON được trích xuất (200 ký tự đầu): {
+  "learning_path": {
+    "courses": [
+      {
+        "title": "Java Programming - Beginner",
+        "level": "Beginner",
+        "duration": 8,
+        "topics": ["Giới thiệu Java", "Cú pháp cơ bả
+2025-04-21 20:46:36,822 - INFO - Phân tích JSON thành công
+2025-04-21 20:46:36,823 - INFO - Đã chuẩn hóa ngày tháng cho 35 ngày
+2025-04-21 20:46:36,824 - INFO - Đã lưu JSON vào file last_learning_path.json
+2025-04-21 20:46:36,837 - INFO - 127.0.0.1 - - [21/Apr/2025 20:46:36] "POST /api/learning-path?username=test_user HTTP/1.1" 200 -
